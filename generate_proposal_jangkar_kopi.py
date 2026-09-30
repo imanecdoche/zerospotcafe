@@ -262,11 +262,11 @@ def create_jangkar_kopi_proposal():
     add_callout(
         "RINGKASAN EKSEKUTIF PROYEK INVESTASI (LEAN MVP MODEL)",
         [
-            ("• Nilai Total Permodalan Awal : ", "Rp 10.000.000 (Sepuluh Juta Rupiah) — Hemat, Efisien & Tervalidasi."),
-            ("• Opsi Partisipasi Mitra       : ", "1 Investor Penuh (Rp 10 Jt)  |  2 Slot (@ Rp 5 Jt)  |  4 Slot Sindikasi (@ Rp 2,5 Jt)."),
+            ("• Nilai Total Permodalan Awal : ", "Rp 15.000.000 (Lima Belas Juta Rupiah) — Seimbang, Kokoh & Terukur."),
+            ("• Opsi Partisipasi Mitra       : ", "1 Mitra Penuh (Rp 15 Jt)  |  2 Slot (@ Rp 7,5 Jt)  |  3 Slot (@ Rp 5 Jt)  |  5 Slot (@ Rp 3 Jt)."),
             ("• Alokasi Sewa Lahan Sementara : ", "Rp 6.000.000,- (Sewa Lahan Terbuka 1 Tahun di Muka ~5x5 Meter Koridor Cikedal-Menes)."),
             ("• Skema Kemitraan Usaha        : ", "Syirkah Mudharabah (Bagi Hasil Laba Bersih: 40% Investor : 60% Pengelola)."),
-            ("• Proyeksi Balik Modal (BEP)   : ", "4,1 Bulan (~4 Bulan) pada Skenario Moderat; 2,5 Bulan pada Skenario Agresif."),
+            ("• Proyeksi Balik Modal (BEP)   : ", "6,25 Bulan (~6 Bulan) pada Skenario Moderat; 3,8 Bulan pada Skenario Agresif."),
             ("• Konsep Ruang & Duduk         : ", "100% Lesehan Alas Tebal Nyaman (Karpet Busa Empuk) + Meja Lipat Portabel."),
             ("• Konsep Dapur & Minuman       : ", "Panggangan Arang Batok Tradisional + Aneka Frozen Food Bakar, Kopi Tubruk Lokal & Sachet."),
             ("• Lokasi Basis Operasional     : ", "Lahan Terbuka Strategis Koridor Cikedal - Menes, Kabupaten Pandeglang, Banten."),
@@ -410,25 +410,25 @@ def create_jangkar_kopi_proposal():
 
     doc.add_page_break()
 
-    # ==================== PAGE 5: BAB 4 RENCANA ANGGARAN BIAYA (CAPEX RP 10 JT) ====================
-    add_h1("4. RENCANA ANGGARAN BIAYA & ALOKASI MODAL LEAN MVP (RP 10 JT)")
+    # ==================== PAGE 5: BAB 4 RENCANA ANGGARAN BIAYA (CAPEX RP 15 JT) ====================
+    add_h1("4. RENCANA ANGGARAN BIAYA & ALOKASI MODAL LEAN MVP (RP 15 JT)")
     
     add_p(
-        "Total kebutuhan belanja modal (CAPEX) dan modal kerja awal Jangkar Kopi dialokasikan tepat sebesar Rp 10.000.000 (Sepuluh Juta Rupiah). Anggaran ini mengalokasikan sewa lahan terbuka selama 1 tahun di muka sebesar Rp 6.000.000, serta memanfaatkan sisa dana Rp 4.000.000 secara cermat dan efisien untuk pengadaan gerobak fungsional, panggangan arang, peralatan dapur wedangan, paket lesehan, wadah saji, stok awal, dan cadangan kas darurat."
+        "Total kebutuhan belanja modal (CAPEX) dan modal kerja awal Jangkar Kopi dialokasikan tepat sebesar Rp 15.000.000 (Lima Belas Juta Rupiah). Anggaran ini mengalokasikan sewa lahan terbuka selama 1 tahun di muka sebesar Rp 6.000.000 (40%), serta memanfaatkan sisa dana Rp 9.000.000 (60%) secara optimal untuk penyiapan kanopi terpal pelindung cuaca, gerobak kayu custom etalase kaca, panggangan arang batok, peralatan dapur wedangan, fasilitas lesehan alas tebal nyaman, wadah saji piring seng, instalasi listrik festoon, stok bahan baku awal yang memadai, dan cadangan kas darurat yang kokoh."
     )
     
-    add_h2("4.1 Tabel Rincian Belanja Modal Awal (Tepat Rp 10.000.000)")
+    add_h2("4.1 Tabel Rincian Belanja Modal Awal (Tepat Rp 15.000.000)")
 
     capex_data = [
         ("Sewa Lahan Terbuka 1 Tahun di Muka", "Alokasi sewa pekarangan/lahan terbuka ~5x5 meter koridor Cikedal-Menes", "1 tahun", "Rp 6.000.000"),
-        ("Gerobak Angkringan Kayu Fungsional", "Gerobak kayu custom 150x75 cm + etalase kaca display sate frozen food higienis", "1 unit", "Rp 1.500.000"),
-        ("Panggangan Arang Stainless & Blower", "Panggangan sate arang batok panjang 65 cm, kisi stainless, blower DC mini, jepitan", "1 set", "Rp 350.000"),
-        ("Peralatan Masak Dapur & Wedangan", "Kompor gas 1 tungku, wajan baja mendoan, ceret wedang stainless, tabung LPG 3kg", "1 paket", "Rp 450.000"),
-        ("Alas Tebal Nyaman & Meja Lipat", "2 Karpet busa/spons tebal empuk waterproof 2x2m, tikar rapi, 4-6 meja lipat portabel", "1 paket", "Rp 500.000"),
-        ("Cooler Box & Wadah Saji Piring Seng", "Cooler box insulasi sate frozen food & susu, piring seng blirik, wadah saji", "1 paket", "Rp 400.000"),
-        ("Instalasi Listrik 900VA & Festoon", "Kabel outdoor waterproof, stopkontak cas hp, lampu gantung warm white", "1 paket", "Rp 200.000"),
-        ("Stok Bahan Baku Awal (Inventory)", "Aneka frozen food (dumpling, otak-otak, cumi, sosis, bakso), mendoan, kopi, sachet, susu", "1 paket", "Rp 600.000"),
-        ("Cadangan Kas Operasional (Buffer)", "Dana cadangan kas darurat kontinjensi operasional & likuiditas awal", "1 paket", "Rp 400.000")
+        ("Penyiapan Lahan & Kanopi Terpal", "Kanopi terpal all-weather pelindung embun/gerimis & perataan koral split", "1 paket", "Rp 1.000.000"),
+        ("Gerobak Angkringan Kayu Custom", "Gerobak kayu custom 160x75 cm + etalase kaca display sate frozen food", "1 unit", "Rp 2.000.000"),
+        ("Panggangan Arang Stainless & Dapur", "Panggangan arang 65cm, blower DC, kompor gas, wajan mendoan, ceret, LPG", "1 paket", "Rp 1.000.000"),
+        ("Alas Tebal Nyaman & Meja Lipat", "3 Karpet busa/spons tebal empuk waterproof 2x2m, tikar rapi, 6 meja portabel", "1 paket", "Rp 800.000"),
+        ("Cooler Box & Wadah Saji Piring Seng", "Cooler box 35-45L penampung frozen food & susu, piring seng blirik, toples", "1 paket", "Rp 600.000"),
+        ("Instalasi Listrik, Festoon & Audio", "Kabel outdoor waterproof, stopkontak cas hp, lampu festoon warm, mini speaker", "1 paket", "Rp 600.000"),
+        ("Stok Bahan Baku Awal (Inventory)", "Aneka frozen food (dumpling, otak-otak, cumi, sosis, bakso), mendoan, kopi, susu", "1 paket", "Rp 1.500.000"),
+        ("Cadangan Kas Operasional (Buffer)", "Dana cadangan kas darurat kontinjensi operasional & likuiditas awal 1-2 bulan", "1 paket", "Rp 1.500.000")
     ]
 
     tbl_capex = doc.add_table(rows=len(capex_data) + 2, cols=4)
@@ -491,7 +491,7 @@ def create_jangkar_kopi_proposal():
 
     p_tot4 = c_tot_val.paragraphs[0]
     p_tot4.alignment = WD_ALIGN_PARAGRAPH.RIGHT
-    r_tot4 = p_tot4.add_run("Rp 10.000.000")
+    r_tot4 = p_tot4.add_run("Rp 15.000.000")
     r_tot4.font.name = 'Arial'
     r_tot4.font.size = Pt(9)
     r_tot4.font.bold = True
@@ -576,7 +576,7 @@ def create_jangkar_kopi_proposal():
         ("Laba Bersih Usaha / Bulan", "Rp 3.200.000", "Rp 6.000.000", "Rp 10.000.000"),
         ("Dividen Investor (40%)", "Rp 1.280.000 / bulan", "Rp 2.400.000 / bulan", "Rp 4.000.000 / bulan"),
         ("Bagian Pengelola (60%)", "Rp 1.920.000 / bulan", "Rp 3.600.000 / bulan", "Rp 6.000.000 / bulan"),
-        ("Waktu Balik Modal (BEP)", "7,8 Bulan", "4,1 Bulan (~4 Bulan)", "2,5 Bulan")
+        ("Waktu Balik Modal (BEP)", "11,7 Bulan", "6,25 Bulan (~6 Bulan)", "3,8 Bulan")
     ]
 
     tbl_fin = doc.add_table(rows=len(fin_scenarios), cols=4)
@@ -609,7 +609,7 @@ def create_jangkar_kopi_proposal():
     # ==================== PAGE 7: BAB 6 TATA KELOLA, KESIMPULAN & LEMBAR KOMITMEN ====================
     add_h1("6. SKEMA KEMITRAAN MUDHARABAH & FORMULIR KOMITMEN")
     
-    add_h2("6.1 Struktur Penawaran Kemitraan Modal Rp 10.000.000")
+    add_h2("6.1 Struktur Penawaran Kemitraan Modal Rp 15.000.000")
     add_p(
         "Penawaran kemitraan Jangkar Kopi dijalankan menggunakan akad Syirkah Mudharabah yang adil, berkah, dan transparan:"
     )
@@ -617,7 +617,7 @@ def create_jangkar_kopi_proposal():
     add_callout(
         "OPSI PARTISIPASI MODAL & HAK INVESTOR",
         [
-            ("• Pilihan Slot Permodalan: ", "Terbuka opsi 1 Mitra Tunggal Penuh (Rp 10.000.000), 2 Slot Kemitraan (@ Rp 5.000.000), atau Sindikasi 4 Slot Ringan (@ Rp 2.500.000/slot)."),
+            ("• Pilihan Slot Permodalan: ", "Terbuka opsi 1 Mitra Tunggal Penuh (Rp 15.000.000), 2 Slot Kemitraan (@ Rp 7.500.000), 3 Slot Kemitraan (@ Rp 5.000.000), atau Sindikasi 5 Slot Ringan (@ Rp 3.000.000/slot)."),
             ("• Nisbah Bagi Hasil Laba Bersih: ", "40% dialokasikan untuk Pihak Pemodal (Shahibul Maal) dan 60% dialokasikan untuk Pihak Pengelola Operasional (Mudharib)."),
             ("• Transparansi Kasir Digital: ", "Setiap transaksi dicatat real-time melalui aplikasi POS Cloud di ponsel. Laporan keuangan bulanan dan rekonsiliasi kas dibagikan resmi pada tanggal 1 setiap bulannya."),
             ("• Roadmap Ekspansi Bertahap: ", "Fasilitas kursi lipat camping dan mesin espresso komersial sengaja ditunda di awal. Pengadaan fasilitas lanjutan tersebut akan didanai mandiri dari laba ditahan operasional setelah 3 bulan berjalan stabil, tanpa membebani modal awal investor.")
@@ -628,7 +628,7 @@ def create_jangkar_kopi_proposal():
 
     add_h2("6.2 Kesimpulan Eksekutif")
     add_p(
-        "Jangkar Kopi & Angkringan adalah jawaban atas kebutuhan ruang temu warga yang bersahaja, bersih, dan berbiaya terjangkau di koridor Cikedal - Menes. Dengan modal lean Rp 10.000.000, beban sewa lahan terkunci aman 1 tahun (Rp 6 Jt), dan menu arang tradisional yang digemari masyarakat, usaha ini diproyeksikan mencapai titik impas dalam tempo sangat cepat yakni 4,1 bulan (~4 bulan) dan siap berkembang menjadi ikon kuliner malam rakyat."
+        "Jangkar Kopi & Angkringan adalah jawaban atas kebutuhan ruang temu warga yang bersahaja, bersih, dan berbiaya terjangkau di koridor Cikedal - Menes. Dengan modal lean Rp 15.000.000, beban sewa lahan terkunci aman 1 tahun (Rp 6 Jt), stok awal dan cadangan kas yang solid, serta menu arang tradisional yang digemari masyarakat, usaha ini diproyeksikan mencapai titik impas dalam tempo 6,25 bulan (~6 bulan) dan siap berkembang menjadi ikon kuliner malam rakyat."
     )
 
     add_h2("6.3 Lembar Pernyataan Komitmen Kemitraan Investasi")
@@ -640,7 +640,7 @@ def create_jangkar_kopi_proposal():
             ("Nama Lengkap Calon Mitra : ", "..........................................................................................................."),
             ("Nomor WhatsApp / Kontak   : ", "..........................................................................................................."),
             ("Alamat / Domisili          : ", "..........................................................................................................."),
-            ("Pilihan Partisipasi Modal : ", "[   ] 1 Slot Sindikasi (Rp 2.500.000)      [   ] 1 Slot Kemitraan (Rp 5.000.000)\n                              [   ] Mitra Tunggal Penuh (Rp 10.000.000)")
+            ("Pilihan Partisipasi Modal : ", "[   ] 1 Slot Sindikasi (Rp 3.000.000)      [   ] 1 Slot Kemitraan (Rp 5.000.000)\n                              [   ] 1 Slot Kemitraan (Rp 7.500.000)      [   ] Mitra Tunggal Penuh (Rp 15.000.000)")
         ],
         border_color="B45309",
         bg_color="FEF3C7"
