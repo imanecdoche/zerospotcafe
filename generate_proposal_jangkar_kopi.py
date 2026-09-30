@@ -264,7 +264,7 @@ def create_jangkar_kopi_proposal():
         [
             ("• Nilai Total Permodalan Awal : ", "Rp 20.000.000 (Dua Puluh Juta Rupiah) — Hemat, Efisien & Tervalidasi."),
             ("• Opsi Partisipasi Mitra       : ", "1 Investor Penuh (Rp 20 Jt)  |  2 Slot (@ Rp 10 Jt)  |  4 Slot Sindikasi (@ Rp 5 Jt)."),
-            ("• Alokasi Sewa Lahan Sementara : ", "Rp 6.000.000,- (Sewa Lahan Terbuka 1 Tahun di Muka ~5x5 Meter Milik Bang Hasan)."),
+            ("• Alokasi Sewa Lahan Sementara : ", "Rp 6.000.000,- (Sewa Lahan Terbuka 1 Tahun di Muka ~5x5 Meter Koridor Cikedal-Menes)."),
             ("• Skema Kemitraan Usaha        : ", "Syirkah Mudharabah (Bagi Hasil Laba Bersih: 40% Investor : 60% Pengelola)."),
             ("• Proyeksi Balik Modal (BEP)   : ", "6,9 Bulan (~7 Bulan) pada Skenario Moderat; 3,6 Bulan pada Skenario Agresif."),
             ("• Konsep Ruang & Duduk         : ", "100% Lesehan Karpet Spons Tebal Waterproof + Meja Pendek Lipat (Inklusif & Merakyat)."),
@@ -283,7 +283,7 @@ def create_jangkar_kopi_proposal():
     r_meta1 = p_meta.add_run("Dokumen Resmi Penawaran Kemitraan  •  Edisi Lean Startup  •  Oktober 2026\n")
     r_meta1.font.size = Pt(8.5)
     r_meta1.font.color.rgb = COLOR_MUTED
-    r_meta2 = p_meta.add_run("Disusun untuk Calon Mitra Investor Strategis: Bang Nasbro (Bang Nas) & Rekan")
+    r_meta2 = p_meta.add_run("Disusun untuk Calon Mitra Investor Strategis & Rekan Kemitraan")
     r_meta2.font.size = Pt(8.5)
     r_meta2.font.bold = True
     r_meta2.font.color.rgb = COLOR_PRIMARY
@@ -295,7 +295,7 @@ def create_jangkar_kopi_proposal():
     
     add_h2("1.1 Mengapa Model Lean MVP Diterapkan?")
     add_p(
-        "Berdasarkan evaluasi objektif bersama dewan penasihat dan calon mitra investor utama (Bang Nasbro / Bang Nas), langkah paling bijak dalam memulai usaha F&B pedesaan adalah menerapkan prinsip Lean Startup: memangkas belanja modal yang belum mendesak, menghilangkan risiko kelebihan kapasitas (over-capitalization), dan menguji penerimaan pasar secara langsung dengan modal ringan yang cepat menghasilkan arus kas (cashflow engine)."
+        "Berdasarkan evaluasi objektif bersama dewan penasihat dan calon mitra investor strategis, langkah paling bijak dalam memulai usaha F&B pedesaan adalah menerapkan prinsip Lean Startup: memangkas belanja modal yang belum mendesak, menghilangkan risiko kelebihan kapasitas (over-capitalization), dan menguji penerimaan pasar secara langsung dengan modal ringan yang cepat menghasilkan arus kas (cashflow engine)."
     )
     add_p(
         "Daya beli riil masyarakat di koridor Cikedal dan Menes terbukti sangat kuat. Konsumen lokal terbiasa membelanjakan Rp 15.000 hingga Rp 25.000 per sesi nongkrong saat jajan sate, nasi, dan minuman hangat. Namun, faktor penentu keberhasilan utama bukanlah kemewahan alat, melainkan suasana tempat yang merakyat, ramah, dan tidak menimbulkan rasa segan (kagok/takut mahal). Oleh karena itu, Jangkar Kopi dirancang bersahaja, bersih, dan berakar pada kenyamanan warga lokal."
@@ -325,8 +325,8 @@ def create_jangkar_kopi_proposal():
 
     doc.add_page_break()
 
-    # ==================== PAGE 3: BAB 2 KONSEP & TATA RUANG LAHAN BANG HASAN ====================
-    add_h1("2. KONSEP BISNIS, PRODUK & TATA RUANG LAHAN BANG HASAN")
+    # ==================== PAGE 3: BAB 2 KONSEP & TATA RUANG LAHAN TERBUKA ====================
+    add_h1("2. KONSEP BISNIS, PRODUK & TATA RUANG LAHAN TERBUKA")
     
     add_h2("2.1 Konsep Tempat: Lesehan Rakyat yang Hangat & Inklusif")
     add_p(
@@ -338,11 +338,11 @@ def create_jangkar_kopi_proposal():
 
     add_h2("2.2 Zonasi Tata Ruang Lahan Terbuka (~5 × 5 Meter / 25 m²)")
     add_p(
-        "Rencana pemanfaatan lahan milik Bang Hasan seluas estimasi 5 × 5 meter (25 m²) diatur secara efisien, rapi, dan cepat dibersihkan:"
+        "Rencana pemanfaatan lahan terbuka strategis seluas estimasi 5 × 5 meter (25 m²) diatur secara efisien, rapi, dan cepat dibersihkan:"
     )
 
     add_callout(
-        "SKEMA TATA RUANG DAN ALUR KERJA LAHAN BANG HASAN (5 × 5 METER)",
+        "SKEMA TATA RUANG DAN ALUR KERJA LAHAN TERBUKA STRATEGIS (5 × 5 METER)",
         [
             ("• Zonasi Depan (1,5 m × 5,0 m) — Dapur Display & Panggangan Arang: ", "Menempatkan gerobak kayu etalase kaca display sate higienis, panggangan arang batok stainless, ceret wedangan, dan kompor mendoan menghadap ke jalan raya agar asap bakaran gurih memancing selera."),
             ("• Zonasi Tengah & Belakang (3,5 m × 5,0 m) — Area Lesehan Tamu: ", "Hamparan 3 lembar karpet spons tebal waterproof beralas tikar rapi, dilengkapi 6 unit meja lipat pendek (kayu/plastik kokoh) dan bantal lesehan. Mampu menampung 18 hingga 22 orang tamu sekaligus."),
@@ -414,13 +414,13 @@ def create_jangkar_kopi_proposal():
     add_h1("4. RENCANA ANGGARAN BIAYA & ALOKASI MODAL LEAN MVP")
     
     add_p(
-        "Total kebutuhan belanja modal (CAPEX) dan modal kerja awal Jangkar Kopi dialokasikan tepat sebesar Rp 20.000.000 (Dua Puluh Juta Rupiah). Anggaran ini sudah memperhitungkan alokasi sewa lahan milik Bang Hasan selama 1 tahun di muka sebesar Rp 6.000.000, serta cadangan kas operasional (buffer runway) untuk menjamin keamanan likuiditas usaha."
+        "Total kebutuhan belanja modal (CAPEX) dan modal kerja awal Jangkar Kopi dialokasikan tepat sebesar Rp 20.000.000 (Dua Puluh Juta Rupiah). Anggaran ini sudah memperhitungkan alokasi sewa lahan terbuka selama 1 tahun di muka sebesar Rp 6.000.000, serta cadangan kas operasional (buffer runway) untuk menjamin keamanan likuiditas usaha."
     )
     
     add_h2("4.1 Tabel Rincian Belanja Modal Awal (Tepat Rp 20.000.000)")
 
     capex_data = [
-        ("Sewa Lahan Terbuka 1 Tahun di Muka", "Alokasi sewa lahan ~5x5 meter milik Bang Hasan koridor Cikedal-Menes", "1 tahun", "Rp 6.000.000"),
+        ("Sewa Lahan Terbuka 1 Tahun di Muka", "Alokasi sewa pekarangan/lahan terbuka ~5x5 meter koridor Cikedal-Menes", "1 tahun", "Rp 6.000.000"),
         ("Penyiapan Lahan & Kanopi Terpal", "Pondasi koral split bebas becek, terpal penahan angin & kanopi pelindung", "1 paket", "Rp 2.000.000"),
         ("Gerobak Angkringan Kayu Fungsional", "Gerobak kayu mahoni custom 180x80 cm + etalase kaca sate 2 rak + lampu", "1 unit", "Rp 3.200.000"),
         ("Panggangan Arang Stainless & Blower", "Panggangan sate arang panjang 75 cm, kisi stainless, blower DC mini, jepitan", "1 set", "Rp 650.000"),

@@ -4,7 +4,7 @@
 **Merek Resmi**: Jangkar Kopi / Jangkar Kopi & Angkringan  
 **Tagline**: *"Labuhkan Lelah, Seduh Cerita"*  
 **Inisiator & Pengelola**: Fatih Farhat Asshidiq (Founder & Managing Director)  
-**Alokasi Sewa Lahan Sementara**: Rp 6.000.000 / tahun (Lahan Terbuka ~5x5 Meter Milik Bang Hasan)  
+**Alokasi Sewa Lahan Sementara**: Rp 6.000.000 / tahun (Lahan Terbuka ~5x5 Meter Koridor Cikedal - Menes)  
 **Total Permodalan Awal (Lean MVP)**: Rp 20.000.000 (Dua Puluh Juta Rupiah)  
 **Target Pengembalian Modal (BEP)**: 6,9 Bulan (~7 Bulan pada Skenario Moderat)  
 **Lokasi Basis**: Koridor Jalan Raya Cikedal - Menes, Kabupaten Pandeglang, Banten  
@@ -14,7 +14,7 @@
 ## 1. Latar Belakang & Filosofi Merek ("Nama adalah Doa dan Harapan")
 
 ### 1.1 Mengapa Menerapkan Pendekatan Lean Startup?
-Berdasarkan arahan dan diskusi mendalam bersama calon mitra investor utama (**Bang Nasbro / Bang Nas**) dan keluarga, langkah paling strategis untuk merintis usaha kuliner di pedesaan Pandeglang adalah memulai dari skala yang terjangkau (*Lean MVP*), meminimalkan risiko kerugian, dan memvalidasi penerimaan pasar secara langsung tanpa beban utang atau biaya modal besar di awal.
+Berdasarkan arahan dan evaluasi objektif bersama calon mitra investor strategis dan dewan penasihat, langkah paling bijak untuk merintis usaha kuliner di pedesaan Pandeglang adalah memulai dari skala yang terjangkau (*Lean MVP*), meminimalkan risiko kerugian, dan memvalidasi penerimaan pasar secara langsung tanpa beban utang atau biaya modal besar di awal.
 
 Daya beli riil masyarakat pedesaan Cikedal - Menes terbukti kuat (rata-rata belanja Rp 15.000 – Rp 25.000 per orang saat jajan malam). Namun, kunci utamanya adalah **suasana yang membumi, merakyat, dan tidak mengintimidasi (*tidak kagok*)**.
 
@@ -26,7 +26,7 @@ Daya beli riil masyarakat pedesaan Cikedal - Menes terbukti kuat (rata-rata bela
 
 ---
 
-## 2. Konsep Bisnis & Tata Ruang Lahan Bang Hasan (5 × 5 Meter / 25 m²)
+## 2. Konsep Bisnis & Tata Ruang Lahan Terbuka (5 × 5 Meter / 25 m²)
 
 ### 2.1 Konsep Duduk Lesehan Egaliter
 - **100% Lesehan Bersih**: Menggunakan karpet spons tebal waterproof, beralas tikar rapi, dilengkapi 6 unit meja lipat pendek (kayu/plastik kokoh) dan bantal duduk.
@@ -64,7 +64,7 @@ Daya beli riil masyarakat pedesaan Cikedal - Menes terbukti kuat (rata-rata bela
 
 | No | Komponen Belanja Modal | Deskripsi & Spesifikasi | Volume | Total Biaya |
 | :---: | :--- | :--- | :---: | :---: |
-| 1 | **Sewa Lahan Terbuka (1 Tahun)** | Lahan ~5x5 meter Bang Hasan di koridor Cikedal-Menes | 1 tahun | Rp 6.000.000 |
+| 1 | **Sewa Lahan Terbuka (1 Tahun)** | Lahan pekarangan ~5x5 meter koridor Cikedal-Menes | 1 tahun | Rp 6.000.000 |
 | 2 | **Penyiapan Lahan & Kanopi Terpal** | Perataan koral split bebas becek & kanopi terpal pelindung | 1 paket | Rp 2.000.000 |
 | 3 | **Gerobak Kayu Mahoni Custom** | P 180cm x L 80cm + etalase kaca 2 rak sate + lampu warm | 1 unit | Rp 3.200.000 |
 | 4 | **Panggangan Arang Stainless & Blower** | Panjang 75 cm, kisi stainless, blower DC mini, jepitan | 1 set | Rp 650.000 |
