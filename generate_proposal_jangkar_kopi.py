@@ -353,18 +353,32 @@ def create_jangkar_kopi_proposal():
         bg_color="F0F4F8"
     )
 
-    add_h2("2.3 Efisiensi Menu: Sate Frozen Food Bakar Arang & Minuman Rakyat")
+    add_h2("2.3 Menu Makanan Awal: Aneka Sate Frozen Food Bakar Arang & Kudapan")
     add_p(
-        "Penerapan strategi menu berbasis frozen food dan minuman siap seduh di Fase 1 memberikan keunggulan operasional luar biasa:"
+        "Menu makanan awal Jangkar Kopi difokuskan pada olahan siap bakar yang praktis, higienis, dan zero food waste:"
     )
     add_p(
-        "1. Aneka Sate Frozen Food Bakar Arang: Pilihan makanan utama difokuskan pada olahan beku bermutu (dumpling keju lumer, otak-otak ikan singapura, sate cumi flower, sosis bakar, bakso sapi bakar). Sangat praktis tanpa marinasi rumit, tahan lama disimpan beku di cooler box tanpa risiko basi (zero food waste), dan dibakar hangat dengan saus bakar gurih."
+        "• Aneka Sate Frozen Food Bakar Arang: Dumpling ayam & dumpling keju lumer (meleleh gurih saat digigit), sate cumi flower, otak-otak singapura kerat silang, sosis sapi bakar BBQ, bakso sapi bakar arang lada hitam, dan fish roll. Seluruhnya dipanggang hangat di atas bara batok kelapa beralas piring rotan & kertas nasi coklat dengan cocolan sambal kecap rawit pedas dan saus bakar spesial dalam mangkuk plastik kecil."
     )
     add_p(
-        "2. Kopi Tubruk Lokal & Sachet Populer: Menggunakan bubuk sangrai Robusta lereng Gunung Karang siap seduh (Rp 4.000) serta varian sachet favorit masyarakat (Good Day, Kapal Api, Indocafe, Luwak White Koffie)."
+        "• Kudapan Tradisional: Nasi kucing teri balado / orek tempe bungkus daun pisang yang dipanaskan di atas bara panggangan, serta tempe mendoan hangat daun bawang yang renyah dan gurih."
+    )
+
+    add_h2("2.4 Signature Menu Kopi Jangkar & Minuman Rakyat (Ikon Minuman Usaha)")
+    add_p(
+        "Sebagai pembeda utama, Jangkar Kopi menghadirkan menu signature kopi khas daerah dan minuman rakyat:"
     )
     add_p(
-        "3. Wedangan Susu Murni & Minuman Segar: Menyajikan susu sapi murni hangat/es dalam mug jadul, wedang jahe merah susu rempah, serta es sirup sachet segar (Rp 5.000 – Rp 9.000)."
+        "1. Kopi Hitam Tubruk 'Jangkar Asli' (Signature Utama): Bubuk kopi Robusta sangrai tradisional khas lereng Gunung Karang Pandeglang, diseduh tubruk panas dengan air mendidih murni. Berkarakter aroma smoky alami, body pekat (bold), dan rasa pahit gurih mantap khas Banten Barat, dengan pilihan gula aren Malingping murni atau gula pasir terpisah (Rp 4.000)."
+    )
+    add_p(
+        "2. Kopi Susu 'Jangkar Dermaga' (Signature Modern): Perpaduan seduhan pekat Robusta lokal Gunung Karang dengan susu segar gurih dan lelehan gula aren murni khas Pandeglang. Menghadirkan rasa manis legit yang lembut dan seimbang, disajikan hangat maupun es dingin segar (Rp 6.000)."
+    )
+    add_p(
+        "3. Kopi Jahe Rempah 'Jangkar Samudra' (Signature Penghangat): Seduhan kopi Robusta lokal berpadu rebusan jahe merah geprek, serai, dan kayu manis alami dalam mug jadul. Menjadi primadona pekerja malam, santri, dan pelintas jalur Labuan-Pandeglang untuk memulihkan stamina (Rp 7.000)."
+    )
+    add_p(
+        "4. Minuman Rakyat Pendamping: Susu murni segar, wedang jahe susu, es sirup sachet (Nutrisari, Extra Joss Susu), dan varian kopi sachet populer (Good Day, Kapal Api, Indocafe, Luwak White Koffie) seharga Rp 4.000 – Rp 8.500."
     )
 
     doc.add_page_break()
@@ -516,10 +530,10 @@ def create_jangkar_kopi_proposal():
         ("Fish Roll / Crab Stick Olahan Bakar", "Olahan ikan kani stik bumbu rempah arang batok kelapa", "Rp 1.400", "Rp 3.000", "Rp 1.600 (53,3%)"),
         ("Nasi Kucing Teri / Orek Tempe", "Nasi pulen sambal teri balado / orek tempe bungkus daun pisang", "Rp 1.600", "Rp 3.000", "Rp 1.400 (46,7%)"),
         ("Tempe Mendoan Hangat (3 Lembar)", "Tempe kedelai lokal, adonan tepung daun bawang, kecap rawit", "Rp 2.500", "Rp 5.000", "Rp 2.500 (50,0%)"),
-        ("Kopi Tubruk Robusta Khas Banten", "Bubuk kopi Robusta lokal sangrai siap seduh, gula pasir/aren", "Rp 1.400", "Rp 4.000", "Rp 2.600 (65,0%)"),
+        ("Kopi Tubruk 'Jangkar Asli' (Signature)", "Bubuk Robusta sangrai lereng Gn. Karang, gula aren/pasir", "Rp 1.400", "Rp 4.000", "Rp 2.600 (65,0%)"),
         ("Kopi Sachet Populer Siap Seduh", "Good Day / Kapal Api / Indocafe / Luwak White Koffie", "Rp 1.800", "Rp 4.000", "Rp 2.200 (55,0%)"),
         ("Es / Hangat Minuman Sachet Segar", "Nutrisari Jeruk / Extra Joss Susu / Kuku Bima Susu", "Rp 2.200", "Rp 5.000", "Rp 2.800 (56,0%)"),
-        ("Susu Murni Segar / Wedang Jahe Rempah", "Susu sapi murni pasteurisasi / jahe merah rempah (Mug jadul)", "Rp 3.800", "Rp 8.500", "Rp 4.700 (55,3%)"),
+        ("Susu Murni / Kopi Rempah Samudra", "Susu sapi murni / Robusta jahe merah rempah (Mug jadul)", "Rp 3.800", "Rp 8.500", "Rp 4.700 (55,3%)"),
     ]
 
     tbl_hpp = doc.add_table(rows=len(hpp_data) + 1, cols=5)

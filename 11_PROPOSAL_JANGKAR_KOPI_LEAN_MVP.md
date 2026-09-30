@@ -50,21 +50,28 @@ Daya beli riil masyarakat pedesaan Cikedal - Menes terbukti kuat (rata-rata bela
 3. **Margin Keuntungan Sangat Sehat (50% – 57%)**: Harga beli grosir frozen food per kemasan (isi 20–50 pcs) sangat ekonomis di toko frozen food Pandeglang, menghasilkan laba kotor yang tinggi dan terukur.
 4. **Sangat Diminati Segmen Pemuda Desa & Santri**: Sosis bakar, bakso bakar kecap lada hitam, dumpling keju, otak-otak, dan sate cumi olahan adalah jajanan street food paling populer di tongkrongan malam.
 
-### 3.2 Daftar Menu Makanan & Kudapan Angkringan
+### 3.2 Menu Makanan Awal & Kudapan Angkringan (Piring Rotan + Mangkuk Sambal)
+- **Dumpling Ayam / Keju Lumer Bakar**: Rp 5.000 / tusuk (HPP Rp 2.200 — Margin 56,0%) — Keju meleleh gurih saat digigit.
+- **Sate Cumi Olahan Bakar (Squid Flower)**: Rp 4.500 / tusuk (HPP Rp 2.000 — Margin 55,5%) — Keratan bunga cumi bumbu kecap pedas.
+- **Otak-Otak Ikan Bakar (Singapura Pedas Manis)**: Rp 3.500 / tusuk (HPP Rp 1.500 — Margin 57,1%) — Kerat silang gurih bumbu bakar.
 - **Sosis Bakar Sapi / Ayam (Saus BBQ & Mayones)**: Rp 4.000 / tusuk (HPP Rp 1.800 — Margin 55,0%).
 - **Bakso Sapi Bakar Arang Batok (4 Butir Bumbu Lada Hitam)**: Rp 3.500 / tusuk (HPP Rp 1.600 — Margin 54,2%).
-- **Dumpling Ayam / Keju Lumer Bakar**: Rp 5.000 / tusuk (HPP Rp 2.200 — Margin 56,0%).
-- **Otak-Otak Ikan Bakar (Singapura Pedas Manis)**: Rp 3.500 / tusuk (HPP Rp 1.500 — Margin 57,1%).
-- **Sate Cumi Olahan Bakar (Squid Flower Bakar Arang)**: Rp 4.500 / tusuk (HPP Rp 2.000 — Margin 55,5%).
 - **Fish Roll / Crab Stick Olahan Bakar**: Rp 3.000 / tusuk (HPP Rp 1.400 — Margin 53,3%).
-- **Nasi Kucing Teri Balado / Orek Tempe Daun Pisang**: Rp 3.000 / bungkus (HPP Rp 1.600 — Margin 46,7%).
+- **Nasi Kucing Teri Balado / Orek Tempe Daun Pisang**: Rp 3.000 / bungkus (HPP Rp 1.600 — Margin 46,7%) — Dihangatkan di atas panggangan.
 - **Tempe Mendoan Hangat (3 Lembar + Kecap Rawit)**: Rp 5.000 / porsi (HPP Rp 2.500 — Margin 50,0%).
+- **Pelengkap Penyajian**: Seluruh sate disajikan di atas piring anyaman rotan beralas kertas nasi coklat dengan mangkuk plastik kecil berisi sambal kecap rawit pedas limau dan saus bakar spesial.
 
-### 3.3 Menu Minuman Tanpa Mesin Mewah (Cepat, Praktis & Pasti Laku)
-- **Kopi Tubruk Robusta Khas Banten** (Bubuk sangrai siap seduh dari lereng Gunung Karang): Rp 4.000 / gelas (HPP Rp 1.400 — Margin 65,0%).
-- **Varian Kopi Sachet Populer** (Good Day Mocacinno, Kapal Api, Indocafe Coffeemix, Luwak White Koffie): Rp 4.000 / gelas (HPP Rp 1.800 — Margin 55,0%).
-- **Es Minuman Sachet Segar** (Nutrisari Jeruk, Extra Joss Susu): Rp 5.000 / gelas (HPP Rp 2.200 — Margin 56,0%).
-- **Susu Sapi Murni Segar / Wedang Jahe Rempah** (Hangat/Dingin dalam gelas mug jadul): Rp 8.500 / gelas (HPP Rp 3.800 — Margin 55,3%).
+### 3.3 Tiga Signature Menu Kopi Jangkar & Minuman Rakyat
+1. **Kopi Hitam Tubruk 'Jangkar Asli' (Signature Utama)**: Rp 4.000 / gelas (HPP Rp 1.400 — Margin 65,0%)
+   - Bubuk kopi Robusta sangrai tradisional khas lereng Gunung Karang Pandeglang, diseduh tubruk panas dengan air mendidih murni. Berkarakter aroma smoky alami, body pekat (*bold*), rasa pahit gurih mantap khas Banten Barat, dengan pilihan gula aren Malingping murni atau gula pasir terpisah.
+2. **Kopi Susu 'Jangkar Dermaga' (Signature Modern)**: Rp 6.000 / gelas (HPP Rp 2.400 — Margin 60,0%)
+   - Perpaduan seduhan pekat Robusta lokal Gunung Karang dengan susu kental manis gurih dan lelehan gula aren murni khas Pandeglang. Menghadirkan rasa manis legit yang lembut dan seimbang, disajikan hangat maupun es dingin segar.
+3. **Kopi Jahe Rempah 'Jangkar Samudra' (Signature Penghangat)**: Rp 7.000 / gelas (HPP Rp 2.800 — Margin 60,0%)
+   - Seduhan kopi Robusta lokal berpadu rebusan sari jahe merah geprek, serai, dan kayu manis alami dalam mug jadul. Menjadi primadona pekerja malam, santri, dan pelintas rute Labuan-Pandeglang untuk memulihkan stamina.
+4. **Minuman Rakyat Pendamping**:
+   - Susu Sapi Murni Segar / Wedang Jahe Susu (Hangat/Dingin Mug Jadul): Rp 8.500 (HPP Rp 3.800 — Margin 55,3%).
+   - Es Minuman Sachet Segar (Nutrisari Jeruk, Extra Joss Susu): Rp 5.000 (HPP Rp 2.200 — Margin 56,0%).
+   - Varian Kopi Sachet Populer (Good Day Mocacinno, Kapal Api, Indocafe, Luwak White Koffie): Rp 4.000 (HPP Rp 1.800 — Margin 55,0%).
 
 ---
 
