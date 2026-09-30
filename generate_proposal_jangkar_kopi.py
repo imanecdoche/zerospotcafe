@@ -346,7 +346,7 @@ def create_jangkar_kopi_proposal():
         [
             ("• Zonasi Depan (1,5 m × 5,0 m) — Dapur Display & Panggangan Arang: ", "Menempatkan gerobak kayu etalase kaca display sate frozen food higienis, panggangan arang batok stainless, ceret wedangan, dan kompor mendoan menghadap ke jalan raya agar aroma asap bakaran gurih memancing selera."),
             ("• Zonasi Tengah & Belakang (3,5 m × 5,0 m) — Area Lesehan Tamu: ", "Hamparan alas tebal nyaman (karpet busa empuk waterproof dilapisi tikar rapi), dilengkapi 6 unit meja lipat kecil portabel yang ringan, kokoh, dan praktis dipindahkan. Mampu menampung 18 hingga 22 orang tamu sekaligus."),
-            ("• Perlindungan Cuaca (All-Weather Tarpaulin): ", "Dilengkapi naungan kanopi terpal rangka pipa ringan yang melindungi seluruh area lesehan dari tetesan embun malam dan gerimis hujan, serta mudah digulung/dirapikan saat jam operasional usai."),
+            ("• Perlindungan Cuaca (Tenda 2×6m Milik Sendiri + Atap Terpal Baru): ", "Memanfaatkan aset rangka tenda 2×6 meter milik pribadi inisiator yang dilengkapi atap kain terpal tebal waterproof (A12 heavy duty) baru untuk memproteksi area lesehan dan dapur dari embun malam serta gerimis hujan tanpa perlu biaya beli rangka baru."),
             ("• Zonasi Parkir & Akses Bersih: ", "Area depan pinggir jalan dimanfaatkan untuk parkir 8–10 sepeda motor, serta dilengkapi tempat cuci tangan (wastafel portabel injak) dan tempat sampah tertutup.")
         ],
         border_color="102A43",
@@ -414,21 +414,21 @@ def create_jangkar_kopi_proposal():
     add_h1("4. RENCANA ANGGARAN BIAYA & ALOKASI MODAL LEAN MVP (RP 15 JT)")
     
     add_p(
-        "Total kebutuhan belanja modal (CAPEX) dan modal kerja awal Jangkar Kopi dialokasikan tepat sebesar Rp 15.000.000 (Lima Belas Juta Rupiah). Anggaran ini mengalokasikan sewa lahan terbuka selama 1 tahun di muka sebesar Rp 6.000.000 (40%), serta memanfaatkan sisa dana Rp 9.000.000 (60%) secara optimal untuk penyiapan kanopi terpal pelindung cuaca, gerobak kayu custom etalase kaca, panggangan arang batok, peralatan dapur wedangan, fasilitas lesehan alas tebal nyaman, wadah saji piring seng, instalasi listrik festoon, stok bahan baku awal yang memadai, dan cadangan kas darurat yang kokoh."
+        "Total kebutuhan belanja modal (CAPEX) dan modal kerja awal Jangkar Kopi dialokasikan tepat sebesar Rp 15.000.000 (Lima Belas Juta Rupiah). Anggaran ini mengalokasikan sewa lahan terbuka selama 1 tahun di muka sebesar Rp 6.000.000 (40%), serta memanfaatkan sisa dana Rp 9.000.000 (60%) secara optimal untuk pengadaan atap terpal waterproof pada rangka tenda 2×6 meter milik pribadi inisiator, gerobak kayu custom etalase kaca, panggangan arang batok, peralatan dapur wedangan, fasilitas lesehan alas tebal nyaman, wadah saji piring seng, instalasi listrik festoon, stok bahan baku awal yang diperkuat (Rp 1.600.000), dan cadangan kas darurat yang kokoh (Rp 2.000.000)."
     )
     
     add_h2("4.1 Tabel Rincian Belanja Modal Awal (Tepat Rp 15.000.000)")
 
     capex_data = [
         ("Sewa Lahan Terbuka 1 Tahun di Muka", "Alokasi sewa pekarangan/lahan terbuka ~5x5 meter koridor Cikedal-Menes", "1 tahun", "Rp 6.000.000"),
-        ("Penyiapan Lahan & Kanopi Terpal", "Kanopi terpal all-weather pelindung embun/gerimis & perataan koral split", "1 paket", "Rp 1.000.000"),
+        ("Atap Terpal Tenda 2×6m & Lahan", "Terpal tebal waterproof A12 rangka tenda 2x6m (rangka milik sendiri) & koral", "1 paket", "Rp 400.000"),
         ("Gerobak Angkringan Kayu Custom", "Gerobak kayu custom 160x75 cm + etalase kaca display sate frozen food", "1 unit", "Rp 2.000.000"),
         ("Panggangan Arang Stainless & Dapur", "Panggangan arang 65cm, blower DC, kompor gas, wajan mendoan, ceret, LPG", "1 paket", "Rp 1.000.000"),
         ("Alas Tebal Nyaman & Meja Lipat", "3 Karpet busa/spons tebal empuk waterproof 2x2m, tikar rapi, 6 meja portabel", "1 paket", "Rp 800.000"),
         ("Cooler Box & Wadah Saji Piring Seng", "Cooler box 35-45L penampung frozen food & susu, piring seng blirik, toples", "1 paket", "Rp 600.000"),
         ("Instalasi Listrik, Festoon & Audio", "Kabel outdoor waterproof, stopkontak cas hp, lampu festoon warm, mini speaker", "1 paket", "Rp 600.000"),
-        ("Stok Bahan Baku Awal (Inventory)", "Aneka frozen food (dumpling, otak-otak, cumi, sosis, bakso), mendoan, kopi, susu", "1 paket", "Rp 1.500.000"),
-        ("Cadangan Kas Operasional (Buffer)", "Dana cadangan kas darurat kontinjensi operasional & likuiditas awal 1-2 bulan", "1 paket", "Rp 1.500.000")
+        ("Stok Bahan Baku Awal (Inventory)", "Aneka frozen food (dumpling, otak-otak, cumi, sosis, bakso), mendoan, kopi, susu", "1 paket", "Rp 1.600.000"),
+        ("Cadangan Kas Operasional (Buffer)", "Dana cadangan kas darurat kontinjensi operasional & likuiditas awal 1-2 bulan", "1 paket", "Rp 2.000.000")
     ]
 
     tbl_capex = doc.add_table(rows=len(capex_data) + 2, cols=4)

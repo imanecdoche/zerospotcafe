@@ -36,7 +36,7 @@ Daya beli riil masyarakat pedesaan Cikedal - Menes terbukti kuat (rata-rata bela
 
 ### 2.2 Zonasi Lahan (~5 × 5 Meter)
 - **Area Depan (1,5 m × 5,0 m)**: Gerobak kayu etalase sate kaca, panggangan arang batok stainless, ceret wedangan, kompor mendoan.
-- **Area Tengah & Belakang (3,5 m × 5,0 m)**: Hamparan karpet lesehan tamu di bawah naungan kanopi terpal pelindung angin dan gerimis.
+- **Area Tengah & Belakang (3,5 m × 5,0 m)**: Hamparan karpet lesehan tamu di bawah naungan tenda 2×6 meter (aset rangka milik sendiri) dengan atap terpal tebal waterproof A12 baru pelindung embun malam dan gerimis.
 - **Area Sisi/Depan**: Parkir 8–10 sepeda motor pelanggan & wastafel portabel.
 
 ---
@@ -72,14 +72,14 @@ Daya beli riil masyarakat pedesaan Cikedal - Menes terbukti kuat (rata-rata bela
 | No | Komponen Belanja Modal | Deskripsi & Spesifikasi | Volume | Total Biaya |
 | :---: | :--- | :--- | :---: | :---: |
 | 1 | **Sewa Lahan Terbuka (1 Tahun)** | Alokasi sewa pekarangan/lahan terbuka ~5x5 meter koridor Cikedal-Menes | 1 tahun | Rp 6.000.000 |
-| 2 | **Penyiapan Lahan & Kanopi Terpal** | Kanopi terpal all-weather pelindung embun/gerimis & perataan koral | 1 paket | Rp 1.000.000 |
+| 2 | **Atap Terpal Tenda 2×6m & Lahan** | Terpal tebal waterproof A12 rangka tenda 2x6m (rangka milik sendiri) & koral | 1 paket | Rp 400.000 |
 | 3 | **Gerobak Angkringan Kayu Custom** | Gerobak kayu custom 160x75 cm + etalase kaca display sate frozen food | 1 unit | Rp 2.000.000 |
 | 4 | **Panggangan Arang Stainless & Dapur** | Panggangan arang 65cm, blower DC, kompor gas, wajan mendoan, ceret, LPG | 1 paket | Rp 1.000.000 |
 | 5 | **Alas Tebal Nyaman & Meja Lipat Portabel** | 3 Karpet busa/spons tebal empuk waterproof 2x2m, tikar rapi, 6 meja portabel | 1 paket | Rp 800.000 |
 | 6 | **Cooler Box & Wadah Saji Piring Seng** | Cooler box 35-45L penampung frozen food & susu, piring seng blirik, toples | 1 paket | Rp 600.000 |
 | 7 | **Instalasi Listrik, Festoon & Audio** | Kabel outdoor waterproof, stopkontak cas hp, lampu festoon warm, mini speaker | 1 paket | Rp 600.000 |
-| 8 | **Stok Bahan Baku Awal (Inventory)** | Aneka frozen food (dumpling, otak-otak, cumi, sosis, bakso), mendoan, kopi, susu | 1 paket | Rp 1.500.000 |
-| 9 | **Cadangan Kas Operasional (Buffer)** | Dana cadangan kas darurat kontinjensi operasional & likuiditas awal 1-2 bulan | 1 paket | Rp 1.500.000 |
+| 8 | **Stok Bahan Baku Awal (Inventory)** | Aneka frozen food (dumpling, otak-otak, cumi, sosis, bakso), mendoan, kopi, susu | 1 paket | Rp 1.600.000 |
+| 9 | **Cadangan Kas Operasional (Buffer)** | Dana cadangan kas darurat kontinjensi operasional & likuiditas awal 1-2 bulan | 1 paket | Rp 2.000.000 |
 | | **TOTAL BELANJA MODAL LEAN MVP** | | | **Rp 15.000.000** |
 
 ---
