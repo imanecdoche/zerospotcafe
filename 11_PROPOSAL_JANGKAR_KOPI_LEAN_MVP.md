@@ -44,6 +44,12 @@ Aset identitas visual resmi tersimpan di folder [`Brand Logo and Identity/`](fil
 2. **Lengkung Cangkir & Senyuman (*Welcoming Cup & Smile*)**: Lengkung bawah jangkar memadukan mangkuk cangkir kopi dan kurva senyuman ramah (*welcoming smile*), melambangkan keramahtamahan (*hospitality*), kehangatan interaksi, dan suasana egaliter tanpa sekat sosial.
 3. **Uap Aroma Kopi & Nyala Pelita (*Steam Aroma & Beacon Flame*)**: Tiga liukan uap di puncak cangkir melambangkan aroma semerbak seduhan kopi Robusta lokal lereng Gunung Karang dan kehangatan bara arang, sekaligus menyimbolkan nyala lentera mercusuar pemandu bagi pelintas malam di koridor Cikedal - Menes.
 
+### 1.5 Urgensi Identitas Merek: Dampak Psikologis bagi Pengunjung vs. Usaha Tanpa Merek
+Banyak warkop dan angkringan kaki lima di pedesaan beroperasi secara anonim tanpa identitas yang jelas. Bagi psikologi pengunjung dan warga lokal, perbedaan bisnis dengan vs. tanpa identitas merek sangatlah fundamental:
+1. **Rasa Aman & Kepastian Mutu (*Psychological Safety & Trust*)**: Warung anonim sering dipersepsikan seadanya dengan kualitas "untung-untungan" tanpa kepastian standar higienitas. Keberadaan identitas merek Jangkar Kopi dengan warna Terracotta `#A56341` dan logo resmi memberikan sinyal keseriusan manajemen, kepastian standar higienitas, dan rasa aman bagi pengunjung bahwa ada pihak profesional yang bertanggung jawab atas mutu sajian.
+2. **Rasa Memiliki & Kebanggaan Sosial (*Sense of Belonging & Pride*)**: Tanpa identitas merek, pengunjung hanya merasa sekadar "numpang jajan di pinggir jalan". Sebaliknya, identitas merek yang memiliki cerita dan filosofi membumi (*"Labuhkan Lelah, Seduh Cerita"*) mengubah persepsi tempat menjadi ruang temu komunitas yang berjiwa (*third place*). Pengunjung merasa bangga mengajak kawan, rekan santri, atau keluarga untuk singgah.
+3. **Pembeda dari Anonimitas Pasar (*Top-of-Mind Brand Recall*)**: Di koridor jalan raya yang dipadati lapak kaki lima, identitas visual yang khas bertindak sebagai mercusuar (*visual beacon*) yang mudah diingat, memancing pengendara untuk menepi, dan mengunci loyalitas kunjungan berulang (*repeat order*).
+
 ---
 
 ## 2. Konsep Bisnis & Tata Ruang Lahan Terbuka (5 × 5 Meter / 25 m²)
@@ -170,11 +176,11 @@ Berdasarkan survei pasar e-commerce perlengkapan kuliner warung:
 
 ## 6. Struktur Kemitraan Mudharabah & Roadmap Ekspansi
 
-- **Pilihan Partisipasi Modal**:
-  - 1 Mitra Tunggal Penuh: Rp 15.000.000
-  - 2 Slot Kemitraan: @ Rp 7.500.000
-  - 3 Slot Kemitraan: @ Rp 5.000.000
-  - 5 Slot Sindikasi: @ Rp 3.000.000
+- **Pilihan Partisipasi Modal (Disusun Vertikal Sejajar pada Lembar Komitmen)**:
+  - `[   ] 1 Slot Sindikasi Ringan (Rp 3.000.000)`
+  - `[   ] 1 Slot Kemitraan Usaha (Rp 5.000.000)`
+  - `[   ] 1 Slot Kemitraan Usaha (Rp 7.500.000)`
+  - `[   ] 1 Mitra Tunggal Penuh (Rp 15.000.000)`
 - **Nisbah Bagi Hasil**: 40% Pemodal (Shahibul Maal) : 60% Pengelola (Mudharib).
 - **Akuntabilitas**: Pencatatan kasir digital POS Cloud, rekonsiliasi kas dan pembagian dividen tanggal 1 setiap bulan.
 - **Roadmap Ekspansi Bertahap**: Setelah 3 bulan berjalan stabil, ekspansi penambahan fasilitas kursi camping TrailTop dan mesin espresso semi-komersial akan dibiayai mandiri dari akumulasi laba ditahan tanpa meminta setoran modal baru dari investor.

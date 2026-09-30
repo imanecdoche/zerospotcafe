@@ -161,19 +161,19 @@ def create_jangkar_kopi_proposal():
         if is_header:
             trPr.append(parse_xml(r'<w:tblHeader %s/>' % nsdecls('w')))
 
-    def add_callout(title, items, border_color="A56341", bg_color="FDF6F0", tab_stop=None, hanging=False):
+    def add_callout(title, items, border_color="A56341", bg_color="FDF6F0", tab_stop=None, hanging=False, space_item_after=2.0):
         tbl = doc.add_table(rows=1, cols=1)
         tbl.alignment = WD_TABLE_ALIGNMENT.CENTER
         cell = tbl.cell(0, 0)
         cell.width = Cm(17.1)
         set_cell_shading(cell, bg_color)
-        set_cell_padding(cell, top=70, bottom=70, left=110, right=110)
+        set_cell_padding(cell, top=65, bottom=65, left=105, right=105)
         set_cell_borders(cell, left={"val": "single", "sz": "24", "color": border_color})
         
         p = cell.paragraphs[0]
         p.alignment = WD_ALIGN_PARAGRAPH.LEFT
         p.paragraph_format.space_before = Pt(0)
-        p.paragraph_format.space_after = Pt(4)
+        p.paragraph_format.space_after = Pt(3.5)
         r_title = p.add_run(title)
         r_title.font.name = 'Arial'
         r_title.font.size = Pt(10)
@@ -183,15 +183,19 @@ def create_jangkar_kopi_proposal():
         for item in items:
             p_item = cell.add_paragraph()
             p_item.alignment = WD_ALIGN_PARAGRAPH.LEFT
-            p_item.paragraph_format.space_before = Pt(1.5)
-            p_item.paragraph_format.space_after = Pt(2.0)
+            p_item.paragraph_format.space_before = Pt(0.5)
+            p_item.paragraph_format.space_after = Pt(space_item_after)
             p_item.paragraph_format.line_spacing = 1.15
             
             if tab_stop:
-                if hanging:
-                    p_item.paragraph_format.left_indent = tab_stop
-                    p_item.paragraph_format.first_line_indent = -tab_stop
-                p_item.paragraph_format.tab_stops.add_tab_stop(tab_stop, WD_TAB_ALIGNMENT.LEFT)
+                if isinstance(tab_stop, (list, tuple)):
+                    for ts in tab_stop:
+                        p_item.paragraph_format.tab_stops.add_tab_stop(ts, WD_TAB_ALIGNMENT.LEFT)
+                else:
+                    if hanging:
+                        p_item.paragraph_format.left_indent = tab_stop
+                        p_item.paragraph_format.first_line_indent = -tab_stop
+                    p_item.paragraph_format.tab_stops.add_tab_stop(tab_stop, WD_TAB_ALIGNMENT.LEFT)
             
             if isinstance(item, tuple):
                 bold_txt, reg_txt = item
@@ -213,7 +217,7 @@ def create_jangkar_kopi_proposal():
                 
         p_space = doc.add_paragraph()
         p_space.paragraph_format.space_before = Pt(0)
-        p_space.paragraph_format.space_after = Pt(2)
+        p_space.paragraph_format.space_after = Pt(1.5)
 
     logo_path = "/media/fatihfarhat/New Volume1/FATIH DATA/ZeroSpot Cafe/Brand Logo and Identity/JANGKAR KOPI - LOGO 2.png"
     logomark_path = "/media/fatihfarhat/New Volume1/FATIH DATA/ZeroSpot Cafe/Brand Logo and Identity/JANGKAR KOPI - LOGOMARK.png"
@@ -261,7 +265,6 @@ def create_jangkar_kopi_proposal():
     r_sub.font.bold = True
     r_sub.font.color.rgb = COLOR_SECONDARY
     
-    # Right cell: Logo mark
     p_img = c_right.paragraphs[0]
     p_img.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     p_img.paragraph_format.space_before = Pt(0)
@@ -343,12 +346,7 @@ def create_jangkar_kopi_proposal():
         bg_color="FDF6F0"
     )
 
-    add_h2("1.3 Sederhana, Cepat Buka & Minim Risiko")
-    add_p(
-        "Dengan menunda pembelian kursi camping dan mesin espresso impor, serta memfokuskan fasilitas duduk pada alas tebal nyaman dan meja lipat portabel, Jangkar Kopi menekan CAPEX awal secara drastis sehingga dapat dieksekusi dalam tempo 10–14 hari kerja. Risiko kerugian ditekan seminimal mungkin, sementara perputaran uang harian langsung aktif sejak hari pertama."
-    )
-
-    add_h2("1.4 Identitas Visual Merek, Palet Warna (#A56341) & Filosofi Logo")
+    add_h2("1.3 Identitas Visual Merek, Palet Warna (#A56341) & Filosofi Logo")
     
     tbl_brand = doc.add_table(rows=1, cols=2)
     tbl_brand.alignment = WD_TABLE_ALIGNMENT.CENTER
@@ -356,8 +354,8 @@ def create_jangkar_kopi_proposal():
     b_right = tbl_brand.cell(0, 1)
     b_left.width = Cm(4.2)
     b_right.width = Cm(12.9)
-    set_cell_padding(b_left, top=30, bottom=30, left=40, right=50)
-    set_cell_padding(b_right, top=30, bottom=30, left=50, right=40)
+    set_cell_padding(b_left, top=24, bottom=24, left=35, right=45)
+    set_cell_padding(b_right, top=24, bottom=24, left=45, right=35)
     set_cell_shading(b_left, "FDF6F0")
     set_cell_shading(b_right, "FDF6F0")
     set_cell_borders(b_left, left={"val": "single", "sz": "20", "color": "A56341"}, top={"val": "single", "sz": "4", "color": "E2D8CE"}, bottom={"val": "single", "sz": "4", "color": "E2D8CE"})
@@ -367,14 +365,14 @@ def create_jangkar_kopi_proposal():
     p_bimg = b_left.paragraphs[0]
     p_bimg.alignment = WD_ALIGN_PARAGRAPH.CENTER
     p_bimg.paragraph_format.space_before = Pt(2)
-    p_bimg.paragraph_format.space_after = Pt(3)
+    p_bimg.paragraph_format.space_after = Pt(2)
     r_bimg = p_bimg.add_run()
-    r_bimg.add_picture(logo_path, width=Cm(3.5))
+    r_bimg.add_picture(logo_path, width=Cm(3.4))
     
     p_bclr = b_left.add_paragraph()
     p_bclr.alignment = WD_ALIGN_PARAGRAPH.CENTER
     p_bclr.paragraph_format.space_before = Pt(0)
-    p_bclr.paragraph_format.space_after = Pt(1)
+    p_bclr.paragraph_format.space_after = Pt(0)
     r_bclr1 = p_bclr.add_run("Warna Primer Merek:\n")
     r_bclr1.font.size = Pt(7.5)
     r_bclr1.font.bold = True
@@ -391,41 +389,49 @@ def create_jangkar_kopi_proposal():
     p_ph1 = b_right.paragraphs[0]
     p_ph1.alignment = WD_ALIGN_PARAGRAPH.LEFT
     p_ph1.paragraph_format.space_before = Pt(0)
-    p_ph1.paragraph_format.space_after = Pt(2.5)
+    p_ph1.paragraph_format.space_after = Pt(2.0)
     p_ph1.paragraph_format.line_spacing = 1.15
     r_ph1_b = p_ph1.add_run("1. Siluet Jangkar & Inisial 'J' (Stabilitas & Safe Harbor): ")
     r_ph1_b.font.size = Pt(8)
     r_ph1_b.font.bold = True
     r_ph1_b.font.color.rgb = COLOR_TERRACOTTA
-    r_ph1_t = p_ph1.add_run("Batang kokoh dan kait jangkar membentuk inisial 'J' yang menancap di tanah. Merepresentasikan stabilitas usaha F&B yang tahan banting, membumi (grounded), serta menjadi pelabuhan teduh melepas lelah.")
+    r_ph1_t = p_ph1.add_run("Batang kokoh dan kait jangkar membentuk inisial 'J' menancap kokoh. Simbol kestabilan usaha F&B yang tahan banting, membumi (grounded), dan menjadi pelabuhan teduh melepas lelah.")
     r_ph1_t.font.size = Pt(8)
     r_ph1_t.font.color.rgb = COLOR_TEXT
 
     p_ph2 = b_right.add_paragraph()
     p_ph2.alignment = WD_ALIGN_PARAGRAPH.LEFT
-    p_ph2.paragraph_format.space_before = Pt(1)
-    p_ph2.paragraph_format.space_after = Pt(2.5)
+    p_ph2.paragraph_format.space_before = Pt(0.5)
+    p_ph2.paragraph_format.space_after = Pt(2.0)
     p_ph2.paragraph_format.line_spacing = 1.15
     r_ph2_b = p_ph2.add_run("2. Lengkung Cangkir & Senyuman (Welcoming Cup & Smile): ")
     r_ph2_b.font.size = Pt(8)
     r_ph2_b.font.bold = True
     r_ph2_b.font.color.rgb = COLOR_TERRACOTTA
-    r_ph2_t = p_ph2.add_run("Lengan bawah jangkar membentuk mangkuk cangkir kopi sekaligus lengkungan senyum ramah. Menyimbolkan keramahtamahan (hospitality), kehangatan interaksi, dan ruang temu santai yang egaliter bagi semua kalangan warga.")
+    r_ph2_t = p_ph2.add_run("Lengan bawah jangkar memadukan mangkuk cangkir kopi dan kurva senyuman ramah. Simbol keramahtamahan (hospitality), kehangatan, dan ruang temu egaliter tanpa sekat sosial.")
     r_ph2_t.font.size = Pt(8)
     r_ph2_t.font.color.rgb = COLOR_TEXT
 
     p_ph3 = b_right.add_paragraph()
     p_ph3.alignment = WD_ALIGN_PARAGRAPH.LEFT
-    p_ph3.paragraph_format.space_before = Pt(1)
+    p_ph3.paragraph_format.space_before = Pt(0.5)
     p_ph3.paragraph_format.space_after = Pt(0)
     p_ph3.paragraph_format.line_spacing = 1.15
     r_ph3_b = p_ph3.add_run("3. Uap Aroma Kopi & Nyala Pelita (Steam Aroma & Beacon Flame): ")
     r_ph3_b.font.size = Pt(8)
     r_ph3_b.font.bold = True
     r_ph3_b.font.color.rgb = COLOR_TERRACOTTA
-    r_ph3_t = p_ph3.add_run("Tiga liukan uap di puncak cangkir memancarkan semerbak seduhan kopi Robusta lokal dan kehangatan bara arang, sekaligus menyimbolkan nyala lentera mercusuar pemandu pelintas malam di koridor jalan.")
+    r_ph3_t = p_ph3.add_run("Tiga liukan uap memancarkan aroma seduhan Robusta lokal lereng Gn. Karang dan bara arang, sekaligus simbol lentera mercusuar pemandu pelintas malam di koridor jalan.")
     r_ph3_t.font.size = Pt(8)
     r_ph3_t.font.color.rgb = COLOR_TEXT
+
+    add_h2("1.4 Urgensi Identitas Merek: Dampak Psikologis bagi Pengunjung", space_before=6, space_after=2)
+    add_p(
+        "Banyak warkop dan angkringan kaki lima beroperasi secara anonim tanpa identitas yang jelas. Bagi psikologi pengunjung dan warga lokal, perbedaan bisnis dengan vs. tanpa identitas merek sangatlah fundamental: (1) Rasa Aman & Kepastian Mutu (Psychological Safety & Trust) — Warung anonim sering dipersepsikan seadanya tanpa kepastian mutu, sedangkan identitas merek memberi sinyal keseriusan profesional, standar higienitas, dan tanggung jawab mutu produk; (2) Rasa Memiliki & Kebanggaan Sosial (Sense of Belonging & Pride) — Pengunjung tidak merasa sekadar 'numpang jajan di pinggir jalan', melainkan bangga menjadi bagian dari ruang temu yang berjiwa dan bernarasi hangat ('Labuhkan Lelah, Seduh Cerita'); (3) Pembeda dari Anonimitas Pasar (Top-of-Mind Recall) — Warna khas Terracotta #A56341 dan logo jangkar menjadi mercusuar visual pemandu di jalur Cikedal - Menes yang membedakannya dari lapak jalanan biasa dan mengunci loyalitas kunjungan berulang (repeat order).",
+        size=Pt(8.5),
+        space_after=2,
+        line_spacing=1.12
+    )
 
     doc.add_page_break()
 
@@ -752,18 +758,23 @@ def create_jangkar_kopi_proposal():
     add_h2("6.3 Lembar Pernyataan Komitmen Kemitraan Investasi")
     add_p("Saya yang bertanda tangan di bawah ini menyatakan persetujuan dan komitmen awal untuk berpartisipasi dalam permodalan usaha Jangkar Kopi & Angkringan:")
 
+    # Vertically stacked options with Dual Tab Stop [Cm(4.8), Cm(5.2)]
     add_callout(
         "FORMULIR DATA MITRA INVESTOR",
         [
-            ("Nama Lengkap Calon Mitra\t: ", "..........................................................................................................."),
-            ("Nomor WhatsApp / Kontak\t: ", "..........................................................................................................."),
-            ("Alamat / Domisili\t: ", "..........................................................................................................."),
-            ("Pilihan Partisipasi Modal\t: ", "[   ] 1 Slot Sindikasi (Rp 3.000.000)      [   ] 1 Slot Kemitraan (Rp 5.000.000)\n                              [   ] 1 Slot Kemitraan (Rp 7.500.000)      [   ] Mitra Tunggal Penuh (Rp 15.000.000)")
+            ("Nama Lengkap Calon Mitra\t:\t", "..........................................................................................................."),
+            ("Nomor WhatsApp / Kontak\t:\t", "..........................................................................................................."),
+            ("Alamat / Domisili\t:\t", "..........................................................................................................."),
+            ("Pilihan Partisipasi Modal\t:\t", "[   ] 1 Slot Sindikasi Ringan (Rp 3.000.000)"),
+            ("\t\t", "[   ] 1 Slot Kemitraan Usaha (Rp 5.000.000)"),
+            ("\t\t", "[   ] 1 Slot Kemitraan Usaha (Rp 7.500.000)"),
+            ("\t\t", "[   ] 1 Mitra Tunggal Penuh (Rp 15.000.000)")
         ],
         border_color="A56341",
         bg_color="FEF3C7",
-        tab_stop=Cm(4.8),
-        hanging=False
+        tab_stop=[Cm(4.8), Cm(5.2)],
+        hanging=False,
+        space_item_after=0.8
     )
 
     tbl_sign = doc.add_table(rows=1, cols=2)
@@ -771,12 +782,12 @@ def create_jangkar_kopi_proposal():
     cell_l, cell_r = tbl_sign.cell(0, 0), tbl_sign.cell(0, 1)
     cell_l.width = Cm(8.5)
     cell_r.width = Cm(8.5)
-    set_cell_padding(cell_l, top=20, bottom=20, left=40, right=40)
-    set_cell_padding(cell_r, top=20, bottom=20, left=40, right=40)
+    set_cell_padding(cell_l, top=16, bottom=16, left=40, right=40)
+    set_cell_padding(cell_r, top=16, bottom=16, left=40, right=40)
 
     p_sl = cell_l.paragraphs[0]
     p_sl.alignment = WD_ALIGN_PARAGRAPH.LEFT
-    p_sl.add_run("Pandeglang, Oktober 2026\nPIHAK PENGELOLA USAHA\nJangkar Kopi & Angkringan\n\n\n\n\n").font.size = Pt(8.5)
+    p_sl.add_run("Pandeglang, Oktober 2026\nPIHAK PENGELOLA USAHA\nJangkar Kopi & Angkringan\n\n\n\n").font.size = Pt(8.5)
     r_sl_name = p_sl.add_run("FATIH FARHAT ASSHIDIQ\n")
     r_sl_name.bold = True
     r_sl_name.font.size = Pt(9)
@@ -784,7 +795,7 @@ def create_jangkar_kopi_proposal():
 
     p_sr = cell_r.paragraphs[0]
     p_sr.alignment = WD_ALIGN_PARAGRAPH.LEFT
-    p_sr.add_run("Disetujui dan Diterima Oleh,\nPIHAK MITRA INVESTOR\nJangkar Kopi & Angkringan\n\n\n\n\n").font.size = Pt(8.5)
+    p_sr.add_run("Disetujui dan Diterima Oleh,\nPIHAK MITRA INVESTOR\nJangkar Kopi & Angkringan\n\n\n\n").font.size = Pt(8.5)
     r_sr_name = p_sr.add_run("( ........................................................... )\n")
     r_sr_name.bold = True
     r_sr_name.font.size = Pt(9)
