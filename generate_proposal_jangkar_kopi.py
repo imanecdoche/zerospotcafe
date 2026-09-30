@@ -25,9 +25,10 @@ def create_jangkar_kopi_proposal():
     section.first_page_header.paragraphs[0].text = ''
     section.first_page_footer.paragraphs[0].text = '' 
     
-    # 2. Executive Nautical & Earthy Color Palette
-    COLOR_PRIMARY = RGBColor(16, 42, 67)     # Deep Ocean Navy #102A43 (Maritime Anchor)
-    COLOR_SECONDARY = RGBColor(180, 83, 9)   # Warm Amber Terracotta #B45309 (Lantern & Fire)
+    # 2. Executive Nautical & Terracotta Color Palette (#A56341 Brand Primary)
+    COLOR_PRIMARY = RGBColor(16, 42, 67)     # Deep Ocean Navy #102A43 (Maritime Anchor & Text)
+    COLOR_TERRACOTTA = RGBColor(165, 99, 65) # Brand Primary Terracotta #A56341 (Coffee Roast)
+    COLOR_SECONDARY = COLOR_TERRACOTTA       # Set secondary to #A56341
     COLOR_TEXT = RGBColor(36, 59, 83)        # Dark Charcoal Slate #243B53
     COLOR_MUTED = RGBColor(98, 125, 152)     # Muted Blue-Gray #627D98
     COLOR_GOLD = RGBColor(197, 137, 23)      # Rich Amber Gold #C58917
@@ -131,7 +132,36 @@ def create_jangkar_kopi_proposal():
         r.font.color.rgb = COLOR_SECONDARY
         return p
 
-    def add_callout(title, items, border_color="102A43", bg_color="F0F4F8", tab_stop=None, hanging=False):
+    def set_cell_shading(cell, color_hex):
+        shd = parse_xml(r'<w:shd %s w:val="clear" w:color="auto" w:fill="%s"/>' % (nsdecls('w'), color_hex))
+        cell._tc.get_or_add_tcPr().append(shd)
+
+    def set_cell_padding(cell, top=60, bottom=60, left=80, right=80):
+        mar = parse_xml(r'<w:tcMar %s><w:top w:w="%d" w:type="dxa"/><w:bottom w:w="%d" w:type="dxa"/><w:left w:w="%d" w:type="dxa"/><w:right w:w="%d" w:type="dxa"/></w:tcMar>' % (nsdecls('w'), top, bottom, left, right))
+        cell._tc.get_or_add_tcPr().append(mar)
+
+    def set_cell_borders(cell, **kwargs):
+        tcPr = cell._tc.get_or_add_tcPr()
+        tcBorders = parse_xml(r'<w:tcBorders %s/>' % nsdecls('w'))
+        for edge in ('top', 'left', 'bottom', 'right'):
+            edge_data = kwargs.get(edge)
+            if edge_data:
+                tag = r'<w:%s %s w:val="%s" w:sz="%s" w:space="0" w:color="%s"/>' % (
+                    edge, nsdecls('w'), edge_data.get('val', 'single'),
+                    edge_data.get('sz', '4'), edge_data.get('color', 'auto')
+                )
+            else:
+                tag = r'<w:%s %s w:val="none"/>' % (edge, nsdecls('w'))
+            tcBorders.append(parse_xml(tag))
+        tcPr.append(tcBorders)
+
+    def set_row_props(row, is_header=False):
+        trPr = row._tr.get_or_add_trPr()
+        trPr.append(parse_xml(r'<w:cantSplit %s/>' % nsdecls('w')))
+        if is_header:
+            trPr.append(parse_xml(r'<w:tblHeader %s/>' % nsdecls('w')))
+
+    def add_callout(title, items, border_color="A56341", bg_color="FDF6F0", tab_stop=None, hanging=False):
         tbl = doc.add_table(rows=1, cols=1)
         tbl.alignment = WD_TABLE_ALIGNMENT.CENTER
         cell = tbl.cell(0, 0)
@@ -185,72 +215,63 @@ def create_jangkar_kopi_proposal():
         p_space.paragraph_format.space_before = Pt(0)
         p_space.paragraph_format.space_after = Pt(2)
 
-    def set_cell_shading(cell, color_hex):
-        shd = parse_xml(r'<w:shd %s w:val="clear" w:color="auto" w:fill="%s"/>' % (nsdecls('w'), color_hex))
-        cell._tc.get_or_add_tcPr().append(shd)
-
-    def set_cell_padding(cell, top=60, bottom=60, left=80, right=80):
-        mar = parse_xml(r'<w:tcMar %s><w:top w:w="%d" w:type="dxa"/><w:bottom w:w="%d" w:type="dxa"/><w:left w:w="%d" w:type="dxa"/><w:right w:w="%d" w:type="dxa"/></w:tcMar>' % (nsdecls('w'), top, bottom, left, right))
-        cell._tc.get_or_add_tcPr().append(mar)
-
-    def set_cell_borders(cell, **kwargs):
-        tcPr = cell._tc.get_or_add_tcPr()
-        tcBorders = parse_xml(r'<w:tcBorders %s/>' % nsdecls('w'))
-        for edge in ('top', 'left', 'bottom', 'right'):
-            edge_data = kwargs.get(edge)
-            if edge_data:
-                tag = r'<w:%s %s w:val="%s" w:sz="%s" w:space="0" w:color="%s"/>' % (
-                    edge, nsdecls('w'), edge_data.get('val', 'single'),
-                    edge_data.get('sz', '4'), edge_data.get('color', 'auto')
-                )
-            else:
-                tag = r'<w:%s %s w:val="none"/>' % (edge, nsdecls('w'))
-            tcBorders.append(parse_xml(tag))
-        tcPr.append(tcBorders)
-
-    def set_row_props(row, is_header=False):
-        trPr = row._tr.get_or_add_trPr()
-        trPr.append(parse_xml(r'<w:cantSplit %s/>' % nsdecls('w')))
-        if is_header:
-            trPr.append(parse_xml(r'<w:tblHeader %s/>' % nsdecls('w')))
+    logo_path = "/media/fatihfarhat/New Volume1/FATIH DATA/ZeroSpot Cafe/Brand Logo and Identity/JANGKAR KOPI - LOGO 2.png"
+    logomark_path = "/media/fatihfarhat/New Volume1/FATIH DATA/ZeroSpot Cafe/Brand Logo and Identity/JANGKAR KOPI - LOGOMARK.png"
 
     # ==================== PAGE 1: COVER PAGE ====================
-    p_inst = doc.add_paragraph()
-    p_inst.paragraph_format.space_before = Pt(8)
+    tbl_hdr = doc.add_table(rows=1, cols=2)
+    tbl_hdr.alignment = WD_TABLE_ALIGNMENT.CENTER
+    c_left = tbl_hdr.cell(0, 0)
+    c_right = tbl_hdr.cell(0, 1)
+    c_left.width = Cm(13.4)
+    c_right.width = Cm(3.7)
+    set_cell_padding(c_left, top=0, bottom=0, left=0, right=10)
+    set_cell_padding(c_right, top=0, bottom=0, left=10, right=0)
+    
+    p_inst = c_left.paragraphs[0]
+    p_inst.paragraph_format.space_before = Pt(0)
     p_inst.paragraph_format.space_after = Pt(2)
     r_inst = p_inst.add_run("PENAWARAN INVESTASI & KEMITRAAN USAHA MIKRO BERBASIS LEAN STARTUP")
     r_inst.font.name = 'Arial'
-    r_inst.font.size = Pt(9.5)
+    r_inst.font.size = Pt(8.5)
     r_inst.font.bold = True
     r_inst.font.color.rgb = COLOR_SECONDARY
     
-    p_line = doc.add_paragraph()
-    p_line.paragraph_format.space_before = Pt(0)
-    p_line.paragraph_format.space_after = Pt(14)
-    r_l = p_line.add_run("—" * 52)
+    p_l = c_left.add_paragraph()
+    p_l.paragraph_format.space_before = Pt(0)
+    p_l.paragraph_format.space_after = Pt(8)
+    r_l = p_l.add_run("—" * 40)
     r_l.font.color.rgb = COLOR_PRIMARY
     
-    p_title = doc.add_paragraph()
-    p_title.paragraph_format.space_before = Pt(6)
-    p_title.paragraph_format.space_after = Pt(4)
+    p_title = c_left.add_paragraph()
+    p_title.paragraph_format.space_before = Pt(2)
+    p_title.paragraph_format.space_after = Pt(2)
     r_title = p_title.add_run("JANGKAR KOPI")
     r_title.font.name = 'Arial'
-    r_title.font.size = Pt(32)
+    r_title.font.size = Pt(28)
     r_title.font.bold = True
     r_title.font.color.rgb = COLOR_PRIMARY
     
-    p_sub = doc.add_paragraph()
+    p_sub = c_left.add_paragraph()
     p_sub.paragraph_format.space_before = Pt(0)
-    p_sub.paragraph_format.space_after = Pt(6)
+    p_sub.paragraph_format.space_after = Pt(4)
     r_sub = p_sub.add_run("& ARTISAN ANGKRINGAN RAKYAT")
     r_sub.font.name = 'Arial'
-    r_sub.font.size = Pt(17)
+    r_sub.font.size = Pt(15)
     r_sub.font.bold = True
     r_sub.font.color.rgb = COLOR_SECONDARY
     
+    # Right cell: Logo mark
+    p_img = c_right.paragraphs[0]
+    p_img.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+    p_img.paragraph_format.space_before = Pt(0)
+    p_img.paragraph_format.space_after = Pt(0)
+    r_img = p_img.add_run()
+    r_img.add_picture(logomark_path, width=Cm(3.2))
+
     p_tag = doc.add_paragraph()
-    p_tag.paragraph_format.space_before = Pt(2)
-    p_tag.paragraph_format.space_after = Pt(16)
+    p_tag.paragraph_format.space_before = Pt(4)
+    p_tag.paragraph_format.space_after = Pt(14)
     r_tag = p_tag.add_run("Tagline: \"Labuhkan Lelah, Seduh Cerita\"")
     r_tag.font.name = 'Arial'
     r_tag.font.size = Pt(11)
@@ -278,14 +299,14 @@ def create_jangkar_kopi_proposal():
             ("• Lokasi Basis Operasional\t: ", "Lahan Terbuka Strategis Koridor Cikedal - Menes, Kabupaten Pandeglang, Banten."),
             ("• Inisiator & Penanggung Jawab\t: ", "Fatih Farhat Asshidiq (Founder & Managing Director).")
         ],
-        border_color="102A43",
-        bg_color="F0F4F8",
+        border_color="A56341",
+        bg_color="FDF6F0",
         tab_stop=Cm(5.4),
         hanging=True
     )
 
     p_meta = doc.add_paragraph()
-    p_meta.paragraph_format.space_before = Pt(16)
+    p_meta.paragraph_format.space_before = Pt(14)
     p_meta.paragraph_format.space_after = Pt(0)
     p_meta.alignment = WD_ALIGN_PARAGRAPH.RIGHT
     r_meta1 = p_meta.add_run("Dokumen Resmi Penawaran Kemitraan  •  Edisi Lean Startup  •  Oktober 2026\n")
@@ -309,27 +330,102 @@ def create_jangkar_kopi_proposal():
         "Daya beli riil masyarakat di koridor Cikedal dan Menes terbukti sangat kuat pada rentang harga merakyat. Konsumen lokal terbiasa membelanjakan Rp 10.000 hingga Rp 20.000 per sesi nongkrong saat jajan aneka sate arang (Rp 2.500–Rp 3.500), nasi kucing, dan kopi hangat (Rp 3.000). Faktor penentu keberhasilan utama bukanlah kemewahan alat, melainkan suasana tempat yang merakyat, ramah, dan harga bersahabat yang tidak menimbulkan rasa segan (kagok/takut mahal). Oleh karena itu, Jangkar Kopi dirancang bersahaja, bersih, dan berakar pada kenyamanan warga lokal."
     )
     
-    add_h2("1.2 Filosofi Mendalam \"Jangkar Kopi\" — Nama adalah Doa dan Harapan")
-    add_p(
-        "Nama \"Jangkar Kopi\" dipilih bukan dari istilah asing yang mengada-ada, melainkan berakar pada filosofi kehidupan, kearifan lokal, dan kedekatan geografis wilayah Pandeglang barat:"
-    )
-
+    add_h2("1.2 Filosofi Nama Merek \"Jangkar Kopi\" — Doa dan Harapan")
     add_callout(
         "EMPAT PILAR FILOSOFI DAN DOA DI BALIK NAMA JANGKAR KOPI",
         [
-            ("1. Tempat Berlabuh & Melepas Lelah (The Safe Harbor): ", "Fungsi utama jangkar adalah diturunkan saat perahu tiba di dermaga yang tenang. Setiap hari warga bekerja keras mengarungi ombak kehidupan; Jangkar Kopi hadir sebagai tempat mereka berlabuh, menghela napas, dan melepas penat di malam hari."),
-            ("2. Kaitan Geografis Jalur Maritim Banten Barat: ", "Cikedal dan Menes adalah gerbang pelintas menuju kawasan pesisir Labuan, Carita, dan Tanjung Lesung. Jangkar sangat lekat dengan ketangguhan masyarakat maritim Banten yang bersahaja dan pekerja keras."),
-            ("3. Keteguhan yang Menancap Membumi (Grounded): ", "Jangkar tidak pernah melayang di langit; jangkar menancap kuat di bumi. Ini adalah doa agar usaha ini selalu membumi, tidak sombong, berakar pada realitas rakyat, dan tahan banting menghadapi ujian usaha."),
-            ("4. Pengikat Tali Silaturahmi: ", "Jangkar menahan perahu agar tidak hanyut terseret arus. Usaha ini diniatkan menjadi pengikat tali persaudaraan antarwarga, pemuda, santri, dan tetangga agar tetap rukun dan guyub.")
+            ("1. Tempat Berlabuh & Melepas Lelah (The Safe Harbor): ", "Fungsi utama jangkar adalah diturunkan saat perahu tiba di dermaga yang tenang. Jangkar Kopi hadir sebagai tempat warga berlabuh, menghela napas, dan melepas penat setelah seharian bekerja."),
+            ("2. Kaitan Geografis Jalur Maritim Banten Barat: ", "Cikedal dan Menes adalah gerbang pelintas menuju pesisir Labuan, Carita, dan Tanjung Lesung. Jangkar sangat lekat dengan ketangguhan masyarakat maritim Banten yang bersahaja dan pekerja keras."),
+            ("3. Keteguhan yang Menancap Membumi (Grounded): ", "Jangkar menancap kuat di bumi. Ini adalah doa agar usaha selalu membumi, tidak congkak, berakar pada realitas rakyat, dan tahan banting menghadapi ujian usaha."),
+            ("4. Pengikat Tali Silaturahmi: ", "Jangkar menahan perahu agar tidak hanyut; usaha ini diniatkan menjadi pengikat tali persaudaraan antarwarga, pemuda, santri, dan tetangga agar tetap guyub rukun.")
         ],
-        border_color="B45309",
-        bg_color="FEF3C7"
+        border_color="A56341",
+        bg_color="FDF6F0"
     )
 
     add_h2("1.3 Sederhana, Cepat Buka & Minim Risiko")
     add_p(
-        "Dengan menunda pembelian set kursi camping dan mesin espresso impor, serta memfokuskan fasilitas duduk pada alas tebal yang nyaman (karpet busa empuk waterproof) dan meja lipat kecil portabel, Jangkar Kopi menekan belanja modal awal secara drastis sehingga dapat dieksekusi dalam tempo 10–14 hari kerja. Risiko kerugian ditekan seminimal mungkin, sementara perputaran uang harian langsung aktif sejak hari pertama."
+        "Dengan menunda pembelian kursi camping dan mesin espresso impor, serta memfokuskan fasilitas duduk pada alas tebal nyaman dan meja lipat portabel, Jangkar Kopi menekan CAPEX awal secara drastis sehingga dapat dieksekusi dalam tempo 10–14 hari kerja. Risiko kerugian ditekan seminimal mungkin, sementara perputaran uang harian langsung aktif sejak hari pertama."
     )
+
+    add_h2("1.4 Identitas Visual Merek, Palet Warna (#A56341) & Filosofi Logo")
+    
+    tbl_brand = doc.add_table(rows=1, cols=2)
+    tbl_brand.alignment = WD_TABLE_ALIGNMENT.CENTER
+    b_left = tbl_brand.cell(0, 0)
+    b_right = tbl_brand.cell(0, 1)
+    b_left.width = Cm(4.2)
+    b_right.width = Cm(12.9)
+    set_cell_padding(b_left, top=30, bottom=30, left=40, right=50)
+    set_cell_padding(b_right, top=30, bottom=30, left=50, right=40)
+    set_cell_shading(b_left, "FDF6F0")
+    set_cell_shading(b_right, "FDF6F0")
+    set_cell_borders(b_left, left={"val": "single", "sz": "20", "color": "A56341"}, top={"val": "single", "sz": "4", "color": "E2D8CE"}, bottom={"val": "single", "sz": "4", "color": "E2D8CE"})
+    set_cell_borders(b_right, right={"val": "single", "sz": "4", "color": "E2D8CE"}, top={"val": "single", "sz": "4", "color": "E2D8CE"}, bottom={"val": "single", "sz": "4", "color": "E2D8CE"})
+
+    # Left cell: Image and primary color info
+    p_bimg = b_left.paragraphs[0]
+    p_bimg.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p_bimg.paragraph_format.space_before = Pt(2)
+    p_bimg.paragraph_format.space_after = Pt(3)
+    r_bimg = p_bimg.add_run()
+    r_bimg.add_picture(logo_path, width=Cm(3.5))
+    
+    p_bclr = b_left.add_paragraph()
+    p_bclr.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p_bclr.paragraph_format.space_before = Pt(0)
+    p_bclr.paragraph_format.space_after = Pt(1)
+    r_bclr1 = p_bclr.add_run("Warna Primer Merek:\n")
+    r_bclr1.font.size = Pt(7.5)
+    r_bclr1.font.bold = True
+    r_bclr1.font.color.rgb = COLOR_PRIMARY
+    r_bclr2 = p_bclr.add_run("Terracotta Coffee Roast\n")
+    r_bclr2.font.size = Pt(8)
+    r_bclr2.font.bold = True
+    r_bclr2.font.color.rgb = COLOR_TERRACOTTA
+    r_bclr3 = p_bclr.add_run("#A56341 | RGB (165,99,65)")
+    r_bclr3.font.size = Pt(7)
+    r_bclr3.font.color.rgb = COLOR_MUTED
+
+    # Right cell: 3 logo philosophy points
+    p_ph1 = b_right.paragraphs[0]
+    p_ph1.alignment = WD_ALIGN_PARAGRAPH.LEFT
+    p_ph1.paragraph_format.space_before = Pt(0)
+    p_ph1.paragraph_format.space_after = Pt(2.5)
+    p_ph1.paragraph_format.line_spacing = 1.15
+    r_ph1_b = p_ph1.add_run("1. Siluet Jangkar & Inisial 'J' (Stabilitas & Safe Harbor): ")
+    r_ph1_b.font.size = Pt(8)
+    r_ph1_b.font.bold = True
+    r_ph1_b.font.color.rgb = COLOR_TERRACOTTA
+    r_ph1_t = p_ph1.add_run("Batang kokoh dan kait jangkar membentuk inisial 'J' yang menancap di tanah. Merepresentasikan stabilitas usaha F&B yang tahan banting, membumi (grounded), serta menjadi pelabuhan teduh melepas lelah.")
+    r_ph1_t.font.size = Pt(8)
+    r_ph1_t.font.color.rgb = COLOR_TEXT
+
+    p_ph2 = b_right.add_paragraph()
+    p_ph2.alignment = WD_ALIGN_PARAGRAPH.LEFT
+    p_ph2.paragraph_format.space_before = Pt(1)
+    p_ph2.paragraph_format.space_after = Pt(2.5)
+    p_ph2.paragraph_format.line_spacing = 1.15
+    r_ph2_b = p_ph2.add_run("2. Lengkung Cangkir & Senyuman (Welcoming Cup & Smile): ")
+    r_ph2_b.font.size = Pt(8)
+    r_ph2_b.font.bold = True
+    r_ph2_b.font.color.rgb = COLOR_TERRACOTTA
+    r_ph2_t = p_ph2.add_run("Lengan bawah jangkar membentuk mangkuk cangkir kopi sekaligus lengkungan senyum ramah. Menyimbolkan keramahtamahan (hospitality), kehangatan interaksi, dan ruang temu santai yang egaliter bagi semua kalangan warga.")
+    r_ph2_t.font.size = Pt(8)
+    r_ph2_t.font.color.rgb = COLOR_TEXT
+
+    p_ph3 = b_right.add_paragraph()
+    p_ph3.alignment = WD_ALIGN_PARAGRAPH.LEFT
+    p_ph3.paragraph_format.space_before = Pt(1)
+    p_ph3.paragraph_format.space_after = Pt(0)
+    p_ph3.paragraph_format.line_spacing = 1.15
+    r_ph3_b = p_ph3.add_run("3. Uap Aroma Kopi & Nyala Pelita (Steam Aroma & Beacon Flame): ")
+    r_ph3_b.font.size = Pt(8)
+    r_ph3_b.font.bold = True
+    r_ph3_b.font.color.rgb = COLOR_TERRACOTTA
+    r_ph3_t = p_ph3.add_run("Tiga liukan uap di puncak cangkir memancarkan semerbak seduhan kopi Robusta lokal dan kehangatan bara arang, sekaligus menyimbolkan nyala lentera mercusuar pemandu pelintas malam di koridor jalan.")
+    r_ph3_t.font.size = Pt(8)
+    r_ph3_t.font.color.rgb = COLOR_TEXT
 
     doc.add_page_break()
 
@@ -357,8 +453,8 @@ def create_jangkar_kopi_proposal():
             ("• Perlindungan Cuaca (Tenda 2×6m Milik Sendiri + Atap Terpal Baru): ", "Memanfaatkan aset rangka tenda 2×6 meter milik pribadi inisiator yang dilengkapi atap kain terpal tebal waterproof (A12 heavy duty) baru untuk memproteksi area lesehan dan dapur dari embun malam serta gerimis hujan tanpa perlu biaya beli rangka baru."),
             ("• Zonasi Parkir & Akses Bersih: ", "Area depan pinggir jalan dimanfaatkan untuk parkir 8–10 sepeda motor, serta dilengkapi tempat cuci tangan (wastafel portabel injak) dan tempat sampah tertutup.")
         ],
-        border_color="102A43",
-        bg_color="F0F4F8"
+        border_color="A56341",
+        bg_color="FDF6F0"
     )
 
     add_h2("2.3 Menu Makanan Awal: Aneka Sate Frozen Food Bakar Arang & Kudapan")
@@ -407,8 +503,8 @@ def create_jangkar_kopi_proposal():
             ("3. Pekerja Malam, Guru, Pedagang & Petugas Ronda (20%): ", "Masyarakat yang mencari santapan malam mengenyangkan berharga murah (nasi bakar daun pisang, gorengan mendoan hangat, wedang jahe susu penambah stamina)."),
             ("4. Pelintas Jalur Wisata & Logistik Pantai Barat (15%): ", "Pengendara mobil dan motor rute Pandeglang-Labuan-Carita yang memerlukan tempat istirahat (rest point) sejenak yang aman dan bersih di pinggir jalan raya.")
         ],
-        border_color="B45309",
-        bg_color="FEF3C7"
+        border_color="A56341",
+        bg_color="FDF6F0"
     )
 
     add_h2("3.2 Keunggulan Kompetitif Dibanding Warkop Konvensional")
@@ -473,14 +569,14 @@ def create_jangkar_kopi_proposal():
     set_row_props(tbl_capex.rows[0], is_header=True)
 
     for i, row in enumerate(capex_data):
-        bg = "F0F4F8" if i % 2 == 0 else "FFFFFF"
+        bg = "FDF6F0" if i % 2 == 0 else "FFFFFF"
         set_row_props(tbl_capex.rows[i + 1])
         for j, val in enumerate(row):
             c = tbl_capex.cell(i + 1, j)
             c.width = c_widths[j]
             set_cell_shading(c, bg)
             set_cell_padding(c, top=32, bottom=32, left=60, right=60)
-            set_cell_borders(c, bottom={"val": "single", "sz": "4", "color": "D9E2EC"})
+            set_cell_borders(c, bottom={"val": "single", "sz": "4", "color": "E2D8CE"})
             p = c.paragraphs[0]
             p.alignment = WD_ALIGN_PARAGRAPH.CENTER if j == 2 else (WD_ALIGN_PARAGRAPH.RIGHT if j == 3 else WD_ALIGN_PARAGRAPH.LEFT)
             r = p.add_run(val)
@@ -501,7 +597,7 @@ def create_jangkar_kopi_proposal():
         c.width = w
         set_cell_shading(c, "FEF3C7")
         set_cell_padding(c, top=60, bottom=60, left=80, right=80)
-        set_cell_borders(c, top={"val": "single", "sz": "12", "color": "102A43"}, bottom={"val": "single", "sz": "12", "color": "102A43"})
+        set_cell_borders(c, top={"val": "single", "sz": "12", "color": "A56341"}, bottom={"val": "single", "sz": "12", "color": "A56341"})
 
     p_tot1 = c_tot_label.paragraphs[0]
     p_tot1.alignment = WD_ALIGN_PARAGRAPH.LEFT
@@ -564,14 +660,14 @@ def create_jangkar_kopi_proposal():
     set_row_props(tbl_hpp.rows[0], is_header=True)
 
     for i, row in enumerate(hpp_data):
-        bg = "F0F4F8" if i % 2 == 0 else "FFFFFF"
+        bg = "FDF6F0" if i % 2 == 0 else "FFFFFF"
         set_row_props(tbl_hpp.rows[i + 1])
         for j, val in enumerate(row):
             c = tbl_hpp.cell(i + 1, j)
             c.width = h_widths[j]
             set_cell_shading(c, bg)
             set_cell_padding(c, top=16, bottom=16, left=45, right=45)
-            set_cell_borders(c, bottom={"val": "single", "sz": "4", "color": "D9E2EC"})
+            set_cell_borders(c, bottom={"val": "single", "sz": "4", "color": "E2D8CE"})
             p = c.paragraphs[0]
             p.alignment = WD_ALIGN_PARAGRAPH.CENTER if j in (2, 3) else (WD_ALIGN_PARAGRAPH.RIGHT if j == 4 else WD_ALIGN_PARAGRAPH.LEFT)
             r = p.add_run(val)
@@ -609,7 +705,7 @@ def create_jangkar_kopi_proposal():
         is_hdr = (i == 0)
         is_bep = (i == len(fin_scenarios) - 1)
         is_div = (i == len(fin_scenarios) - 3)
-        bg = "102A43" if is_hdr else ("FEF3C7" if (is_bep or is_div) else ("F0F4F8" if i % 2 == 1 else "FFFFFF"))
+        bg = "102A43" if is_hdr else ("FEF3C7" if (is_bep or is_div) else ("FDF6F0" if i % 2 == 1 else "FFFFFF"))
         set_row_props(tbl_fin.rows[i], is_header=is_hdr)
         for j, val in enumerate(row):
             c = tbl_fin.cell(i, j)
@@ -617,7 +713,7 @@ def create_jangkar_kopi_proposal():
             set_cell_shading(c, bg)
             set_cell_padding(c, top=18 if not is_hdr else 32, bottom=18 if not is_hdr else 32, left=50, right=50)
             if not is_hdr:
-                set_cell_borders(c, bottom={"val": "single", "sz": "4", "color": "D9E2EC"})
+                set_cell_borders(c, bottom={"val": "single", "sz": "4", "color": "E2D8CE"})
             p = c.paragraphs[0]
             p.alignment = WD_ALIGN_PARAGRAPH.LEFT if j == 0 else WD_ALIGN_PARAGRAPH.RIGHT
             r = p.add_run(val)
@@ -644,8 +740,8 @@ def create_jangkar_kopi_proposal():
             ("• Transparansi Kasir Digital: ", "Setiap transaksi dicatat real-time melalui aplikasi POS Cloud di ponsel. Laporan keuangan bulanan dan rekonsiliasi kas dibagikan resmi pada tanggal 1 setiap bulannya."),
             ("• Roadmap Ekspansi Bertahap: ", "Fasilitas kursi lipat camping dan mesin espresso komersial sengaja ditunda di awal. Pengadaan fasilitas lanjutan tersebut akan didanai mandiri dari laba ditahan operasional setelah 3 bulan berjalan stabil, tanpa membebani modal awal investor.")
         ],
-        border_color="102A43",
-        bg_color="F0F4F8"
+        border_color="A56341",
+        bg_color="FDF6F0"
     )
 
     add_h2("6.2 Kesimpulan Eksekutif")
@@ -664,7 +760,7 @@ def create_jangkar_kopi_proposal():
             ("Alamat / Domisili\t: ", "..........................................................................................................."),
             ("Pilihan Partisipasi Modal\t: ", "[   ] 1 Slot Sindikasi (Rp 3.000.000)      [   ] 1 Slot Kemitraan (Rp 5.000.000)\n                              [   ] 1 Slot Kemitraan (Rp 7.500.000)      [   ] Mitra Tunggal Penuh (Rp 15.000.000)")
         ],
-        border_color="B45309",
+        border_color="A56341",
         bg_color="FEF3C7",
         tab_stop=Cm(4.8),
         hanging=False

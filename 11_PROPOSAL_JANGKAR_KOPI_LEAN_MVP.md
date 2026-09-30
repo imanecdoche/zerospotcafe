@@ -3,26 +3,46 @@
 
 **Merek Resmi**: Jangkar Kopi / Jangkar Kopi & Angkringan  
 **Tagline**: *"Labuhkan Lelah, Seduh Cerita"*  
+**Warna Primer Identitas**: `#A56341` (Terracotta Coffee Roast)  
 **Inisiator & Pengelola**: Fatih Farhat Asshidiq (Founder & Managing Director)  
 **Alokasi Sewa Lahan Sementara**: Rp 6.000.000 / tahun (Lahan Terbuka ~5x5 Meter Koridor Cikedal - Menes)  
 **Total Permodalan Awal (Lean MVP)**: Rp 15.000.000 (Lima Belas Juta Rupiah)  
-**Target Pengembalian Modal (BEP)**: 6,25 Bulan (~6 Bulan pada Skenario Moderat; 3,8 Bulan Skenario Agresif)  
+**Target Pengembalian Modal (BEP)**: 7,5 Bulan pada Skenario Moderat (4,7 Bulan Skenario Agresif)  
 **Lokasi Basis**: Koridor Jalan Raya Cikedal - Menes, Kabupaten Pandeglang, Banten  
 
 ---
 
-## 1. Latar Belakang & Filosofi Merek ("Nama adalah Doa dan Harapan")
+## 1. Latar Belakang, Prinsip Lean Startup & Filosofi Merek
 
 ### 1.1 Mengapa Menerapkan Pendekatan Lean Startup?
 Berdasarkan arahan dan evaluasi objektif bersama calon mitra investor strategis dan dewan penasihat, langkah paling bijak untuk merintis usaha kuliner di pedesaan Pandeglang adalah memulai dari skala yang terjangkau (*Lean MVP*), meminimalkan risiko kerugian, dan memvalidasi penerimaan pasar secara langsung tanpa beban utang atau biaya modal besar di awal.
 
-Daya beli riil masyarakat pedesaan Cikedal - Menes terbukti kuat (rata-rata belanja Rp 15.000 – Rp 25.000 per orang saat jajan malam). Namun, kunci utamanya adalah **suasana yang membumi, merakyat, dan tidak mengintimidasi (*tidak kagok*)**.
+Daya beli riil masyarakat pedesaan Cikedal - Menes terbukti kuat (rata-rata belanja Rp 10.000 – Rp 20.000 per orang saat jajan malam). Namun, kunci utamanya adalah **suasana yang membumi, merakyat, dan tidak mengintimidasi (*tidak kagok*)**.
 
-### 1.2 Filosofi Mendalam "Jangkar Kopi"
+### 1.2 Filosofi Mendalam Nama "Jangkar Kopi" — Doa dan Harapan
 1. **Tempat Berlabuh & Melepas Lelah (*The Safe Harbor*)**: Seperti kapal yang menurunkan jangkar di dermaga yang tenang setelah seharian menerjang ombak, Jangkar Kopi adalah tempat warga dan pelintas jalan berlabuh, melepas lelah, dan menikmati secangkir kopi hangat di malam hari.
 2. **Kaitan Geografis Jalur Maritim Banten Barat**: Cikedal dan Menes merupakan koridor penghubung utama menuju pesisir Labuan, Carita, dan Tanjung Lesung. Jangkar sangat akrab dengan karakter masyarakat Banten yang tangguh dan pekerja keras.
 3. **Keteguhan yang Menancap Membumi (*Grounded*)**: Jangkar selalu menancap kokoh di dasar bumi, melambangkan usaha yang membumi, tidak congkak, dan kokoh tahan banting menghadapi pasang-surut usaha.
 4. **Pengikat Silaturahmi**: Menahan kapal agar tidak hanyut; mengikat tali persaudaraan antarwarga, pemuda desa, dan santri agar tetap guyub rukun.
+
+### 1.3 Sederhana, Cepat Buka & Minim Risiko
+Dengan menunda pembelian set kursi camping dan mesin espresso impor, serta memfokuskan fasilitas duduk pada alas tebal yang nyaman (karpet busa empuk waterproof) dan meja lipat kecil portabel, Jangkar Kopi menekan belanja modal awal secara drastis sehingga dapat dieksekusi dalam tempo 10–14 hari kerja. Risiko kerugian ditekan seminimal mungkin, sementara perputaran uang harian langsung aktif sejak hari pertama.
+
+### 1.4 Identitas Visual Merek, Palet Warna (#A56341) & Filosofi Logo
+Aset identitas visual resmi tersimpan di folder [`Brand Logo and Identity/`](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/ZeroSpot%20Cafe/Brand%20Logo%20and%20Identity):
+- `JANGKAR KOPI - LOGO 2.png`: Logo lengkap warna primer di atas latar transparan.
+- `JANGKAR KOPI - LOGO.png`: Badge logo solid latar Terracotta dengan ornamen cream.
+- `JANGKAR KOPI - LOGOMARK.png`: Logomark simbolis jangkar, cangkir, dan uap aroma kopi.
+- `JANGKAR KOPI - LOGOTYPE.png`: Logotype teks "JANGKAR KOPI" bertracking elegan.
+
+**Palet Warna Identitas Merek**:
+- **Warna Primer**: **Terracotta Coffee Roast (`#A56341` / RGB: 165, 99, 65)** — Melambangkan kehangatan seduhan kopi lokal, tanah tempat berpijak yang membumi (*grounded*), bata panggangan arang tradisional, serta atmosfer angkringan rakyat yang bersahaja dan ramah.
+- **Warna Pendamping**: Warm Cream (`#F1EAD8` / RGB: 241, 234, 216) dan Deep Ocean Navy (`#102A43` / RGB: 16, 42, 67).
+
+**Tiga Elemen Filosofi Desain Logo**:
+1. **Siluet Jangkar & Huruf 'J' (*The Anchor & Initial 'J'*)**: Batang kokoh dan kait flukes jangkar membentuk inisial 'J' yang menancap mantap di tanah. Merepresentasikan stabilitas usaha F&B yang tahan banting, membumi (*grounded*), serta menjadi pelabuhan aman (*the safe harbor*) bagi masyarakat untuk melepas lelah setelah seharian beraktivitas.
+2. **Lengkung Cangkir & Senyuman (*Welcoming Cup & Smile*)**: Lengkung bawah jangkar memadukan mangkuk cangkir kopi dan kurva senyuman ramah (*welcoming smile*), melambangkan keramahtamahan (*hospitality*), kehangatan interaksi, dan suasana egaliter tanpa sekat sosial.
+3. **Uap Aroma Kopi & Nyala Pelita (*Steam Aroma & Beacon Flame*)**: Tiga liukan uap di puncak cangkir melambangkan aroma semerbak seduhan kopi Robusta lokal lereng Gunung Karang dan kehangatan bara arang, sekaligus menyimbolkan nyala lentera mercusuar pemandu bagi pelintas malam di koridor Cikedal - Menes.
 
 ---
 
