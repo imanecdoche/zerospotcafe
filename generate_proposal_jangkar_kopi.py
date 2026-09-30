@@ -3,7 +3,7 @@ import sys
 import subprocess
 import docx
 from docx.shared import Cm, Pt, RGBColor
-from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_TAB_ALIGNMENT
 from docx.enum.table import WD_TABLE_ALIGNMENT
 from docx.oxml import parse_xml
 from docx.oxml.ns import nsdecls
@@ -131,7 +131,7 @@ def create_jangkar_kopi_proposal():
         r.font.color.rgb = COLOR_SECONDARY
         return p
 
-    def add_callout(title, items, border_color="102A43", bg_color="F0F4F8"):
+    def add_callout(title, items, border_color="102A43", bg_color="F0F4F8", tab_stop=None, hanging=False):
         tbl = doc.add_table(rows=1, cols=1)
         tbl.alignment = WD_TABLE_ALIGNMENT.CENTER
         cell = tbl.cell(0, 0)
@@ -156,6 +156,12 @@ def create_jangkar_kopi_proposal():
             p_item.paragraph_format.space_before = Pt(1.5)
             p_item.paragraph_format.space_after = Pt(2.0)
             p_item.paragraph_format.line_spacing = 1.15
+            
+            if tab_stop:
+                if hanging:
+                    p_item.paragraph_format.left_indent = tab_stop
+                    p_item.paragraph_format.first_line_indent = -tab_stop
+                p_item.paragraph_format.tab_stops.add_tab_stop(tab_stop, WD_TAB_ALIGNMENT.LEFT)
             
             if isinstance(item, tuple):
                 bold_txt, reg_txt = item
@@ -262,18 +268,20 @@ def create_jangkar_kopi_proposal():
     add_callout(
         "RINGKASAN EKSEKUTIF PROYEK INVESTASI (LEAN MVP MODEL)",
         [
-            ("• Nilai Total Permodalan Awal : ", "Rp 15.000.000 (Lima Belas Juta Rupiah) — Seimbang, Kokoh & Terukur."),
-            ("• Opsi Partisipasi Mitra       : ", "1 Mitra Penuh (Rp 15 Jt)  |  2 Slot (@ Rp 7,5 Jt)  |  3 Slot (@ Rp 5 Jt)  |  5 Slot (@ Rp 3 Jt)."),
-            ("• Alokasi Sewa Lahan Sementara : ", "Rp 6.000.000,- (Sewa Lahan Terbuka 1 Tahun di Muka ~5x5 Meter Koridor Cikedal-Menes)."),
-            ("• Skema Kemitraan Usaha        : ", "Syirkah Mudharabah (Bagi Hasil Laba Bersih: 40% Investor : 60% Pengelola)."),
-            ("• Proyeksi Balik Modal (BEP)   : ", "7,5 Bulan pada Skenario Moderat; 4,7 Bulan pada Skenario Agresif (Harga Merakyat)."),
-            ("• Konsep Ruang & Duduk         : ", "100% Lesehan Alas Tebal Nyaman (Karpet Busa Empuk) + Meja Lipat Portabel."),
-            ("• Konsep Dapur & Minuman       : ", "Panggangan Arang Batok Tradisional + Aneka Frozen Food Bakar, Kopi Tubruk Lokal & Sachet."),
-            ("• Lokasi Basis Operasional     : ", "Lahan Terbuka Strategis Koridor Cikedal - Menes, Kabupaten Pandeglang, Banten."),
-            ("• Inisiator & Penanggung Jawab : ", "Fatih Farhat Asshidiq (Founder & Managing Director).")
+            ("• Nilai Total Permodalan Awal\t: ", "Rp 15.000.000 (Lima Belas Juta Rupiah) — Seimbang, Kokoh & Terukur."),
+            ("• Opsi Partisipasi Mitra\t: ", "1 Mitra Penuh (Rp 15 Jt)  |  2 Slot (@ Rp 7,5 Jt)  |  3 Slot (@ Rp 5 Jt)  |  5 Slot (@ Rp 3 Jt)."),
+            ("• Alokasi Sewa Lahan Sementara\t: ", "Rp 6.000.000,- (Sewa Lahan Terbuka 1 Tahun di Muka ~5x5 Meter Koridor Cikedal-Menes)."),
+            ("• Skema Kemitraan Usaha\t: ", "Syirkah Mudharabah (Bagi Hasil Laba Bersih: 40% Investor : 60% Pengelola)."),
+            ("• Proyeksi Balik Modal (BEP)\t: ", "7,5 Bulan pada Skenario Moderat; 4,7 Bulan pada Skenario Agresif (Harga Merakyat)."),
+            ("• Konsep Ruang & Duduk\t: ", "100% Lesehan Alas Tebal Nyaman (Karpet Busa Empuk) + Meja Lipat Portabel."),
+            ("• Konsep Dapur & Minuman\t: ", "Panggangan Arang Batok Tradisional + Aneka Frozen Food Bakar, Kopi Tubruk Lokal & Sachet."),
+            ("• Lokasi Basis Operasional\t: ", "Lahan Terbuka Strategis Koridor Cikedal - Menes, Kabupaten Pandeglang, Banten."),
+            ("• Inisiator & Penanggung Jawab\t: ", "Fatih Farhat Asshidiq (Founder & Managing Director).")
         ],
         border_color="102A43",
-        bg_color="F0F4F8"
+        bg_color="F0F4F8",
+        tab_stop=Cm(5.4),
+        hanging=True
     )
 
     p_meta = doc.add_paragraph()
@@ -651,13 +659,15 @@ def create_jangkar_kopi_proposal():
     add_callout(
         "FORMULIR DATA MITRA INVESTOR",
         [
-            ("Nama Lengkap Calon Mitra : ", "..........................................................................................................."),
-            ("Nomor WhatsApp / Kontak   : ", "..........................................................................................................."),
-            ("Alamat / Domisili          : ", "..........................................................................................................."),
-            ("Pilihan Partisipasi Modal : ", "[   ] 1 Slot Sindikasi (Rp 3.000.000)      [   ] 1 Slot Kemitraan (Rp 5.000.000)\n                              [   ] 1 Slot Kemitraan (Rp 7.500.000)      [   ] Mitra Tunggal Penuh (Rp 15.000.000)")
+            ("Nama Lengkap Calon Mitra\t: ", "..........................................................................................................."),
+            ("Nomor WhatsApp / Kontak\t: ", "..........................................................................................................."),
+            ("Alamat / Domisili\t: ", "..........................................................................................................."),
+            ("Pilihan Partisipasi Modal\t: ", "[   ] 1 Slot Sindikasi (Rp 3.000.000)      [   ] 1 Slot Kemitraan (Rp 5.000.000)\n                              [   ] 1 Slot Kemitraan (Rp 7.500.000)      [   ] Mitra Tunggal Penuh (Rp 15.000.000)")
         ],
         border_color="B45309",
-        bg_color="FEF3C7"
+        bg_color="FEF3C7",
+        tab_stop=Cm(4.8),
+        hanging=False
     )
 
     tbl_sign = doc.add_table(rows=1, cols=2)
