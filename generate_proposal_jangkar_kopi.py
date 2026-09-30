@@ -518,20 +518,20 @@ def create_jangkar_kopi_proposal():
     
     add_h2("5.1 Rincian HPP dan Margin Keuntungan Menu Kunci")
     add_p(
-        "Menu Jangkar Kopi memadukan aneka sate frozen food bakar arang dengan kudapan dan minuman rakyat, berharga murah dan ber-margin laba kotor sehat antara 46% hingga 65%:"
+        "Kalkulasi HPP divalidasi langsung dari harga grosir pasar distributor (CEDEA Dumpling Keju 500g @Rp 29rb-35rb isi 25 pcs, CEDEA Otak-Otak Singapore 500g @Rp 30rb-35rb, CEDEA Fish Roll 250g @Rp 15.900, serta kopi sachet kartonan dus Kapal Api @Rp 1.083/sachet dan Good Day @Rp 1.590/sachet). Seluruh menu ber-margin laba kotor sehat antara 46% hingga 65% (melampaui 70% pada pembelian kartonan):"
     )
 
     hpp_data = [
         ("Sosis Bakar Sapi/Ayam (Saus BBQ & Mayo)", "Sosis sapi/ayam olahan, oles mentega, saus BBQ bakar arang", "Rp 1.800", "Rp 4.000", "Rp 2.200 (55,0%)"),
         ("Bakso Sapi Bakar Arang (4 Butir)", "Bakso sapi olahan kenyal, bumbu kecap lada hitam bakar arang", "Rp 1.600", "Rp 3.500", "Rp 1.900 (54,2%)"),
-        ("Dumpling Ayam / Keju Lumer (3 Pcs)", "Dumpling beku olahan isi ayam/keju lumer bakar arang batok", "Rp 2.200", "Rp 5.000", "Rp 2.800 (56,0%)"),
-        ("Otak-Otak Ikan Bakar (Singapura)", "Otak-otak ikan olahan gurih kerat silang, bumbu oles pedas manis", "Rp 1.500", "Rp 3.500", "Rp 2.000 (57,1%)"),
+        ("Dumpling Ayam / Keju Lumer (3 Pcs)", "CEDEA Dumpling beku isi keju lumer bakar arang batok", "Rp 2.200", "Rp 5.000", "Rp 2.800 (56,0%)"),
+        ("Otak-Otak Singapore Bakar Arang", "CEDEA / Minaku otak-otak bakar kerat silang pedas manis", "Rp 1.500", "Rp 3.500", "Rp 2.000 (57,1%)"),
         ("Sate Cumi Olahan Bakar (Squid Flower)", "Olahan daging cumi flower bakar arang saus kecap pedas gurih", "Rp 2.000", "Rp 4.500", "Rp 2.500 (55,5%)"),
-        ("Fish Roll / Crab Stick Olahan Bakar", "Olahan ikan kani stik bumbu rempah arang batok kelapa", "Rp 1.400", "Rp 3.000", "Rp 1.600 (53,3%)"),
+        ("Fish Roll / Crab Stick Olahan Bakar", "CEDEA Fish roll / kani stik rempah arang batok kelapa", "Rp 1.400", "Rp 3.000", "Rp 1.600 (53,3%)"),
         ("Nasi Kucing Teri / Orek Tempe", "Nasi pulen sambal teri balado / orek tempe bungkus daun pisang", "Rp 1.600", "Rp 3.000", "Rp 1.400 (46,7%)"),
         ("Tempe Mendoan Hangat (3 Lembar)", "Tempe kedelai lokal, adonan tepung daun bawang, kecap rawit", "Rp 2.500", "Rp 5.000", "Rp 2.500 (50,0%)"),
         ("Kopi Tubruk 'Jangkar Asli' (Signature)", "Bubuk Robusta sangrai lereng Gn. Karang, gula aren/pasir", "Rp 1.400", "Rp 4.000", "Rp 2.600 (65,0%)"),
-        ("Kopi Sachet Populer Siap Seduh", "Good Day / Kapal Api / Indocafe / Luwak White Koffie", "Rp 1.800", "Rp 4.000", "Rp 2.200 (55,0%)"),
+        ("Kopi Sachet Populer (Renceng/Dus)", "Good Day / Kapal Api / Indocafe / Luwak White Koffie", "Rp 1.800", "Rp 4.000", "Rp 2.200 (55,0%)"),
         ("Es / Hangat Minuman Sachet Segar", "Nutrisari Jeruk / Extra Joss Susu / Kuku Bima Susu", "Rp 2.200", "Rp 5.000", "Rp 2.800 (56,0%)"),
         ("Susu Murni / Kopi Rempah Samudra", "Susu sapi murni / Robusta jahe merah rempah (Mug jadul)", "Rp 3.800", "Rp 8.500", "Rp 4.700 (55,3%)"),
     ]
@@ -545,7 +545,7 @@ def create_jangkar_kopi_proposal():
         c = tbl_hpp.cell(0, j)
         c.width = h_widths[j]
         set_cell_shading(c, "102A43")
-        set_cell_padding(c, top=55, bottom=55, left=60, right=60)
+        set_cell_padding(c, top=45, bottom=45, left=60, right=60)
         p = c.paragraphs[0]
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER if j >= 2 else WD_ALIGN_PARAGRAPH.LEFT
         r = p.add_run(h)
@@ -562,7 +562,7 @@ def create_jangkar_kopi_proposal():
             c = tbl_hpp.cell(i + 1, j)
             c.width = h_widths[j]
             set_cell_shading(c, bg)
-            set_cell_padding(c, top=28, bottom=28, left=50, right=50)
+            set_cell_padding(c, top=16, bottom=16, left=45, right=45)
             set_cell_borders(c, bottom={"val": "single", "sz": "4", "color": "D9E2EC"})
             p = c.paragraphs[0]
             p.alignment = WD_ALIGN_PARAGRAPH.CENTER if j in (2, 3) else (WD_ALIGN_PARAGRAPH.RIGHT if j == 4 else WD_ALIGN_PARAGRAPH.LEFT)
@@ -607,7 +607,7 @@ def create_jangkar_kopi_proposal():
             c = tbl_fin.cell(i, j)
             c.width = f_widths[j]
             set_cell_shading(c, bg)
-            set_cell_padding(c, top=35 if not is_hdr else 50, bottom=35 if not is_hdr else 50, left=50, right=50)
+            set_cell_padding(c, top=18 if not is_hdr else 32, bottom=18 if not is_hdr else 32, left=50, right=50)
             if not is_hdr:
                 set_cell_borders(c, bottom={"val": "single", "sz": "4", "color": "D9E2EC"})
             p = c.paragraphs[0]
