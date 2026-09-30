@@ -266,7 +266,7 @@ def create_jangkar_kopi_proposal():
             ("• Opsi Partisipasi Mitra       : ", "1 Mitra Penuh (Rp 15 Jt)  |  2 Slot (@ Rp 7,5 Jt)  |  3 Slot (@ Rp 5 Jt)  |  5 Slot (@ Rp 3 Jt)."),
             ("• Alokasi Sewa Lahan Sementara : ", "Rp 6.000.000,- (Sewa Lahan Terbuka 1 Tahun di Muka ~5x5 Meter Koridor Cikedal-Menes)."),
             ("• Skema Kemitraan Usaha        : ", "Syirkah Mudharabah (Bagi Hasil Laba Bersih: 40% Investor : 60% Pengelola)."),
-            ("• Proyeksi Balik Modal (BEP)   : ", "6,25 Bulan (~6 Bulan) pada Skenario Moderat; 3,8 Bulan pada Skenario Agresif."),
+            ("• Proyeksi Balik Modal (BEP)   : ", "7,5 Bulan pada Skenario Moderat; 4,7 Bulan pada Skenario Agresif (Harga Merakyat)."),
             ("• Konsep Ruang & Duduk         : ", "100% Lesehan Alas Tebal Nyaman (Karpet Busa Empuk) + Meja Lipat Portabel."),
             ("• Konsep Dapur & Minuman       : ", "Panggangan Arang Batok Tradisional + Aneka Frozen Food Bakar, Kopi Tubruk Lokal & Sachet."),
             ("• Lokasi Basis Operasional     : ", "Lahan Terbuka Strategis Koridor Cikedal - Menes, Kabupaten Pandeglang, Banten."),
@@ -298,7 +298,7 @@ def create_jangkar_kopi_proposal():
         "Berdasarkan evaluasi objektif bersama dewan penasihat dan calon mitra investor strategis, langkah paling bijak dalam memulai usaha F&B pedesaan adalah menerapkan prinsip Lean Startup: memangkas belanja modal yang belum mendesak, menghilangkan risiko kelebihan kapasitas (over-capitalization), dan menguji penerimaan pasar secara langsung dengan modal ringan yang cepat menghasilkan arus kas (cashflow engine)."
     )
     add_p(
-        "Daya beli riil masyarakat di koridor Cikedal dan Menes terbukti sangat kuat. Konsumen lokal terbiasa membelanjakan Rp 15.000 hingga Rp 25.000 per sesi nongkrong saat jajan sate, nasi, dan minuman hangat. Namun, faktor penentu keberhasilan utama bukanlah kemewahan alat, melainkan suasana tempat yang merakyat, ramah, dan tidak menimbulkan rasa segan (kagok/takut mahal). Oleh karena itu, Jangkar Kopi dirancang bersahaja, bersih, dan berakar pada kenyamanan warga lokal."
+        "Daya beli riil masyarakat di koridor Cikedal dan Menes terbukti sangat kuat pada rentang harga merakyat. Konsumen lokal terbiasa membelanjakan Rp 10.000 hingga Rp 20.000 per sesi nongkrong saat jajan aneka sate arang (Rp 2.500–Rp 3.500), nasi kucing, dan kopi hangat (Rp 3.000). Faktor penentu keberhasilan utama bukanlah kemewahan alat, melainkan suasana tempat yang merakyat, ramah, dan harga bersahabat yang tidak menimbulkan rasa segan (kagok/takut mahal). Oleh karena itu, Jangkar Kopi dirancang bersahaja, bersih, dan berakar pada kenyamanan warga lokal."
     )
     
     add_h2("1.2 Filosofi Mendalam \"Jangkar Kopi\" — Nama adalah Doa dan Harapan")
@@ -330,7 +330,7 @@ def create_jangkar_kopi_proposal():
     
     add_h2("2.1 Konsep Tempat: 100% Lesehan Alas Tebal Nyaman & 4 Meja Lipat Portabel")
     add_p(
-        "Jangkar Kopi mengusung konsep 100% lesehan bersih beralas tebal yang nyaman (karpet spons/busa empuk waterproof dilapisi tikar rapi) dipadu 4 unit meja lipat kecil portabel yang praktis dan kokoh. Hidangan disajikan di atas piring anyaman rotan beralas kertas nasi coklat, menghadirkan estetika angkringan tradisional yang otentik sekaligus sangat higienis dan praktis tanpa repot mencuci piring berminyak di malam hari (zero washing). Format duduk lesehan melingkar terbukti secara sosiologis mampu meruntuhkan batas status sosial. Pelanggan dapat duduk santai berselonjor menikmati hidangan tanpa merasa canggung atau terintimidasi."
+        "Jangkar Kopi mengusung konsep 100% lesehan bersih beralas tebal yang nyaman (karpet spons/busa empuk waterproof dilapisi tikar rapi) dipadu 4 unit meja lipat kecil portabel yang praktis dan kokoh. Hidangan disajikan di atas piring anyaman rotan plastik bahan PP tebal food-grade anti-jamur hasil riset pasar e-commerce (dipesan paket grosir lusinan hemat Rp 15rb-19rb/lusin) beralas kertas nasi coklat bulat. Pilihan ini menghadirkan estetika angkringan otentik, anti-pecah, tidak menyimpan bau, sekaligus higienis dan praktis tanpa repot mencuci piring berminyak di malam hari (zero washing). Format duduk lesehan melingkar terbukti secara sosiologis mampu meruntuhkan batas status sosial. Pelanggan dapat duduk santai berselonjor menikmati hidangan tanpa merasa canggung atau terintimidasi."
     )
     add_p(
         "Pencahayaan dirancang menggunakan lampu gantung festoon warm white (3000K) yang temaram lembut, dipadu aroma gurih aneka sate frozen food (sosis, bakso, dumpling, otak-otak, cumi) bakar arang batok kelapa yang menyebar ke jalan raya, menciptakan daya pikat panca indra (sensory branding) yang mengundang pengendara untuk menepi."
@@ -355,30 +355,30 @@ def create_jangkar_kopi_proposal():
 
     add_h2("2.3 Menu Makanan Awal: Aneka Sate Frozen Food Bakar Arang & Kudapan")
     add_p(
-        "Menu makanan awal Jangkar Kopi difokuskan pada olahan siap bakar yang praktis, higienis, dan zero food waste:"
+        "Menu makanan awal Jangkar Kopi difokuskan pada olahan siap bakar yang praktis, higienis, dan zero food waste dengan harga jual ramah kantong:"
     )
     add_p(
-        "• Aneka Sate Frozen Food Bakar Arang: Dumpling ayam & dumpling keju lumer (meleleh gurih saat digigit), sate cumi flower, otak-otak singapura kerat silang, sosis sapi bakar BBQ, bakso sapi bakar arang lada hitam, dan fish roll. Seluruhnya dipanggang hangat di atas bara batok kelapa beralas piring rotan & kertas nasi coklat dengan cocolan sambal kecap rawit pedas dan saus bakar spesial dalam mangkuk plastik kecil."
+        "• Aneka Sate Frozen Food Bakar Arang: Dumpling ayam & keju lumer (Rp 3.500), sate cumi flower (Rp 3.500), otak-otak singapura kerat silang (Rp 2.500), sosis sapi bakar BBQ (Rp 3.000), bakso sapi bakar arang lada hitam (Rp 2.500), dan fish roll (Rp 2.500). Seluruhnya dipanggang hangat di atas bara batok kelapa beralas piring rotan plastik PP & kertas nasi coklat dengan cocolan sambal kecap rawit pedas dan saus bakar spesial dalam mangkuk plastik kecil."
     )
     add_p(
-        "• Kudapan Tradisional: Nasi kucing teri balado / orek tempe bungkus daun pisang yang dipanaskan di atas bara panggangan, serta tempe mendoan hangat daun bawang yang renyah dan gurih."
+        "• Kudapan Tradisional: Nasi kucing teri balado / orek tempe bungkus daun pisang (Rp 2.500) yang dihangatkan di atas bara panggangan, serta tempe mendoan hangat daun bawang (Rp 3.000 isi 3 lembar) yang renyah dan gurih."
     )
 
     add_h2("2.4 Signature Menu Kopi Jangkar & Minuman Rakyat (Ikon Minuman Usaha)")
     add_p(
-        "Sebagai pembeda utama, Jangkar Kopi menghadirkan menu signature kopi khas daerah dan minuman rakyat:"
+        "Sebagai pembeda utama, Jangkar Kopi menghadirkan menu signature kopi khas daerah dan minuman rakyat berharga terjangkau:"
     )
     add_p(
-        "1. Kopi Hitam Tubruk 'Jangkar Asli' (Signature Utama): Bubuk kopi Robusta sangrai tradisional khas lereng Gunung Karang Pandeglang, diseduh tubruk panas dengan air mendidih murni. Berkarakter aroma smoky alami, body pekat (bold), dan rasa pahit gurih mantap khas Banten Barat, dengan pilihan gula aren Malingping murni atau gula pasir terpisah (Rp 4.000)."
+        "1. Kopi Hitam Tubruk 'Jangkar Asli' (Signature Utama): Bubuk kopi Robusta sangrai tradisional khas lereng Gunung Karang Pandeglang, diseduh tubruk panas dengan air mendidih murni. Berkarakter aroma smoky alami, body pekat (bold), dan rasa pahit gurih mantap khas Banten Barat, dengan pilihan gula aren Malingping murni atau gula pasir terpisah (Rp 3.000)."
     )
     add_p(
-        "2. Kopi Susu 'Jangkar Dermaga' (Signature Modern): Perpaduan seduhan pekat Robusta lokal Gunung Karang dengan susu segar gurih dan lelehan gula aren murni khas Pandeglang. Menghadirkan rasa manis legit yang lembut dan seimbang, disajikan hangat maupun es dingin segar (Rp 6.000)."
+        "2. Kopi Susu 'Jangkar Dermaga' (Signature Modern): Perpaduan seduhan pekat Robusta lokal Gunung Karang dengan susu kental manis gurih dan lelehan gula aren murni khas Pandeglang. Menghadirkan rasa manis legit yang lembut dan seimbang, disajikan hangat maupun es dingin segar (Rp 5.000)."
     )
     add_p(
-        "3. Kopi Jahe Rempah 'Jangkar Samudra' (Signature Penghangat): Seduhan kopi Robusta lokal berpadu rebusan jahe merah geprek, serai, dan kayu manis alami dalam mug jadul. Menjadi primadona pekerja malam, santri, dan pelintas jalur Labuan-Pandeglang untuk memulihkan stamina (Rp 7.000)."
+        "3. Kopi Jahe Rempah 'Jangkar Samudra' (Signature Penghangat): Seduhan kopi Robusta lokal berpadu rebusan jahe merah geprek, serai, dan kayu manis alami dalam mug jadul. Menjadi primadona pekerja malam, santri, dan pelintas jalur Labuan-Pandeglang untuk memulihkan stamina (Rp 6.000)."
     )
     add_p(
-        "4. Minuman Rakyat Pendamping: Susu murni segar, wedang jahe susu, es sirup sachet (Nutrisari, Extra Joss Susu), dan varian kopi sachet populer (Good Day, Kapal Api, Indocafe, Luwak White Koffie) seharga Rp 4.000 – Rp 8.500."
+        "4. Minuman Rakyat Pendamping: Susu murni segar, wedang jahe susu, es sirup sachet (Nutrisari, Extra Joss Susu), dan varian kopi sachet populer (Good Day, Kapal Api, Indocafe, Luwak White Koffie) seharga Rp 3.000 – Rp 6.000."
     )
 
     doc.add_page_break()
@@ -428,7 +428,7 @@ def create_jangkar_kopi_proposal():
     add_h1("4. RENCANA ANGGARAN BIAYA & ALOKASI MODAL LEAN MVP (RP 15 JT)")
     
     add_p(
-        "Total kebutuhan belanja modal (CAPEX) dan modal kerja awal Jangkar Kopi dialokasikan tepat sebesar Rp 15.000.000 (Lima Belas Juta Rupiah). Anggaran ini mengalokasikan sewa lahan terbuka selama 1 tahun di muka sebesar Rp 6.000.000 (40%), serta memanfaatkan sisa dana Rp 9.000.000 (60%) secara optimal untuk pengadaan atap terpal waterproof pada rangka tenda 2×6 meter milik pribadi inisiator, gerobak kayu custom etalase kaca, panggangan arang batok dengan kipas angin kecil, peralatan dapur wedangan, fasilitas lesehan alas tebal nyaman dengan 4 meja lipat portabel, wadah saji piring anyaman rotan beralas kertas nasi & mangkuk plastik kecil sambal, instalasi listrik festoon, stok bahan baku awal yang diperkuat termasuk bubuk kopi Robusta lokal khas daerah (Rp 1.600.000), dan cadangan kas darurat yang kokoh (Rp 2.000.000)."
+        "Total kebutuhan belanja modal (CAPEX) dan modal kerja awal Jangkar Kopi dialokasikan tepat sebesar Rp 15.000.000 (Lima Belas Juta Rupiah). Anggaran ini mengalokasikan sewa lahan terbuka selama 1 tahun di muka sebesar Rp 6.000.000 (40%), serta memanfaatkan sisa dana Rp 9.000.000 (60%) secara optimal untuk pengadaan atap terpal waterproof pada rangka tenda 2×6 meter milik pribadi inisiator, gerobak kayu custom etalase kaca, panggangan arang batok dengan kipas angin kecil, peralatan dapur wedangan, fasilitas lesehan alas tebal nyaman dengan 4 meja lipat portabel, wadah saji piring anyaman rotan plastik PP tebal anti-jamur (grosir lusinan) beralas kertas nasi & mangkuk plastik kecil sambal, instalasi listrik festoon, stok bahan baku awal yang diperkuat termasuk bubuk kopi Robusta lokal khas daerah (Rp 1.600.000), dan cadangan kas darurat yang kokoh (Rp 2.000.000)."
     )
     
     add_h2("4.1 Tabel Rincian Belanja Modal Awal (Tepat Rp 15.000.000)")
@@ -439,7 +439,7 @@ def create_jangkar_kopi_proposal():
         ("Gerobak Angkringan Kayu Custom", "Gerobak kayu custom 160x75 cm + etalase kaca display sate frozen food", "1 unit", "Rp 2.000.000"),
         ("Panggangan Arang Stainless & Dapur", "Panggangan arang 65cm, kipas angin kecil, kompor gas, wajan mendoan, ceret, LPG", "1 paket", "Rp 1.000.000"),
         ("Alas Tebal Nyaman & 4 Meja Lipat", "3 Karpet busa/spons tebal empuk waterproof 2x2m, tikar rapi, 4 meja portabel", "1 paket", "Rp 800.000"),
-        ("Cooler Box, Piring Rotan & Mangkuk", "Cooler box 35-45L, piring rotan, kertas nasi, mangkuk plastik kecil sambal", "1 paket", "Rp 600.000"),
+        ("Cooler Box, Piring Rotan & Mangkuk", "Cooler box 35-45L, 2 lusin piring rotan plastik PP tebal (grosir), kertas nasi, mangkuk sambal", "1 paket", "Rp 600.000"),
         ("Instalasi Listrik, Festoon & Audio", "Kabel outdoor waterproof, stopkontak cas hp, lampu festoon warm, mini speaker", "1 paket", "Rp 600.000"),
         ("Stok Bahan Baku Awal (Inventory)", "Frozen food sate, bubuk kopi Robusta lokal khas daerah, kopi sachet, susu", "1 paket", "Rp 1.600.000"),
         ("Cadangan Kas Operasional (Buffer)", "Dana cadangan kas darurat kontinjensi operasional & likuiditas awal 1-2 bulan", "1 paket", "Rp 2.000.000")
@@ -518,22 +518,22 @@ def create_jangkar_kopi_proposal():
     
     add_h2("5.1 Rincian HPP dan Margin Keuntungan Menu Kunci")
     add_p(
-        "Kalkulasi HPP divalidasi langsung dari harga grosir pasar distributor (CEDEA Dumpling Keju 500g @Rp 29rb-35rb isi 25 pcs, CEDEA Otak-Otak Singapore 500g @Rp 30rb-35rb, CEDEA Fish Roll 250g @Rp 15.900, serta kopi sachet kartonan dus Kapal Api @Rp 1.083/sachet dan Good Day @Rp 1.590/sachet). Seluruh menu ber-margin laba kotor sehat antara 46% hingga 65% (melampaui 70% pada pembelian kartonan):"
+        "Kalkulasi HPP divalidasi langsung dari harga grosir riil distributor (CEDEA Dumpling Keju 500g @Rp 29rb-35rb isi 25 pcs, CEDEA/Minaku Otak-Otak Singapore @Rp 25rb-35rb, CEDEA Fish Roll 250g @Rp 15.900, kopi Kapal Api dus @Rp 1.083/sachet, serta piring rotan plastik PP tebal grosir @Rp 15rb-19rb/lusin). Strategi penetrasi awal mengutamakan harga jual realistis dan terjangkau bagi warga lokal, tanpa mematok margin berlebihan (rata-rata laba kotor 35%–50%):"
     )
 
     hpp_data = [
-        ("Sosis Bakar Sapi/Ayam (Saus BBQ & Mayo)", "Sosis sapi/ayam olahan, oles mentega, saus BBQ bakar arang", "Rp 1.800", "Rp 4.000", "Rp 2.200 (55,0%)"),
-        ("Bakso Sapi Bakar Arang (4 Butir)", "Bakso sapi olahan kenyal, bumbu kecap lada hitam bakar arang", "Rp 1.600", "Rp 3.500", "Rp 1.900 (54,2%)"),
-        ("Dumpling Ayam / Keju Lumer (3 Pcs)", "CEDEA Dumpling beku isi keju lumer bakar arang batok", "Rp 2.200", "Rp 5.000", "Rp 2.800 (56,0%)"),
-        ("Otak-Otak Singapore Bakar Arang", "CEDEA / Minaku otak-otak bakar kerat silang pedas manis", "Rp 1.500", "Rp 3.500", "Rp 2.000 (57,1%)"),
-        ("Sate Cumi Olahan Bakar (Squid Flower)", "Olahan daging cumi flower bakar arang saus kecap pedas gurih", "Rp 2.000", "Rp 4.500", "Rp 2.500 (55,5%)"),
-        ("Fish Roll / Crab Stick Olahan Bakar", "CEDEA Fish roll / kani stik rempah arang batok kelapa", "Rp 1.400", "Rp 3.000", "Rp 1.600 (53,3%)"),
-        ("Nasi Kucing Teri / Orek Tempe", "Nasi pulen sambal teri balado / orek tempe bungkus daun pisang", "Rp 1.600", "Rp 3.000", "Rp 1.400 (46,7%)"),
-        ("Tempe Mendoan Hangat (3 Lembar)", "Tempe kedelai lokal, adonan tepung daun bawang, kecap rawit", "Rp 2.500", "Rp 5.000", "Rp 2.500 (50,0%)"),
-        ("Kopi Tubruk 'Jangkar Asli' (Signature)", "Bubuk Robusta sangrai lereng Gn. Karang, gula aren/pasir", "Rp 1.400", "Rp 4.000", "Rp 2.600 (65,0%)"),
-        ("Kopi Sachet Populer (Renceng/Dus)", "Good Day / Kapal Api / Indocafe / Luwak White Koffie", "Rp 1.800", "Rp 4.000", "Rp 2.200 (55,0%)"),
-        ("Es / Hangat Minuman Sachet Segar", "Nutrisari Jeruk / Extra Joss Susu / Kuku Bima Susu", "Rp 2.200", "Rp 5.000", "Rp 2.800 (56,0%)"),
-        ("Susu Murni / Kopi Rempah Samudra", "Susu sapi murni / Robusta jahe merah rempah (Mug jadul)", "Rp 3.800", "Rp 8.500", "Rp 4.700 (55,3%)"),
+        ("Sosis Bakar Sapi/Ayam (Saus BBQ & Mayo)", "Sosis sapi/ayam olahan, oles mentega, saus BBQ bakar arang", "Rp 1.600", "Rp 3.000", "Rp 1.400 (46,7%)"),
+        ("Bakso Sapi Bakar Arang (3 Butir)", "Bakso sapi olahan kenyal, bumbu kecap lada hitam bakar arang", "Rp 1.400", "Rp 2.500", "Rp 1.100 (44,0%)"),
+        ("Dumpling Ayam / Keju Lumer (2 Pcs)", "CEDEA Dumpling beku isi keju lumer bakar arang batok", "Rp 2.400", "Rp 3.500", "Rp 1.100 (31,4%)"),
+        ("Otak-Otak Singapore Bakar Arang", "CEDEA / Minaku otak-otak bakar kerat silang pedas manis", "Rp 1.500", "Rp 2.500", "Rp 1.000 (40,0%)"),
+        ("Sate Cumi Olahan Bakar (Squid Flower)", "Olahan daging cumi flower bakar arang saus kecap pedas gurih", "Rp 2.000", "Rp 3.500", "Rp 1.500 (42,9%)"),
+        ("Fish Roll / Crab Stick Olahan Bakar", "CEDEA Fish roll / kani stik rempah arang batok kelapa", "Rp 1.400", "Rp 2.500", "Rp 1.100 (44,0%)"),
+        ("Nasi Kucing Teri / Orek Tempe", "Nasi pulen sambal teri balado / orek tempe bungkus daun pisang", "Rp 1.500", "Rp 2.500", "Rp 1.000 (40,0%)"),
+        ("Tempe Mendoan Hangat (3 Lembar)", "Tempe kedelai lokal, adonan tepung daun bawang, kecap rawit", "Rp 2.000", "Rp 3.000", "Rp 1.000 (33,3%)"),
+        ("Kopi Tubruk 'Jangkar Asli' (Signature)", "Bubuk Robusta sangrai lereng Gn. Karang, gula aren/pasir", "Rp 1.200", "Rp 3.000", "Rp 1.800 (60,0%)"),
+        ("Kopi Sachet Populer (Renceng/Dus)", "Good Day / Kapal Api / Indocafe / Luwak White Koffie", "Rp 1.400", "Rp 3.000", "Rp 1.600 (53,3%)"),
+        ("Es / Hangat Minuman Sachet Segar", "Nutrisari Jeruk / Extra Joss Susu / Kuku Bima Susu", "Rp 2.000", "Rp 3.500", "Rp 1.500 (42,9%)"),
+        ("Susu Murni / Kopi Rempah Samudra", "Susu sapi murni / Robusta jahe merah rempah (Mug jadul)", "Rp 3.500", "Rp 6.000", "Rp 2.500 (41,7%)"),
     ]
 
     tbl_hpp = doc.add_table(rows=len(hpp_data) + 1, cols=5)
@@ -580,17 +580,17 @@ def create_jangkar_kopi_proposal():
     
     fin_scenarios = [
         ("Kinerja Harian", "Konservatif (Hujan/Sepi)", "Moderat (Target Realistis)", "Agresif (Ramai Akhir Pekan)"),
-        ("Estimasi Tamu / Hari", "20 orang / hari", "30 orang / hari", "45 orang / hari"),
-        ("Rata-rata Belanja / Tamu", "Rp 15.000 / orang", "Rp 16.700 / orang", "Rp 18.000 / orang"),
-        ("Pendapatan Harian", "Rp 300.000 / hari", "Rp 500.000 / hari", "Rp 810.000 / hari"),
-        ("Omzet Bulanan (30 Hari)", "Rp 9.000.000", "Rp 15.000.000", "Rp 24.300.000"),
-        ("HPP Bahan Pokok (~44%)", "Rp 3.960.000", "Rp 6.600.000", "Rp 10.700.000"),
-        ("Laba Kotor Usaha", "Rp 5.040.000", "Rp 8.400.000", "Rp 13.600.000"),
-        ("Beban Operasional (OPEX)", "Rp 1.840.000", "Rp 2.400.000", "Rp 3.600.000"),
-        ("Laba Bersih Usaha / Bulan", "Rp 3.200.000", "Rp 6.000.000", "Rp 10.000.000"),
-        ("Dividen Investor (40%)", "Rp 1.280.000 / bulan", "Rp 2.400.000 / bulan", "Rp 4.000.000 / bulan"),
-        ("Bagian Pengelola (60%)", "Rp 1.920.000 / bulan", "Rp 3.600.000 / bulan", "Rp 6.000.000 / bulan"),
-        ("Waktu Balik Modal (BEP)", "11,7 Bulan", "6,25 Bulan (~6 Bulan)", "3,8 Bulan")
+        ("Estimasi Tamu / Hari", "25 orang / hari", "40 orang / hari", "55 orang / hari"),
+        ("Rata-rata Belanja / Tamu", "Rp 11.000 / orang", "Rp 12.500 / orang", "Rp 14.000 / orang"),
+        ("Pendapatan Harian", "Rp 275.000 / hari", "Rp 500.000 / hari", "Rp 770.000 / hari"),
+        ("Omzet Bulanan (30 Hari)", "Rp 8.250.000", "Rp 15.000.000", "Rp 23.100.000"),
+        ("HPP Bahan Pokok (~52%)", "Rp 4.290.000", "Rp 7.800.000", "Rp 12.012.000"),
+        ("Laba Kotor Usaha", "Rp 3.960.000", "Rp 7.200.000", "Rp 11.088.000"),
+        ("Beban Operasional (OPEX)", "Rp 1.760.000", "Rp 2.200.000", "Rp 3.088.000"),
+        ("Laba Bersih Usaha / Bulan", "Rp 2.200.000", "Rp 5.000.000", "Rp 8.000.000"),
+        ("Dividen Investor (40%)", "Rp 880.000 / bulan", "Rp 2.000.000 / bulan", "Rp 3.200.000 / bulan"),
+        ("Bagian Pengelola (60%)", "Rp 1.320.000 / bulan", "Rp 3.000.000 / bulan", "Rp 4.800.000 / bulan"),
+        ("Waktu Balik Modal (BEP)", "17,0 Bulan", "7,5 Bulan (~7,5 Bulan)", "4,7 Bulan")
     ]
 
     tbl_fin = doc.add_table(rows=len(fin_scenarios), cols=4)
@@ -642,7 +642,7 @@ def create_jangkar_kopi_proposal():
 
     add_h2("6.2 Kesimpulan Eksekutif")
     add_p(
-        "Jangkar Kopi & Angkringan adalah jawaban atas kebutuhan ruang temu warga yang bersahaja, bersih, dan berbiaya terjangkau di koridor Cikedal - Menes. Dengan modal lean Rp 15.000.000, beban sewa lahan terkunci aman 1 tahun (Rp 6 Jt), stok awal dan cadangan kas yang solid, serta menu arang tradisional yang digemari masyarakat, usaha ini diproyeksikan mencapai titik impas dalam tempo 6,25 bulan (~6 bulan) dan siap berkembang menjadi ikon kuliner malam rakyat."
+        "Jangkar Kopi & Angkringan adalah jawaban atas kebutuhan ruang temu warga yang bersahaja, bersih, dan berbiaya terjangkau di koridor Cikedal - Menes. Dengan modal lean Rp 15.000.000, beban sewa lahan terkunci aman 1 tahun (Rp 6 Jt), stok awal dan cadangan kas yang solid, serta menu arang tradisional murah meriah tanpa mematok margin berlebihan di awal, usaha ini diproyeksikan mencapai titik impas dalam tempo 7,5 bulan pada skenario moderat (4,7 bulan skenario agresif) dan siap berkembang menjadi ikon kuliner malam rakyat."
     )
 
     add_h2("6.3 Lembar Pernyataan Komitmen Kemitraan Investasi")
