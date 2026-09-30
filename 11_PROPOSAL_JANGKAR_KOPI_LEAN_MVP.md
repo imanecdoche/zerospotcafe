@@ -31,7 +31,7 @@ Daya beli riil masyarakat pedesaan Cikedal - Menes terbukti kuat (rata-rata bela
 ### 2.1 Konsep Duduk Lesehan Egaliter
 - **100% Lesehan Bersih**: Menggunakan karpet spons tebal waterproof, beralas tikar rapi, dilengkapi 4-6 unit meja lipat pendek (kayu/plastik kokoh) dan bantal duduk.
 - **Daya Tampung**: Mampu memuat 18 – 22 orang tamu sekaligus.
-- **Atmosfer**: Pencahayaan lampu festoon gantung *warm white* (3000K), diiringi alunan musik akustik santai via speaker bluetooth kecil, dan aroma asap sate bakar arang batok kelapa yang memancing selera ke jalan raya.
+- **Atmosfer**: Pencahayaan lampu festoon gantung *warm white* (3000K), diiringi alunan musik akustik santai via speaker bluetooth kecil, dan aroma gurih aneka sate frozen food bakar arang batok kelapa yang memancing selera ke jalan raya.
 
 ### 2.2 Zonasi Lahan (~5 × 5 Meter)
 - **Area Depan (1,5 m × 5,0 m)**: Gerobak kayu etalase sate kaca, panggangan arang batok stainless, ceret wedangan, kompor mendoan.
@@ -40,23 +40,29 @@ Daya beli riil masyarakat pedesaan Cikedal - Menes terbukti kuat (rata-rata bela
 
 ---
 
-## 3. Simplifikasi Menu: Kopi Tubruk Lokal, Sachet Populer & Sate Arang
+## 3. Simplifikasi Menu: Aneka Sate Frozen Food Bakar Arang & Minuman Rakyat
 
-### 3.1 Minuman Tanpa Mesin Mewah (Cepat, Praktis & Pasti Laku)
-- **Kopi Tubruk Robusta Khas Banten** (Bubuk sangrai siap seduh dari lereng Gunung Karang): Rp 4.000 / gelas (HPP Rp 1.400).
-- **Varian Kopi Sachet Populer** (Good Day Mocacinno, Kapal Api, Indocafe Coffeemix, Luwak White Koffie): Rp 4.000 / gelas (HPP Rp 1.800).
-- **Es Minuman Sachet Segar** (Nutrisari, Extra Joss Susu): Rp 5.000 / gelas (HPP Rp 2.200).
-- **Susu Sapi Murni Segar** (Hangat/Dingin dalam gelas mug jadul): Rp 8.000 / porsi (HPP Rp 3.500).
-- **Wedang Jahe Merah Susu Rempah**: Rp 9.000 / gelas (HPP Rp 4.000).
+### 3.1 Keunggulan Operasional Menu Frozen Food
+1. **Zero Food Waste & Bebas Resiko Basi**: Produk olahan beku tersimpan aman dan awet di dalam *cooler box* insulasi beres batu, tidak mudah rusak/basi meski penjualan malam sedang sepi atau terdampak hujan lebat.
+2. **Persiapan Cepat & Hemat Waktu (No Marinasi Rumit)**: Tidak membutuhkan proses marinasi daging mentah berjam-jam setiap sore. Bahan siap tusuk, dipajang rapi di etalase kaca, dan langsung dibakar hangat saat dipesan tamu.
+3. **Margin Keuntungan Sangat Sehat (50% – 57%)**: Harga beli grosir frozen food per kemasan (isi 20–50 pcs) sangat ekonomis di toko frozen food Pandeglang, menghasilkan laba kotor yang tinggi dan terukur.
+4. **Sangat Diminati Segmen Pemuda Desa & Santri**: Sosis bakar, bakso bakar kecap lada hitam, dumpling keju, otak-otak, dan sate cumi olahan adalah jajanan street food paling populer di tongkrongan malam.
 
-### 3.2 Makanan Angkringan Pilihan
-- **Sate Taichan Paha Ayam Bakar Arang** (5 tusuk + sambal rawit jeruk limau): Rp 12.000 (HPP Rp 6.000).
-- **Sate Usus Ayam Bumbu Kuning**: Rp 2.000 (HPP Rp 850).
-- **Sate Kulit Ayam Gurih**: Rp 2.500 (HPP Rp 900).
-- **Sate Telur Puyuh Bacem**: Rp 3.500 (HPP Rp 2.000).
-- **Nasi Bakar Daun Pisang Kemangi**: Rp 7.000 (HPP Rp 3.800).
-- **Nasi Kucing Teri / Orek Tempe**: Rp 3.000 (HPP Rp 1.600).
-- **Tempe Mendoan Hangat (3 lbr + kecap rawit)**: Rp 5.000 (HPP Rp 2.500).
+### 3.2 Daftar Menu Makanan & Kudapan Angkringan
+- **Sosis Bakar Sapi / Ayam (Saus BBQ & Mayones)**: Rp 4.000 / tusuk (HPP Rp 1.800 — Margin 55,0%).
+- **Bakso Sapi Bakar Arang Batok (4 Butir Bumbu Lada Hitam)**: Rp 3.500 / tusuk (HPP Rp 1.600 — Margin 54,2%).
+- **Dumpling Ayam / Keju Lumer Bakar**: Rp 5.000 / tusuk (HPP Rp 2.200 — Margin 56,0%).
+- **Otak-Otak Ikan Bakar (Singapura Pedas Manis)**: Rp 3.500 / tusuk (HPP Rp 1.500 — Margin 57,1%).
+- **Sate Cumi Olahan Bakar (Squid Flower Bakar Arang)**: Rp 4.500 / tusuk (HPP Rp 2.000 — Margin 55,5%).
+- **Fish Roll / Crab Stick Olahan Bakar**: Rp 3.000 / tusuk (HPP Rp 1.400 — Margin 53,3%).
+- **Nasi Kucing Teri Balado / Orek Tempe Daun Pisang**: Rp 3.000 / bungkus (HPP Rp 1.600 — Margin 46,7%).
+- **Tempe Mendoan Hangat (3 Lembar + Kecap Rawit)**: Rp 5.000 / porsi (HPP Rp 2.500 — Margin 50,0%).
+
+### 3.3 Menu Minuman Tanpa Mesin Mewah (Cepat, Praktis & Pasti Laku)
+- **Kopi Tubruk Robusta Khas Banten** (Bubuk sangrai siap seduh dari lereng Gunung Karang): Rp 4.000 / gelas (HPP Rp 1.400 — Margin 65,0%).
+- **Varian Kopi Sachet Populer** (Good Day Mocacinno, Kapal Api, Indocafe Coffeemix, Luwak White Koffie): Rp 4.000 / gelas (HPP Rp 1.800 — Margin 55,0%).
+- **Es Minuman Sachet Segar** (Nutrisari Jeruk, Extra Joss Susu): Rp 5.000 / gelas (HPP Rp 2.200 — Margin 56,0%).
+- **Susu Sapi Murni Segar / Wedang Jahe Rempah** (Hangat/Dingin dalam gelas mug jadul): Rp 8.500 / gelas (HPP Rp 3.800 — Margin 55,3%).
 
 ---
 
@@ -65,13 +71,13 @@ Daya beli riil masyarakat pedesaan Cikedal - Menes terbukti kuat (rata-rata bela
 | No | Komponen Belanja Modal | Deskripsi & Spesifikasi | Volume | Total Biaya |
 | :---: | :--- | :--- | :---: | :---: |
 | 1 | **Sewa Lahan Terbuka (1 Tahun)** | Alokasi sewa pekarangan/lahan terbuka ~5x5 meter koridor Cikedal-Menes | 1 tahun | Rp 6.000.000 |
-| 2 | **Gerobak Angkringan Kayu Fungsional** | Gerobak kayu custom 150x75 cm + etalase kaca display sate higienis | 1 unit | Rp 1.500.000 |
+| 2 | **Gerobak Angkringan Kayu Fungsional** | Gerobak kayu custom 150x75 cm + etalase kaca display sate frozen food | 1 unit | Rp 1.500.000 |
 | 3 | **Panggangan Arang Stainless & Blower** | Panggangan sate arang batok panjang 65 cm, kisi stainless, blower DC mini, jepitan | 1 set | Rp 350.000 |
 | 4 | **Peralatan Masak Dapur & Wedangan** | Kompor gas 1 tungku, wajan baja mendoan, ceret wedang stainless, tabung LPG 3kg | 1 paket | Rp 450.000 |
 | 5 | **Paket Lesehan Karpet & Meja Lipat** | 2 Karpet spons tebal waterproof 2x2m, tikar rapi, 4 meja lipat pendek | 1 paket | Rp 500.000 |
-| 6 | **Cooler Box & Wadah Saji Piring Seng** | Cooler box insulasi susu & daging, piring seng blirik, keranjang bambu, cangkir | 1 paket | Rp 400.000 |
+| 6 | **Cooler Box & Wadah Saji Piring Seng** | Cooler box insulasi sate frozen food & susu, piring seng blirik, wadah saji | 1 paket | Rp 400.000 |
 | 7 | **Instalasi Listrik 900VA & Festoon** | Kabel outdoor waterproof, stopkontak cas hp, lampu gantung warm white | 1 paket | Rp 200.000 |
-| 8 | **Stok Bahan Baku Awal (Inventory)** | Fillet ayam taichan, aneka sate, mendoan, beras, kopi lokal, sachet, susu segar | 1 paket | Rp 600.000 |
+| 8 | **Stok Bahan Baku Awal (Inventory)** | Aneka frozen food (dumpling, otak-otak, cumi, sosis, bakso), mendoan, kopi, susu | 1 paket | Rp 600.000 |
 | 9 | **Cadangan Kas Operasional (Buffer)** | Dana cadangan kas darurat kontinjensi operasional & likuiditas awal | 1 paket | Rp 400.000 |
 | | **TOTAL BELANJA MODAL LEAN MVP** | | | **Rp 10.000.000** |
 

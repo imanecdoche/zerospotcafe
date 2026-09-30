@@ -253,7 +253,7 @@ def create_jangkar_kopi_proposal():
     r_tag.font.color.rgb = COLOR_GOLD
 
     add_p(
-        "Proposal Rencana Bisnis Sederhana (Lean MVP) — Menghadirkan Ruang Temu Lesehan Rakyat yang Hangat, Bersahaja, dan Egaliter di Koridor Strategis Cikedal - Menes, Pandeglang, Banten. Memadukan Kelezatan Sate Taichan & Aneka Sate Bakar Arang Batok Kelapa, Nasi Bakar Daun Pisang, Kopi Tubruk Robusta Khas Daerah Banten, dan Wedangan Susu Murni Segar Tanpa Beban Biaya Mesin Mewah.",
+        "Proposal Rencana Bisnis Sederhana (Lean MVP) — Menghadirkan Ruang Temu Lesehan Rakyat yang Hangat, Bersahaja, dan Egaliter di Koridor Strategis Cikedal - Menes, Pandeglang, Banten. Memadukan Kelezatan Aneka Sate Frozen Food Bakar Arang (Dumpling Keju, Otak-Otak Ikan, Sate Cumi Olahan, Sosis Bakar, Bakso Sapi Bakar), Nasi Kucing & Mendoan Hangat, Kopi Tubruk Robusta Khas Daerah Banten, dan Wedangan Susu Murni Segar Tanpa Beban Biaya Mesin Mewah.",
         align=WD_ALIGN_PARAGRAPH.JUSTIFY,
         space_after=14,
         line_spacing=1.2
@@ -268,7 +268,7 @@ def create_jangkar_kopi_proposal():
             ("• Skema Kemitraan Usaha        : ", "Syirkah Mudharabah (Bagi Hasil Laba Bersih: 40% Investor : 60% Pengelola)."),
             ("• Proyeksi Balik Modal (BEP)   : ", "4,1 Bulan (~4 Bulan) pada Skenario Moderat; 2,5 Bulan pada Skenario Agresif."),
             ("• Konsep Ruang & Duduk         : ", "100% Lesehan Karpet Spons Tebal Waterproof + Meja Pendek Lipat (Inklusif & Merakyat)."),
-            ("• Konsep Dapur & Minuman       : ", "Panggangan Arang Batok Tradisional + Kopi Tubruk Lokal & Varian Sachet Populer."),
+            ("• Konsep Dapur & Minuman       : ", "Panggangan Arang Batok Tradisional + Aneka Frozen Food Bakar, Kopi Tubruk Lokal & Sachet."),
             ("• Lokasi Basis Operasional     : ", "Lahan Terbuka Strategis Koridor Cikedal - Menes, Kabupaten Pandeglang, Banten."),
             ("• Inisiator & Penanggung Jawab : ", "Fatih Farhat Asshidiq (Founder & Managing Director).")
         ],
@@ -333,7 +333,7 @@ def create_jangkar_kopi_proposal():
         "Jangkar Kopi mengusung konsep lesehan bersih beralas karpet spons tebal waterproof yang dipadu dengan meja lipat pendek. Format duduk lesehan melingkar terbukti secara sosiologis mampu meruntuhkan batas status sosial. Pelanggan dapat duduk santai, menyandarkan badan, dan menikmati hidangan tanpa merasa canggung."
     )
     add_p(
-        "Pencahayaan dirancang menggunakan lampu gantung festoon warm white (3000K) yang temaram lembut, dipadu aroma asap bakaran sate ayam bumbu rempah dari arang batok kelapa yang menyebar ke jalan raya, menciptakan daya pikat panca indra (sensory branding) yang mengundang pengendara untuk menepi."
+        "Pencahayaan dirancang menggunakan lampu gantung festoon warm white (3000K) yang temaram lembut, dipadu aroma gurih aneka sate frozen food (sosis, bakso, dumpling, otak-otak, cumi) bakar arang batok kelapa yang menyebar ke jalan raya, menciptakan daya pikat panca indra (sensory branding) yang mengundang pengendara untuk menepi."
     )
 
     add_h2("2.2 Zonasi Tata Ruang Lahan Terbuka (~5 × 5 Meter / 25 m²)")
@@ -344,7 +344,7 @@ def create_jangkar_kopi_proposal():
     add_callout(
         "SKEMA TATA RUANG DAN ALUR KERJA LAHAN TERBUKA STRATEGIS (5 × 5 METER)",
         [
-            ("• Zonasi Depan (1,5 m × 5,0 m) — Dapur Display & Panggangan Arang: ", "Menempatkan gerobak kayu etalase kaca display sate higienis, panggangan arang batok stainless, ceret wedangan, dan kompor mendoan menghadap ke jalan raya agar asap bakaran gurih memancing selera."),
+            ("• Zonasi Depan (1,5 m × 5,0 m) — Dapur Display & Panggangan Arang: ", "Menempatkan gerobak kayu etalase kaca display sate frozen food higienis, panggangan arang batok stainless, ceret wedangan, dan kompor mendoan menghadap ke jalan raya agar aroma asap bakaran gurih memancing selera."),
             ("• Zonasi Tengah & Belakang (3,5 m × 5,0 m) — Area Lesehan Tamu: ", "Hamparan 3 lembar karpet spons tebal waterproof beralas tikar rapi, dilengkapi 6 unit meja lipat pendek (kayu/plastik kokoh) dan bantal lesehan. Mampu menampung 18 hingga 22 orang tamu sekaligus."),
             ("• Perlindungan Cuaca (All-Weather Tarpaulin): ", "Dilengkapi naungan kanopi terpal rangka pipa ringan yang melindungi seluruh area lesehan dari tetesan embun malam dan gerimis hujan, serta mudah digulung/dirapikan saat jam operasional usai."),
             ("• Zonasi Parkir & Akses Bersih: ", "Area depan pinggir jalan dimanfaatkan untuk parkir 8–10 sepeda motor, serta dilengkapi tempat cuci tangan (wastafel portabel injak) dan tempat sampah tertutup.")
@@ -353,18 +353,18 @@ def create_jangkar_kopi_proposal():
         bg_color="F0F4F8"
     )
 
-    add_h2("2.3 Simplifikasi Minuman: Kopi Tubruk Lokal & Varian Sachet Siap Seduh")
+    add_h2("2.3 Efisiensi Menu: Sate Frozen Food Bakar Arang & Minuman Rakyat")
     add_p(
-        "Menghilangkan mesin espresso dan penggilingan manual di Fase 1 memberikan efisiensi luar biasa:"
+        "Penerapan strategi menu berbasis frozen food dan minuman siap seduh di Fase 1 memberikan keunggulan operasional luar biasa:"
     )
     add_p(
-        "1. Kopi Tubruk Robusta Khas Daerah Banten: Menggunakan bubuk kopi sangrai lokal lereng Gunung Karang yang telah digiling halus siap seduh. Menghasilkan seduhan kopi hitam beraroma tebal, mantap, dan autentik dengan harga jual sangat bersahabat (Rp 4.000 / gelas)."
+        "1. Aneka Sate Frozen Food Bakar Arang: Pilihan makanan utama difokuskan pada olahan beku bermutu (dumpling keju lumer, otak-otak ikan singapura, sate cumi flower, sosis bakar, bakso sapi bakar). Sangat praktis tanpa marinasi rumit, tahan lama disimpan beku di cooler box tanpa risiko basi (zero food waste), dan dibakar hangat dengan saus bakar gurih."
     )
     add_p(
-        "2. Varian Kopi Sachet Populer: Menyediakan pilihan favorit masyarakat (Good Day Mocacinno, Kapal Api Spesial, Indocafe Coffeemix, Kopi Tubruk Gajah, Luwak White Koffie) seharga Rp 4.000 / gelas."
+        "2. Kopi Tubruk Lokal & Sachet Populer: Menggunakan bubuk sangrai Robusta lereng Gunung Karang siap seduh (Rp 4.000) serta varian sachet favorit masyarakat (Good Day, Kapal Api, Indocafe, Luwak White Koffie)."
     )
     add_p(
-        "3. Wedangan Susu Murni & Minuman Dingin: Tetap mempertahankan sajian susu sapi murni segar hangat/es dalam gelas mug jadul, wedang jahe merah susu rempah, serta es sirup sachet (Nutrisari, Extra Joss Susu) seharga Rp 5.000 – Rp 9.000."
+        "3. Wedangan Susu Murni & Minuman Segar: Menyajikan susu sapi murni hangat/es dalam mug jadul, wedang jahe merah susu rempah, serta es sirup sachet segar (Rp 5.000 – Rp 9.000)."
     )
 
     doc.add_page_break()
@@ -397,7 +397,7 @@ def create_jangkar_kopi_proposal():
         "• Standar Kebersihan Unggul: Alas lesehan dilap bersih setiap pergantian tamu, tempat sampah tertutup di setiap sudut, dan etalase sate tertutup kaca higienis bebas debu jalanan."
     )
     add_p(
-        "• Daya Tarik Sate Taichan Bakar Arang: Satu-satunya angkringan di area ini yang menyajikan Sate Taichan paha ayam gurih dengan sambal rawit uleg jeruk limau segar yang dibakar langsung di atas arang batok kelapa."
+        "• Daya Tarik Aneka Sate Frozen Food Bakar Arang: Menghadirkan ragam sate sosis bakar, bakso sapi bakar bumbu lada hitam, dumpling keju lumer, otak-otak singapura, dan sate cumi olahan yang dibakar hangat di atas arang batok kelapa dengan saus bakar gurih yang sangat disukai pemuda desa dan santri."
     )
     add_p(
         "• Keramahan Pelayanan & Musik Akustik: Diiringi alunan musik santai melalui speaker bluetooth kecil yang menciptakan suasana rileks tanpa kebisingan yang mengganggu."
@@ -421,13 +421,13 @@ def create_jangkar_kopi_proposal():
 
     capex_data = [
         ("Sewa Lahan Terbuka 1 Tahun di Muka", "Alokasi sewa pekarangan/lahan terbuka ~5x5 meter koridor Cikedal-Menes", "1 tahun", "Rp 6.000.000"),
-        ("Gerobak Angkringan Kayu Fungsional", "Gerobak kayu custom 150x75 cm + etalase kaca display sate higienis", "1 unit", "Rp 1.500.000"),
+        ("Gerobak Angkringan Kayu Fungsional", "Gerobak kayu custom 150x75 cm + etalase kaca display sate frozen food higienis", "1 unit", "Rp 1.500.000"),
         ("Panggangan Arang Stainless & Blower", "Panggangan sate arang batok panjang 65 cm, kisi stainless, blower DC mini, jepitan", "1 set", "Rp 350.000"),
         ("Peralatan Masak Dapur & Wedangan", "Kompor gas 1 tungku, wajan baja mendoan, ceret wedang stainless, tabung LPG 3kg", "1 paket", "Rp 450.000"),
         ("Paket Lesehan Karpet & Meja Lipat", "2 Karpet spons tebal waterproof 2x2m, tikar rapi, 4 meja lipat pendek", "1 paket", "Rp 500.000"),
-        ("Cooler Box & Wadah Saji Piring Seng", "Cooler box insulasi susu & daging, piring seng blirik, keranjang bambu, cangkir", "1 paket", "Rp 400.000"),
+        ("Cooler Box & Wadah Saji Piring Seng", "Cooler box insulasi sate frozen food & susu, piring seng blirik, wadah saji", "1 paket", "Rp 400.000"),
         ("Instalasi Listrik 900VA & Festoon", "Kabel outdoor waterproof, stopkontak cas hp, lampu gantung warm white", "1 paket", "Rp 200.000"),
-        ("Stok Bahan Baku Awal (Inventory)", "Fillet ayam taichan, aneka sate, mendoan, beras, kopi lokal, sachet, susu segar", "1 paket", "Rp 600.000"),
+        ("Stok Bahan Baku Awal (Inventory)", "Aneka frozen food (dumpling, otak-otak, cumi, sosis, bakso), mendoan, kopi, sachet, susu", "1 paket", "Rp 600.000"),
         ("Cadangan Kas Operasional (Buffer)", "Dana cadangan kas darurat kontinjensi operasional & likuiditas awal", "1 paket", "Rp 400.000")
     ]
 
@@ -504,22 +504,22 @@ def create_jangkar_kopi_proposal():
     
     add_h2("5.1 Rincian HPP dan Margin Keuntungan Menu Kunci")
     add_p(
-        "Menu Jangkar Kopi memadukan hidangan angkringan favorit dengan harga bersahabat dan margin laba kotor sehat antara 45% hingga 65%:"
+        "Menu Jangkar Kopi memadukan aneka sate frozen food bakar arang dengan kudapan dan minuman rakyat, berharga murah dan ber-margin laba kotor sehat antara 46% hingga 65%:"
     )
 
     hpp_data = [
-        ("Sate Taichan Paha Ayam (5 Tusuk)", "Daging paha ayam 100g, bumbu marinasi, sambal rawit jeruk", "Rp 6.000", "Rp 12.000", "Rp 6.000 (50,0%)"),
-        ("Sate Usus Ayam Bumbu Kuning", "Usus rebus bumbu kuning, oles bakar arang batok, tusuk", "Rp 850", "Rp 2.000", "Rp 1.150 (57,5%)"),
-        ("Sate Kulit Ayam Bakar Gurih", "Kulit ayam bumbu rempah bakar kecap manis gurih", "Rp 900", "Rp 2.500", "Rp 1.600 (64,0%)"),
-        ("Sate Telur Puyuh Bacem (4 Butir)", "Telur puyuh bacem rempah gula aren, bakar hangat", "Rp 2.000", "Rp 3.500", "Rp 1.500 (42,8%)"),
-        ("Nasi Bakar Daun Pisang Kemangi", "Nasi gurih pandan daun pisang, suwir ayam pedas kemangi", "Rp 3.800", "Rp 7.000", "Rp 3.200 (45,7%)"),
-        ("Nasi Kucing Teri / Tongkol Orek", "Nasi pulen sambal tongkol balado / orek tempe gurih", "Rp 1.600", "Rp 3.000", "Rp 1.400 (46,7%)"),
-        ("Tempe Mendoan Hangat (3 Lembar)", "Tempe mendoan kedelai lokal, tepung daun bawang, kecap rawit", "Rp 2.500", "Rp 5.000", "Rp 2.500 (50,0%)"),
+        ("Sosis Bakar Sapi/Ayam (Saus BBQ & Mayo)", "Sosis sapi/ayam olahan, oles mentega, saus BBQ bakar arang", "Rp 1.800", "Rp 4.000", "Rp 2.200 (55,0%)"),
+        ("Bakso Sapi Bakar Arang (4 Butir)", "Bakso sapi olahan kenyal, bumbu kecap lada hitam bakar arang", "Rp 1.600", "Rp 3.500", "Rp 1.900 (54,2%)"),
+        ("Dumpling Ayam / Keju Lumer (3 Pcs)", "Dumpling beku olahan isi ayam/keju lumer bakar arang batok", "Rp 2.200", "Rp 5.000", "Rp 2.800 (56,0%)"),
+        ("Otak-Otak Ikan Bakar (Singapura)", "Otak-otak ikan olahan gurih kerat silang, bumbu oles pedas manis", "Rp 1.500", "Rp 3.500", "Rp 2.000 (57,1%)"),
+        ("Sate Cumi Olahan Bakar (Squid Flower)", "Olahan daging cumi flower bakar arang saus kecap pedas gurih", "Rp 2.000", "Rp 4.500", "Rp 2.500 (55,5%)"),
+        ("Fish Roll / Crab Stick Olahan Bakar", "Olahan ikan kani stik bumbu rempah arang batok kelapa", "Rp 1.400", "Rp 3.000", "Rp 1.600 (53,3%)"),
+        ("Nasi Kucing Teri / Orek Tempe", "Nasi pulen sambal teri balado / orek tempe bungkus daun pisang", "Rp 1.600", "Rp 3.000", "Rp 1.400 (46,7%)"),
+        ("Tempe Mendoan Hangat (3 Lembar)", "Tempe kedelai lokal, adonan tepung daun bawang, kecap rawit", "Rp 2.500", "Rp 5.000", "Rp 2.500 (50,0%)"),
         ("Kopi Tubruk Robusta Khas Banten", "Bubuk kopi Robusta lokal sangrai siap seduh, gula pasir/aren", "Rp 1.400", "Rp 4.000", "Rp 2.600 (65,0%)"),
         ("Kopi Sachet Populer Siap Seduh", "Good Day / Kapal Api / Indocafe / Luwak White Koffie", "Rp 1.800", "Rp 4.000", "Rp 2.200 (55,0%)"),
         ("Es / Hangat Minuman Sachet Segar", "Nutrisari Jeruk / Extra Joss Susu / Kuku Bima Susu", "Rp 2.200", "Rp 5.000", "Rp 2.800 (56,0%)"),
-        ("Susu Murni Segar (Mug Jadul)", "Susu sapi murni pasteurisasi 200ml, manis hangat / es dingin", "Rp 3.500", "Rp 8.000", "Rp 4.500 (56,2%)"),
-        ("Wedang Jahe Merah Susu Rempah", "Susu segar 180ml, jahe merah geprek, serai wangi, cengkeh", "Rp 4.000", "Rp 9.000", "Rp 5.000 (55,5%)"),
+        ("Susu Murni Segar / Wedang Jahe Rempah", "Susu sapi murni pasteurisasi / jahe merah rempah (Mug jadul)", "Rp 3.800", "Rp 8.500", "Rp 4.700 (55,3%)"),
     ]
 
     tbl_hpp = doc.add_table(rows=len(hpp_data) + 1, cols=5)
