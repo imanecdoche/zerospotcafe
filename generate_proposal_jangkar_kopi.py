@@ -414,7 +414,7 @@ def create_jangkar_kopi_proposal():
     add_h1("4. RENCANA ANGGARAN BIAYA & ALOKASI MODAL LEAN MVP (RP 15 JT)")
     
     add_p(
-        "Total kebutuhan belanja modal (CAPEX) dan modal kerja awal Jangkar Kopi dialokasikan tepat sebesar Rp 15.000.000 (Lima Belas Juta Rupiah). Anggaran ini mengalokasikan sewa lahan terbuka selama 1 tahun di muka sebesar Rp 6.000.000 (40%), serta memanfaatkan sisa dana Rp 9.000.000 (60%) secara optimal untuk pengadaan atap terpal waterproof pada rangka tenda 2×6 meter milik pribadi inisiator, gerobak kayu custom etalase kaca, panggangan arang batok dengan kipas angin kecil, peralatan dapur wedangan, fasilitas lesehan alas tebal nyaman dengan 4 meja lipat portabel, wadah saji piring anyaman rotan beralas kertas nasi, instalasi listrik festoon, stok bahan baku awal yang diperkuat (Rp 1.600.000), dan cadangan kas darurat yang kokoh (Rp 2.000.000)."
+        "Total kebutuhan belanja modal (CAPEX) dan modal kerja awal Jangkar Kopi dialokasikan tepat sebesar Rp 15.000.000 (Lima Belas Juta Rupiah). Anggaran ini mengalokasikan sewa lahan terbuka selama 1 tahun di muka sebesar Rp 6.000.000 (40%), serta memanfaatkan sisa dana Rp 9.000.000 (60%) secara optimal untuk pengadaan atap terpal waterproof pada rangka tenda 2×6 meter milik pribadi inisiator, gerobak kayu custom etalase kaca, panggangan arang batok dengan kipas angin kecil, peralatan dapur wedangan, fasilitas lesehan alas tebal nyaman dengan 4 meja lipat portabel, wadah saji piring anyaman rotan beralas kertas nasi & mangkuk plastik kecil sambal, instalasi listrik festoon, stok bahan baku awal yang diperkuat termasuk bubuk kopi Robusta lokal khas daerah (Rp 1.600.000), dan cadangan kas darurat yang kokoh (Rp 2.000.000)."
     )
     
     add_h2("4.1 Tabel Rincian Belanja Modal Awal (Tepat Rp 15.000.000)")
@@ -425,9 +425,9 @@ def create_jangkar_kopi_proposal():
         ("Gerobak Angkringan Kayu Custom", "Gerobak kayu custom 160x75 cm + etalase kaca display sate frozen food", "1 unit", "Rp 2.000.000"),
         ("Panggangan Arang Stainless & Dapur", "Panggangan arang 65cm, kipas angin kecil, kompor gas, wajan mendoan, ceret, LPG", "1 paket", "Rp 1.000.000"),
         ("Alas Tebal Nyaman & 4 Meja Lipat", "3 Karpet busa/spons tebal empuk waterproof 2x2m, tikar rapi, 4 meja portabel", "1 paket", "Rp 800.000"),
-        ("Cooler Box & Wadah Saji Piring Rotan", "Cooler box 35-45L penampung frozen food & susu, piring rotan & kertas nasi", "1 paket", "Rp 600.000"),
+        ("Cooler Box, Piring Rotan & Mangkuk", "Cooler box 35-45L, piring rotan, kertas nasi, mangkuk plastik kecil sambal", "1 paket", "Rp 600.000"),
         ("Instalasi Listrik, Festoon & Audio", "Kabel outdoor waterproof, stopkontak cas hp, lampu festoon warm, mini speaker", "1 paket", "Rp 600.000"),
-        ("Stok Bahan Baku Awal (Inventory)", "Aneka frozen food (dumpling, otak-otak, cumi, sosis, bakso), mendoan, kopi, susu", "1 paket", "Rp 1.600.000"),
+        ("Stok Bahan Baku Awal (Inventory)", "Frozen food sate, bubuk kopi Robusta lokal khas daerah, kopi sachet, susu", "1 paket", "Rp 1.600.000"),
         ("Cadangan Kas Operasional (Buffer)", "Dana cadangan kas darurat kontinjensi operasional & likuiditas awal 1-2 bulan", "1 paket", "Rp 2.000.000")
     ]
 
