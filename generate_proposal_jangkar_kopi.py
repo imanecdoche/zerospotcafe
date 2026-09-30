@@ -267,7 +267,7 @@ def create_jangkar_kopi_proposal():
             ("• Alokasi Sewa Lahan Sementara : ", "Rp 6.000.000,- (Sewa Lahan Terbuka 1 Tahun di Muka ~5x5 Meter Koridor Cikedal-Menes)."),
             ("• Skema Kemitraan Usaha        : ", "Syirkah Mudharabah (Bagi Hasil Laba Bersih: 40% Investor : 60% Pengelola)."),
             ("• Proyeksi Balik Modal (BEP)   : ", "4,1 Bulan (~4 Bulan) pada Skenario Moderat; 2,5 Bulan pada Skenario Agresif."),
-            ("• Konsep Ruang & Duduk         : ", "100% Lesehan Karpet Spons Tebal Waterproof + Meja Pendek Lipat (Inklusif & Merakyat)."),
+            ("• Konsep Ruang & Duduk         : ", "100% Lesehan Alas Tebal Nyaman (Karpet Busa Empuk) + Meja Lipat Portabel."),
             ("• Konsep Dapur & Minuman       : ", "Panggangan Arang Batok Tradisional + Aneka Frozen Food Bakar, Kopi Tubruk Lokal & Sachet."),
             ("• Lokasi Basis Operasional     : ", "Lahan Terbuka Strategis Koridor Cikedal - Menes, Kabupaten Pandeglang, Banten."),
             ("• Inisiator & Penanggung Jawab : ", "Fatih Farhat Asshidiq (Founder & Managing Director).")
@@ -320,7 +320,7 @@ def create_jangkar_kopi_proposal():
 
     add_h2("1.3 Sederhana, Cepat Buka & Minim Risiko")
     add_p(
-        "Dengan mengalihkan fokus dari pengadaan mesin espresso impor dan set kursi camping mahal ke gerobak kayu fungsional, panggangan arang batok alami, dan lesehan karpet bersih, Jangkar Kopi dapat dieksekusi dalam tempo 10–14 hari kerja. Risiko kerugian ditekan seminimal mungkin, sementara potensi perputaran uang harian langsung aktif sejak hari pertama."
+        "Dengan menunda pembelian set kursi camping dan mesin espresso impor, serta memfokuskan fasilitas duduk pada alas tebal yang nyaman (karpet busa empuk waterproof) dan meja lipat kecil portabel, Jangkar Kopi menekan belanja modal awal secara drastis sehingga dapat dieksekusi dalam tempo 10–14 hari kerja. Risiko kerugian ditekan seminimal mungkin, sementara perputaran uang harian langsung aktif sejak hari pertama."
     )
 
     doc.add_page_break()
@@ -328,9 +328,9 @@ def create_jangkar_kopi_proposal():
     # ==================== PAGE 3: BAB 2 KONSEP & TATA RUANG LAHAN TERBUKA ====================
     add_h1("2. KONSEP BISNIS, PRODUK & TATA RUANG LAHAN TERBUKA")
     
-    add_h2("2.1 Konsep Tempat: Lesehan Rakyat yang Hangat & Inklusif")
+    add_h2("2.1 Konsep Tempat: 100% Lesehan Alas Tebal Nyaman & Meja Lipat Portabel")
     add_p(
-        "Jangkar Kopi mengusung konsep lesehan bersih beralas karpet spons tebal waterproof yang dipadu dengan meja lipat pendek. Format duduk lesehan melingkar terbukti secara sosiologis mampu meruntuhkan batas status sosial. Pelanggan dapat duduk santai, menyandarkan badan, dan menikmati hidangan tanpa merasa canggung."
+        "Jangkar Kopi mengusung konsep 100% lesehan bersih beralas tebal yang nyaman (karpet spons/busa empuk waterproof dilapisi tikar rapi) dipadu meja lipat kecil portabel yang praktis dan kokoh. Format duduk lesehan melingkar terbukti secara sosiologis mampu meruntuhkan batas status sosial. Pelanggan dapat duduk santai berselonjor dan menikmati hidangan tanpa merasa canggung atau terintimidasi."
     )
     add_p(
         "Pencahayaan dirancang menggunakan lampu gantung festoon warm white (3000K) yang temaram lembut, dipadu aroma gurih aneka sate frozen food (sosis, bakso, dumpling, otak-otak, cumi) bakar arang batok kelapa yang menyebar ke jalan raya, menciptakan daya pikat panca indra (sensory branding) yang mengundang pengendara untuk menepi."
@@ -345,7 +345,7 @@ def create_jangkar_kopi_proposal():
         "SKEMA TATA RUANG DAN ALUR KERJA LAHAN TERBUKA STRATEGIS (5 × 5 METER)",
         [
             ("• Zonasi Depan (1,5 m × 5,0 m) — Dapur Display & Panggangan Arang: ", "Menempatkan gerobak kayu etalase kaca display sate frozen food higienis, panggangan arang batok stainless, ceret wedangan, dan kompor mendoan menghadap ke jalan raya agar aroma asap bakaran gurih memancing selera."),
-            ("• Zonasi Tengah & Belakang (3,5 m × 5,0 m) — Area Lesehan Tamu: ", "Hamparan 3 lembar karpet spons tebal waterproof beralas tikar rapi, dilengkapi 6 unit meja lipat pendek (kayu/plastik kokoh) dan bantal lesehan. Mampu menampung 18 hingga 22 orang tamu sekaligus."),
+            ("• Zonasi Tengah & Belakang (3,5 m × 5,0 m) — Area Lesehan Tamu: ", "Hamparan alas tebal nyaman (karpet busa empuk waterproof dilapisi tikar rapi), dilengkapi 6 unit meja lipat kecil portabel yang ringan, kokoh, dan praktis dipindahkan. Mampu menampung 18 hingga 22 orang tamu sekaligus."),
             ("• Perlindungan Cuaca (All-Weather Tarpaulin): ", "Dilengkapi naungan kanopi terpal rangka pipa ringan yang melindungi seluruh area lesehan dari tetesan embun malam dan gerimis hujan, serta mudah digulung/dirapikan saat jam operasional usai."),
             ("• Zonasi Parkir & Akses Bersih: ", "Area depan pinggir jalan dimanfaatkan untuk parkir 8–10 sepeda motor, serta dilengkapi tempat cuci tangan (wastafel portabel injak) dan tempat sampah tertutup.")
         ],
@@ -424,7 +424,7 @@ def create_jangkar_kopi_proposal():
         ("Gerobak Angkringan Kayu Fungsional", "Gerobak kayu custom 150x75 cm + etalase kaca display sate frozen food higienis", "1 unit", "Rp 1.500.000"),
         ("Panggangan Arang Stainless & Blower", "Panggangan sate arang batok panjang 65 cm, kisi stainless, blower DC mini, jepitan", "1 set", "Rp 350.000"),
         ("Peralatan Masak Dapur & Wedangan", "Kompor gas 1 tungku, wajan baja mendoan, ceret wedang stainless, tabung LPG 3kg", "1 paket", "Rp 450.000"),
-        ("Paket Lesehan Karpet & Meja Lipat", "2 Karpet spons tebal waterproof 2x2m, tikar rapi, 4 meja lipat pendek", "1 paket", "Rp 500.000"),
+        ("Alas Tebal Nyaman & Meja Lipat", "2 Karpet busa/spons tebal empuk waterproof 2x2m, tikar rapi, 4-6 meja lipat portabel", "1 paket", "Rp 500.000"),
         ("Cooler Box & Wadah Saji Piring Seng", "Cooler box insulasi sate frozen food & susu, piring seng blirik, wadah saji", "1 paket", "Rp 400.000"),
         ("Instalasi Listrik 900VA & Festoon", "Kabel outdoor waterproof, stopkontak cas hp, lampu gantung warm white", "1 paket", "Rp 200.000"),
         ("Stok Bahan Baku Awal (Inventory)", "Aneka frozen food (dumpling, otak-otak, cumi, sosis, bakso), mendoan, kopi, sachet, susu", "1 paket", "Rp 600.000"),
@@ -620,7 +620,7 @@ def create_jangkar_kopi_proposal():
             ("• Pilihan Slot Permodalan: ", "Terbuka opsi 1 Mitra Tunggal Penuh (Rp 10.000.000), 2 Slot Kemitraan (@ Rp 5.000.000), atau Sindikasi 4 Slot Ringan (@ Rp 2.500.000/slot)."),
             ("• Nisbah Bagi Hasil Laba Bersih: ", "40% dialokasikan untuk Pihak Pemodal (Shahibul Maal) dan 60% dialokasikan untuk Pihak Pengelola Operasional (Mudharib)."),
             ("• Transparansi Kasir Digital: ", "Setiap transaksi dicatat real-time melalui aplikasi POS Cloud di ponsel. Laporan keuangan bulanan dan rekonsiliasi kas dibagikan resmi pada tanggal 1 setiap bulannya."),
-            ("• Roadmap Ekspansi Fase 2: ", "Penambahan kursi lipat camping dan mesin kopi espresso komersial akan didanai mandiri dari laba ditahan operasional setelah 3 bulan berjalan stabil, tanpa membebani modal awal investor.")
+            ("• Roadmap Ekspansi Bertahap: ", "Fasilitas kursi lipat camping dan mesin espresso komersial sengaja ditunda di awal. Pengadaan fasilitas lanjutan tersebut akan didanai mandiri dari laba ditahan operasional setelah 3 bulan berjalan stabil, tanpa membebani modal awal investor.")
         ],
         border_color="102A43",
         bg_color="F0F4F8"

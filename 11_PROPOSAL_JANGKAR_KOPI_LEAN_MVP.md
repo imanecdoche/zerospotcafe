@@ -28,9 +28,10 @@ Daya beli riil masyarakat pedesaan Cikedal - Menes terbukti kuat (rata-rata bela
 
 ## 2. Konsep Bisnis & Tata Ruang Lahan Terbuka (5 × 5 Meter / 25 m²)
 
-### 2.1 Konsep Duduk Lesehan Egaliter
-- **100% Lesehan Bersih**: Menggunakan karpet spons tebal waterproof, beralas tikar rapi, dilengkapi 4-6 unit meja lipat pendek (kayu/plastik kokoh) dan bantal duduk.
-- **Daya Tampung**: Mampu memuat 18 – 22 orang tamu sekaligus.
+### 2.1 Konsep Tempat: 100% Lesehan Alas Tebal Nyaman & Meja Lipat Portabel (Tanpa Kursi Camping di Awal)
+- **100% Lesehan Bersih & Empuk**: Menggunakan alas tebal yang nyaman (karpet busa/spons tebal waterproof dilapisi tikar bersih dan rapi) yang dipadu dengan meja lipat kecil portabel yang ringan, kokoh, dan praktis dipindahkan/disimpan.
+- **Penundaan Kursi Camping**: Pembelian set kursi camping sengaja ditiadakan/ditunda di fase awal untuk menghemat belanja modal awal (CAPEX) dan menghilangkan rasa segan (*kagok*) warga lokal serta kalangan santri.
+- **Daya Tampung**: Mampu memuat 18 – 22 orang tamu bersantai dan berselonjor dengan leluasa.
 - **Atmosfer**: Pencahayaan lampu festoon gantung *warm white* (3000K), diiringi alunan musik akustik santai via speaker bluetooth kecil, dan aroma gurih aneka sate frozen food bakar arang batok kelapa yang memancing selera ke jalan raya.
 
 ### 2.2 Zonasi Lahan (~5 × 5 Meter)
@@ -74,7 +75,7 @@ Daya beli riil masyarakat pedesaan Cikedal - Menes terbukti kuat (rata-rata bela
 | 2 | **Gerobak Angkringan Kayu Fungsional** | Gerobak kayu custom 150x75 cm + etalase kaca display sate frozen food | 1 unit | Rp 1.500.000 |
 | 3 | **Panggangan Arang Stainless & Blower** | Panggangan sate arang batok panjang 65 cm, kisi stainless, blower DC mini, jepitan | 1 set | Rp 350.000 |
 | 4 | **Peralatan Masak Dapur & Wedangan** | Kompor gas 1 tungku, wajan baja mendoan, ceret wedang stainless, tabung LPG 3kg | 1 paket | Rp 450.000 |
-| 5 | **Paket Lesehan Karpet & Meja Lipat** | 2 Karpet spons tebal waterproof 2x2m, tikar rapi, 4 meja lipat pendek | 1 paket | Rp 500.000 |
+| 5 | **Alas Tebal Nyaman & Meja Lipat Portabel** | 2 Karpet busa/spons tebal empuk waterproof 2x2m, tikar rapi, 4-6 meja lipat portabel | 1 paket | Rp 500.000 |
 | 6 | **Cooler Box & Wadah Saji Piring Seng** | Cooler box insulasi sate frozen food & susu, piring seng blirik, wadah saji | 1 paket | Rp 400.000 |
 | 7 | **Instalasi Listrik 900VA & Festoon** | Kabel outdoor waterproof, stopkontak cas hp, lampu gantung warm white | 1 paket | Rp 200.000 |
 | 8 | **Stok Bahan Baku Awal (Inventory)** | Aneka frozen food (dumpling, otak-otak, cumi, sosis, bakso), mendoan, kopi, susu | 1 paket | Rp 600.000 |
