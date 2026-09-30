@@ -328,9 +328,9 @@ def create_jangkar_kopi_proposal():
     # ==================== PAGE 3: BAB 2 KONSEP & TATA RUANG LAHAN TERBUKA ====================
     add_h1("2. KONSEP BISNIS, PRODUK & TATA RUANG LAHAN TERBUKA")
     
-    add_h2("2.1 Konsep Tempat: 100% Lesehan Alas Tebal Nyaman & Meja Lipat Portabel")
+    add_h2("2.1 Konsep Tempat: 100% Lesehan Alas Tebal Nyaman & 4 Meja Lipat Portabel")
     add_p(
-        "Jangkar Kopi mengusung konsep 100% lesehan bersih beralas tebal yang nyaman (karpet spons/busa empuk waterproof dilapisi tikar rapi) dipadu meja lipat kecil portabel yang praktis dan kokoh. Format duduk lesehan melingkar terbukti secara sosiologis mampu meruntuhkan batas status sosial. Pelanggan dapat duduk santai berselonjor dan menikmati hidangan tanpa merasa canggung atau terintimidasi."
+        "Jangkar Kopi mengusung konsep 100% lesehan bersih beralas tebal yang nyaman (karpet spons/busa empuk waterproof dilapisi tikar rapi) dipadu 4 unit meja lipat kecil portabel yang praktis dan kokoh. Hidangan disajikan di atas piring anyaman rotan beralas kertas nasi coklat, menghadirkan estetika angkringan tradisional yang otentik sekaligus sangat higienis dan praktis tanpa repot mencuci piring berminyak di malam hari (zero washing). Format duduk lesehan melingkar terbukti secara sosiologis mampu meruntuhkan batas status sosial. Pelanggan dapat duduk santai berselonjor menikmati hidangan tanpa merasa canggung atau terintimidasi."
     )
     add_p(
         "Pencahayaan dirancang menggunakan lampu gantung festoon warm white (3000K) yang temaram lembut, dipadu aroma gurih aneka sate frozen food (sosis, bakso, dumpling, otak-otak, cumi) bakar arang batok kelapa yang menyebar ke jalan raya, menciptakan daya pikat panca indra (sensory branding) yang mengundang pengendara untuk menepi."
@@ -344,8 +344,8 @@ def create_jangkar_kopi_proposal():
     add_callout(
         "SKEMA TATA RUANG DAN ALUR KERJA LAHAN TERBUKA STRATEGIS (5 × 5 METER)",
         [
-            ("• Zonasi Depan (1,5 m × 5,0 m) — Dapur Display & Panggangan Arang: ", "Menempatkan gerobak kayu etalase kaca display sate frozen food higienis, panggangan arang batok stainless, ceret wedangan, dan kompor mendoan menghadap ke jalan raya agar aroma asap bakaran gurih memancing selera."),
-            ("• Zonasi Tengah & Belakang (3,5 m × 5,0 m) — Area Lesehan Tamu: ", "Hamparan alas tebal nyaman (karpet busa empuk waterproof dilapisi tikar rapi), dilengkapi 6 unit meja lipat kecil portabel yang ringan, kokoh, dan praktis dipindahkan. Mampu menampung 18 hingga 22 orang tamu sekaligus."),
+            ("• Zonasi Depan (1,5 m × 5,0 m) — Dapur Display & Panggangan Arang: ", "Menempatkan gerobak kayu etalase kaca display sate frozen food higienis, panggangan arang batok stainless dengan hembusan kipas angin kecil, ceret wedangan, dan kompor mendoan menghadap ke jalan raya agar aroma asap bakaran gurih memancing selera."),
+            ("• Zonasi Tengah & Belakang (3,5 m × 5,0 m) — Area Lesehan Tamu: ", "Hamparan alas tebal nyaman (karpet busa empuk waterproof dilapisi tikar rapi), dilengkapi 4 unit meja lipat kecil portabel yang ringan, kokoh, dan praktis dipindahkan. Mampu menampung 16 hingga 20 orang tamu sekaligus."),
             ("• Perlindungan Cuaca (Tenda 2×6m Milik Sendiri + Atap Terpal Baru): ", "Memanfaatkan aset rangka tenda 2×6 meter milik pribadi inisiator yang dilengkapi atap kain terpal tebal waterproof (A12 heavy duty) baru untuk memproteksi area lesehan dan dapur dari embun malam serta gerimis hujan tanpa perlu biaya beli rangka baru."),
             ("• Zonasi Parkir & Akses Bersih: ", "Area depan pinggir jalan dimanfaatkan untuk parkir 8–10 sepeda motor, serta dilengkapi tempat cuci tangan (wastafel portabel injak) dan tempat sampah tertutup.")
         ],
@@ -414,7 +414,7 @@ def create_jangkar_kopi_proposal():
     add_h1("4. RENCANA ANGGARAN BIAYA & ALOKASI MODAL LEAN MVP (RP 15 JT)")
     
     add_p(
-        "Total kebutuhan belanja modal (CAPEX) dan modal kerja awal Jangkar Kopi dialokasikan tepat sebesar Rp 15.000.000 (Lima Belas Juta Rupiah). Anggaran ini mengalokasikan sewa lahan terbuka selama 1 tahun di muka sebesar Rp 6.000.000 (40%), serta memanfaatkan sisa dana Rp 9.000.000 (60%) secara optimal untuk pengadaan atap terpal waterproof pada rangka tenda 2×6 meter milik pribadi inisiator, gerobak kayu custom etalase kaca, panggangan arang batok, peralatan dapur wedangan, fasilitas lesehan alas tebal nyaman, wadah saji piring seng, instalasi listrik festoon, stok bahan baku awal yang diperkuat (Rp 1.600.000), dan cadangan kas darurat yang kokoh (Rp 2.000.000)."
+        "Total kebutuhan belanja modal (CAPEX) dan modal kerja awal Jangkar Kopi dialokasikan tepat sebesar Rp 15.000.000 (Lima Belas Juta Rupiah). Anggaran ini mengalokasikan sewa lahan terbuka selama 1 tahun di muka sebesar Rp 6.000.000 (40%), serta memanfaatkan sisa dana Rp 9.000.000 (60%) secara optimal untuk pengadaan atap terpal waterproof pada rangka tenda 2×6 meter milik pribadi inisiator, gerobak kayu custom etalase kaca, panggangan arang batok dengan kipas angin kecil, peralatan dapur wedangan, fasilitas lesehan alas tebal nyaman dengan 4 meja lipat portabel, wadah saji piring anyaman rotan beralas kertas nasi, instalasi listrik festoon, stok bahan baku awal yang diperkuat (Rp 1.600.000), dan cadangan kas darurat yang kokoh (Rp 2.000.000)."
     )
     
     add_h2("4.1 Tabel Rincian Belanja Modal Awal (Tepat Rp 15.000.000)")
@@ -423,9 +423,9 @@ def create_jangkar_kopi_proposal():
         ("Sewa Lahan Terbuka 1 Tahun di Muka", "Alokasi sewa pekarangan/lahan terbuka ~5x5 meter koridor Cikedal-Menes", "1 tahun", "Rp 6.000.000"),
         ("Atap Terpal Tenda 2×6m & Lahan", "Terpal tebal waterproof A12 rangka tenda 2x6m (rangka milik sendiri) & koral", "1 paket", "Rp 400.000"),
         ("Gerobak Angkringan Kayu Custom", "Gerobak kayu custom 160x75 cm + etalase kaca display sate frozen food", "1 unit", "Rp 2.000.000"),
-        ("Panggangan Arang Stainless & Dapur", "Panggangan arang 65cm, blower DC, kompor gas, wajan mendoan, ceret, LPG", "1 paket", "Rp 1.000.000"),
-        ("Alas Tebal Nyaman & Meja Lipat", "3 Karpet busa/spons tebal empuk waterproof 2x2m, tikar rapi, 6 meja portabel", "1 paket", "Rp 800.000"),
-        ("Cooler Box & Wadah Saji Piring Seng", "Cooler box 35-45L penampung frozen food & susu, piring seng blirik, toples", "1 paket", "Rp 600.000"),
+        ("Panggangan Arang Stainless & Dapur", "Panggangan arang 65cm, kipas angin kecil, kompor gas, wajan mendoan, ceret, LPG", "1 paket", "Rp 1.000.000"),
+        ("Alas Tebal Nyaman & 4 Meja Lipat", "3 Karpet busa/spons tebal empuk waterproof 2x2m, tikar rapi, 4 meja portabel", "1 paket", "Rp 800.000"),
+        ("Cooler Box & Wadah Saji Piring Rotan", "Cooler box 35-45L penampung frozen food & susu, piring rotan & kertas nasi", "1 paket", "Rp 600.000"),
         ("Instalasi Listrik, Festoon & Audio", "Kabel outdoor waterproof, stopkontak cas hp, lampu festoon warm, mini speaker", "1 paket", "Rp 600.000"),
         ("Stok Bahan Baku Awal (Inventory)", "Aneka frozen food (dumpling, otak-otak, cumi, sosis, bakso), mendoan, kopi, susu", "1 paket", "Rp 1.600.000"),
         ("Cadangan Kas Operasional (Buffer)", "Dana cadangan kas darurat kontinjensi operasional & likuiditas awal 1-2 bulan", "1 paket", "Rp 2.000.000")
