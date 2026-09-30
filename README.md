@@ -46,7 +46,10 @@ Seluruh dokumen riset telah disusun dan diperbarui secara komprehensif:
 11. [**10_SURVEI_SEWA_LAHAN_DAN_RUKO_MENES_CIKEDAL.md**](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/ZeroSpot%20Cafe/10_SURVEI_SEWA_LAHAN_DAN_RUKO_MENES_CIKEDAL.md)
     - Survei harga sewa lahan terbuka/pekarangan (Rp 2,5 jt - Rp 9,5 jt/tahun) dan sewa ruko komersial (Rp 9 jt - Rp 25 jt/tahun) di 5 titik strategis Menes & Cikedal (Alun-Alun Menes, Jl. Raya Labuan-Pandeglang, Simpang Cikedal, Situ Cikedal, dan Kampus MA/UNMA), komparasi 3 model properti, kalkulasi dampak finansial (CAPEX, OPEX, BEP, Payback Period), panduan klausul negosiasi sewa, serta rekomendasi bertahap.
 
-12. **Paket Penawaran & Pengajuan Proposal Outreach**:
+12. [**11_PROPOSAL_JANGKAR_KOPI_LEAN_MVP.md**](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/ZeroSpot%20Cafe/11_PROPOSAL_JANGKAR_KOPI_LEAN_MVP.md)
+    - Dokumen proposal rencana bisnis sederhana (*Lean MVP Model*) **Jangkar Kopi & Artisan Angkringan Rakyat** (Permodalan Rp 10 Juta, BEP 4,1 Bulan, 100% Lesehan Karpet Bersih, Sate Arang Batok, Nasi Bakar Daun Pisang, Kopi Tubruk Lokal & Varian Sachet Siap Seduh). Berkas master: [`PROPOSAL_INVESTASI_JANGKAR_KOPI.docx`](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/ZeroSpot%20Cafe/PROPOSAL_INVESTASI_JANGKAR_KOPI.docx) & [`PROPOSAL_INVESTASI_JANGKAR_KOPI.pdf`](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/ZeroSpot%20Cafe/PROPOSAL_INVESTASI_JANGKAR_KOPI.pdf).
+
+13. **Paket Penawaran & Pengajuan Proposal Outreach**:
     - **KADIN Provinsi Banten**:
       - Draft Email EML: `DRAFT_EMAIL_KADIN_BANTEN.eml`
       - Naskah Teks Surat: `SURAT_PENAWARAN_EMAIL_KADIN.txt`

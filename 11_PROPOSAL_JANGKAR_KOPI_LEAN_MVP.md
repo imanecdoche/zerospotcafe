@@ -5,8 +5,8 @@
 **Tagline**: *"Labuhkan Lelah, Seduh Cerita"*  
 **Inisiator & Pengelola**: Fatih Farhat Asshidiq (Founder & Managing Director)  
 **Alokasi Sewa Lahan Sementara**: Rp 6.000.000 / tahun (Lahan Terbuka ~5x5 Meter Koridor Cikedal - Menes)  
-**Total Permodalan Awal (Lean MVP)**: Rp 20.000.000 (Dua Puluh Juta Rupiah)  
-**Target Pengembalian Modal (BEP)**: 6,9 Bulan (~7 Bulan pada Skenario Moderat)  
+**Total Permodalan Awal (Lean MVP)**: Rp 10.000.000 (Sepuluh Juta Rupiah)  
+**Target Pengembalian Modal (BEP)**: 4,1 Bulan (~4 Bulan pada Skenario Moderat; 2,5 Bulan Skenario Agresif)  
 **Lokasi Basis**: Koridor Jalan Raya Cikedal - Menes, Kabupaten Pandeglang, Banten  
 
 ---
@@ -29,7 +29,7 @@ Daya beli riil masyarakat pedesaan Cikedal - Menes terbukti kuat (rata-rata bela
 ## 2. Konsep Bisnis & Tata Ruang Lahan Terbuka (5 × 5 Meter / 25 m²)
 
 ### 2.1 Konsep Duduk Lesehan Egaliter
-- **100% Lesehan Bersih**: Menggunakan karpet spons tebal waterproof, beralas tikar rapi, dilengkapi 6 unit meja lipat pendek (kayu/plastik kokoh) dan bantal duduk.
+- **100% Lesehan Bersih**: Menggunakan karpet spons tebal waterproof, beralas tikar rapi, dilengkapi 4-6 unit meja lipat pendek (kayu/plastik kokoh) dan bantal duduk.
 - **Daya Tampung**: Mampu memuat 18 – 22 orang tamu sekaligus.
 - **Atmosfer**: Pencahayaan lampu festoon gantung *warm white* (3000K), diiringi alunan musik akustik santai via speaker bluetooth kecil, dan aroma asap sate bakar arang batok kelapa yang memancing selera ke jalan raya.
 
@@ -60,50 +60,47 @@ Daya beli riil masyarakat pedesaan Cikedal - Menes terbukti kuat (rata-rata bela
 
 ---
 
-## 4. Rencana Anggaran Biaya (CAPEX Tepat Rp 20.000.000)
+## 4. Rencana Anggaran Biaya (CAPEX Tepat Rp 10.000.000)
 
 | No | Komponen Belanja Modal | Deskripsi & Spesifikasi | Volume | Total Biaya |
 | :---: | :--- | :--- | :---: | :---: |
-| 1 | **Sewa Lahan Terbuka (1 Tahun)** | Lahan pekarangan ~5x5 meter koridor Cikedal-Menes | 1 tahun | Rp 6.000.000 |
-| 2 | **Penyiapan Lahan & Kanopi Terpal** | Perataan koral split bebas becek & kanopi terpal pelindung | 1 paket | Rp 2.000.000 |
-| 3 | **Gerobak Kayu Mahoni Custom** | P 180cm x L 80cm + etalase kaca 2 rak sate + lampu warm | 1 unit | Rp 3.200.000 |
-| 4 | **Panggangan Arang Stainless & Blower** | Panjang 75 cm, kisi stainless, blower DC mini, jepitan | 1 set | Rp 650.000 |
-| 5 | **Peralatan Masak Dapur & Wedangan** | Kompor gas, wajan baja mendoan, 2 ceret wedangan, 2 LPG 3kg | 1 paket | Rp 850.000 |
-| 6 | **Paket Lesehan Karpet & Meja Lipat** | 3 Karpet spons waterproof 2x2m, tikar, 6 meja lipat pendek | 1 paket | Rp 1.100.000 |
-| 7 | **Cooler Box Heavy Duty 45 Liter** | Kotak pendingin insulasi penampung susu segar & ayam taichan | 1 unit | Rp 450.000 |
-| 8 | **Wadah Saji Piring Seng & Cangkir** | Piring seng blirik, keranjang bambu, cangkir jadul, toples kopi | 1 paket | Rp 650.000 |
-| 9 | **Instalasi Listrik 900-1300VA & Festoon** | Kabel outdoor waterproof, stopkontak, lampu gantung warm | 1 paket | Rp 600.000 |
-| 10 | **Sound Bluetooth & Spanduk Nama** | Speaker musik santai + spanduk MMT merk Jangkar Kopi | 1 paket | Rp 500.000 |
-| 11 | **Stok Bahan Baku Awal (Inventory)** | Fillet ayam taichan, aneka sate, mendoan, kopi lokal, sachet, susu | 1 paket | Rp 2.000.000 |
-| 12 | **Cadangan Kas Operasional (Buffer)** | Dana darurat kontinjensi kas operasional 1-2 bulan | 1 paket | Rp 2.000.000 |
-| | **TOTAL BELANJA MODAL LEAN MVP** | | | **Rp 20.000.000** |
+| 1 | **Sewa Lahan Terbuka (1 Tahun)** | Alokasi sewa pekarangan/lahan terbuka ~5x5 meter koridor Cikedal-Menes | 1 tahun | Rp 6.000.000 |
+| 2 | **Gerobak Angkringan Kayu Fungsional** | Gerobak kayu custom 150x75 cm + etalase kaca display sate higienis | 1 unit | Rp 1.500.000 |
+| 3 | **Panggangan Arang Stainless & Blower** | Panggangan sate arang batok panjang 65 cm, kisi stainless, blower DC mini, jepitan | 1 set | Rp 350.000 |
+| 4 | **Peralatan Masak Dapur & Wedangan** | Kompor gas 1 tungku, wajan baja mendoan, ceret wedang stainless, tabung LPG 3kg | 1 paket | Rp 450.000 |
+| 5 | **Paket Lesehan Karpet & Meja Lipat** | 2 Karpet spons tebal waterproof 2x2m, tikar rapi, 4 meja lipat pendek | 1 paket | Rp 500.000 |
+| 6 | **Cooler Box & Wadah Saji Piring Seng** | Cooler box insulasi susu & daging, piring seng blirik, keranjang bambu, cangkir | 1 paket | Rp 400.000 |
+| 7 | **Instalasi Listrik 900VA & Festoon** | Kabel outdoor waterproof, stopkontak cas hp, lampu gantung warm white | 1 paket | Rp 200.000 |
+| 8 | **Stok Bahan Baku Awal (Inventory)** | Fillet ayam taichan, aneka sate, mendoan, beras, kopi lokal, sachet, susu segar | 1 paket | Rp 600.000 |
+| 9 | **Cadangan Kas Operasional (Buffer)** | Dana cadangan kas darurat kontinjensi operasional & likuiditas awal | 1 paket | Rp 400.000 |
+| | **TOTAL BELANJA MODAL LEAN MVP** | | | **Rp 10.000.000** |
 
 ---
 
 ## 5. Proyeksi Kinerja Keuangan & Waktu Balik Modal (BEP)
 
-| Parameter Kinerja | Skenario Konservatif (Sepi/Hujan) | Skenario Moderat (Target Realistis) | Skenario Agresif (Ramai Malam Minggu) |
+| Parameter Kinerja | Skenario Konservatif (Sepi/Hujan) | Skenario Moderat (Target Realistis) | Skenario Agresif (Ramai Akhir Pekan) |
 | :--- | :---: | :---: | :---: |
-| **Estimasi Tamu / Hari** | 25 orang / hari | **40 orang / hari** | 60 orang / hari |
-| **Rata-rata Belanja / Tamu** | Rp 16.000 / orang | **Rp 18.000 / orang** | Rp 20.000 / orang |
-| **Pendapatan Harian** | Rp 400.000 / hari | **Rp 720.000 / hari** | Rp 1.200.000 / hari |
-| **Omzet Bulanan (30 Hari)** | Rp 12.000.000 | **Rp 21.600.000** | Rp 36.000.000 |
-| **HPP Bahan Pokok (~44%)** | Rp 5.400.000 | **Rp 9.500.000** | Rp 15.500.000 |
-| **Laba Kotor Usaha** | Rp 6.600.000 | **Rp 12.100.000** | Rp 20.500.000 |
-| **Beban Operasional (OPEX)** | Rp 2.800.000 | **Rp 4.900.000** | Rp 6.500.000 |
-| **Laba Bersih Usaha / Bulan** | Rp 3.800.000 | **Rp 7.200.000** | Rp 14.000.000 |
-| **Dividen Investor (40%)** | **Rp 1.520.000 / bln** | **Rp 2.880.000 / bln** | **Rp 5.600.000 / bln** |
-| **Bagian Pengelola (60%)** | Rp 2.280.000 / bln | Rp 4.320.000 / bln | Rp 8.400.000 / bln |
-| **Waktu Balik Modal (BEP)** | **13,1 Bulan** | **6,9 Bulan (~7 Bulan)** | **3,6 Bulan** |
+| **Estimasi Tamu / Hari** | 20 orang / hari | **30 orang / hari** | 45 orang / hari |
+| **Rata-rata Belanja / Tamu** | Rp 15.000 / orang | **Rp 16.700 / orang** | Rp 18.000 / orang |
+| **Pendapatan Harian** | Rp 300.000 / hari | **Rp 500.000 / hari** | Rp 810.000 / hari |
+| **Omzet Bulanan (30 Hari)** | Rp 9.000.000 | **Rp 15.000.000** | Rp 24.300.000 |
+| **HPP Bahan Pokok (~44%)** | Rp 3.960.000 | **Rp 6.600.000** | Rp 10.700.000 |
+| **Laba Kotor Usaha** | Rp 5.040.000 | **Rp 8.400.000** | Rp 13.600.000 |
+| **Beban Operasional (OPEX)** | Rp 1.840.000 | **Rp 2.400.000** | Rp 3.600.000 |
+| **Laba Bersih Usaha / Bulan** | Rp 3.200.000 | **Rp 6.000.000** | Rp 10.000.000 |
+| **Dividen Investor (40%)** | **Rp 1.280.000 / bln** | **Rp 2.400.000 / bln** | **Rp 4.000.000 / bln** |
+| **Bagian Pengelola (60%)** | Rp 1.920.000 / bln | Rp 3.600.000 / bln | Rp 6.000.000 / bln |
+| **Waktu Balik Modal (BEP)** | **7,8 Bulan** | **4,1 Bulan (~4 Bulan)** | **2,5 Bulan** |
 
 ---
 
 ## 6. Struktur Kemitraan Mudharabah & Roadmap Ekspansi
 
 - **Pilihan Partisipasi Modal**:
-  - 1 Mitra Tunggal Penuh: Rp 20.000.000
-  - 2 Slot Kemitraan: @ Rp 10.000.000
-  - 4 Slot Sindikasi: @ Rp 5.000.000
+  - 1 Mitra Tunggal Penuh: Rp 10.000.000
+  - 2 Slot Kemitraan: @ Rp 5.000.000
+  - 4 Slot Sindikasi: @ Rp 2.500.000
 - **Nisbah Bagi Hasil**: 40% Pemodal (Shahibul Maal) : 60% Pengelola (Mudharib).
 - **Akuntabilitas**: Pencatatan kasir digital POS Cloud, rekonsiliasi kas dan pembagian dividen tanggal 1 setiap bulan.
 - **Roadmap Fase 2 (Didanai Laba Ditahan)**: Setelah 3 bulan berjalan stabil, ekspansi penambahan kursi camping TrailTop dan mesin espresso semi-komersial akan dibiayai mandiri dari akumulasi laba ditahan tanpa meminta setoran modal baru dari investor.
