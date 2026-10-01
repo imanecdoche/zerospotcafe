@@ -3,121 +3,116 @@
 **Hari/Tanggal**: Kamis Malam, 1 Oktober 2026 (Ba'da Maghrib / Isya, ~19.30 - 20.00 WIB)  
 **Inisiator**: Fatih Farhat Asshidiq (Putra Bang Sapta)  
 **Tujuan**: Silaturahmi, Izin Pemanfaatan Lahan, dan Negosiasi Sewa/Kerja Sama Lahan untuk **Kedai 21**  
+**Bahasa Komunikasi**: 100% Bahasa Indonesia Santun, Luwes, dan Beradab  
 
 ---
 
 ## 🌟 1. Modal Utama & Prinsip Psikologis Pertemuan
 
 1. **Jalur Hubungan Keluarga / Sosial**:
-   - Fatih datang sebagai **anaknya Bang Sapta**. Ini adalah modal sosial (*social currency*) yang sangat kuat di Banten/Sunda. Pak Dede sudah mengenal/menghormati Bang Sapta, sehingga pintu komunikasi sudah terbuka dengan rasa saling percaya dan kekeluargaan.
-2. **Karakter Komunikasi Sunda/Banten**:
-   - Menghargai orang tua (*andap asor*, santun, tenang, tidak terburu-buru).
-   - Jangan langsung "menodong" transaksi uang atau menawar di awal obrolan. Biarkan mengalir dari silaturahmi keluarga, menanyakan kabar, baru masuk ke maksud kedatangan.
+   - Fatih datang sebagai **putra dari Bang Sapta**. Ini adalah modal sosial yang sangat kuat dan berharga. Pak Dede sudah mengenal dan menghormati Bang Sapta, sehingga pintu komunikasi sudah terbuka dengan rasa saling percaya dan kekeluargaan.
+2. **Karakter Komunikasi Santun & Beradab**:
+   - Menghargai orang tua (santun, tenang, ramah, dan tidak terburu-buru).
+   - Jangan langsung "menodong" transaksi uang atau menawar di awal obrolan. Biarkan mengalir dari silaturahmi keluarga, menanyakan kabar, baru perlahan masuk ke maksud kedatangan.
 3. **Kesan yang Ingin Dibangun**:
    - Anak muda yang punya semangat ikhtiar mandiri, beretika baik, sopan, dan bertanggung jawab penuh.
-   - Bukan mau bikin tempat nongkrong ugal-ugalan atau merusak lahan, melainkan usaha kuliner halal, bersih, tertib, dan menghidupkan suasana lingkungan menjadi positif.
+   - Bukan ingin membuat tempat nongkrong liar atau merusak lahan, melainkan ikhtiar usaha kuliner halal, bersih, tertib, dan menghidupkan suasana lingkungan menjadi lebih positif dan bermanfaat.
 
 ---
 
 ## 🗺️ 2. Analisis Potensi Lahan Pak Dede (Hasil Survei Lapangan)
 
 Berdasarkan foto & video survei:
-- **Lantai Cor Semen (Concrete Pad) Sudah Rata & Luas**: Tidak perlu biaya uruk tanah atau cor semen baru. Menghemat anggaran secara signifikan dan bebas becek saat hujan.
-- **Platform Cor Ditinggikan**: Sangat ideal untuk area panggung lesehan berkarpet tebal atau etalase kasir/display sate, aman dari cipratan air hujan.
-- **Bangunan Kecil di Belakang**: Terdapat ruangan kecil bersemen (potensi toilet / gudang penyimpanan barang dagangan).
+- **Lantai Cor Semen Sudah Rata & Luas**: Tidak memerlukan biaya uruk tanah atau cor semen baru. Menghemat anggaran secara signifikan dan bebas becek saat hujan.
+- **Platform Cor Ditinggikan**: Sangat ideal untuk area panggung lesehan berkarpet empuk atau etalase kasir/display sate, aman dari cipratan air hujan.
+- **Bangunan Kecil di Belakang**: Terdapat ruangan kecil bersemen (potensi difungsikan sebagai toilet / gudang penyimpanan barang dagangan).
 - **Akses & Parkir Lapang**: Mobil dan motor bisa langsung masuk dari pinggir jalan raya tanpa mengganggu lalu lintas.
-- **Tepi Jalan Raya Strategis**: Visibilitas jelas bagi pengendara rute Cikedal - Menes.
+- **Tepi Jalan Raya Strategis**: Visibilitas sangat jelas bagi pengendara rute Cikedal - Menes.
 - **Kabel & Tiang Listrik**: Posisi strategis memudahkan suplai daya lampu hias dan kompor/penghangat.
 
 ---
 
-## 🗣️ 3. Skrip Alur Pembicaraan (Tahap demi Tahap)
+## 🗣️ 3. Skrip Alur Pembicaraan (Tahap demi Tahap dalam Bahasa Indonesia)
 
 ### Tahap 1: Pembuka & Silaturahmi Keluarga (~3–5 Menit Pertama)
-*Setelah bersalaman dengan takzim dan duduk:*
+*Setelah bersalaman dengan takzim dan dipersilakan duduk:*
 > **Fatih**:  
-> *"Assalamu’alaikum Pak Dede, hatur nuhun pisan tos kersa nampi Fatih wengi ieu.  
-> Punten ngawagel waktosna Pak Dede sareng kulawarga.  
-> Tadi sateuacanna abdi mios, pun bapa (Bang Sapta) ngintunkeun salam baktos kagem Pak Dede sabulawarga, mugi-mugi Pak Dede tansah dipaparin kasehatan sareng kalancaran."*
->
-> *(Atau jika bahasa Indonesia santun):*  
-> *"Assalamu’alaikum Pak Dede, terima kasih banyak sudah meluangkan waktu menerima Fatih malam ini. Mohon maaf mengganggu waktu istirahat Pak Dede dan keluarga. Sebelum berangkat tadi, Bapak (Bang Sapta) juga titip salam buat Pak Dede sekeluarga, semoga Pak Dede selalu sehat dan lancar rezekinya."*
+> *"Assalamu’alaikum Pak Dede, terima kasih banyak sudah bersedia menerima Fatih malam ini. Mohon maaf mengganggu waktu istirahat Pak Dede dan keluarga.*  
+> *Tadi sebelum Fatih berangkat, Bapak (Bang Sapta) titip salam hormat buat Pak Dede sekeluarga. Beliau mendoakan semoga Pak Dede dan keluarga selalu sehat, berkah, dan lancar rezekinya."*
 
-*(Biarkan Pak Dede menjawab, nikmati obrolan santai soal kabar Bang Sapta, pekerjaan, atau keluarga).*
+*(Biarkan Pak Dede menjawab. Tanggapi dengan santai dan hangat obrolan seputar kabar Bang Sapta, keluarga, atau aktivitas sehari-hari).*
 
 ---
 
 ### Tahap 2: Menjembatani ke Maksud Kedatangan (Niat Ikhtiar Anak Muda)
 > **Fatih**:  
-> *"Kieu Pak Dede, saleresna tujuan utamina mah silaturahmi. Nanging salian ti eta, Fatih oge hoyong nyuhunkeun pituduh sareng barokah do'a ti Pak Dede salaku sepuh.  
-> Fatih sareng rerencangan ayeuna nuju ikhtiar hoyong diajar usaha mandiri di widang kuliner/tongkrongan rakyat alit-alitan di daerah Cikedal - Menes."*
+> *"Begini Pak Dede, sebenarnya tujuan utama Fatih ke sini adalah untuk silaturahmi. Namun selain itu, Fatih juga ingin meminta bimbingan, arahan, dan doa restu dari Pak Dede selaku orang tua.*  
+> *Fatih bersama rekan-rekan saat ini sedang berniat ikhtiar belajar usaha mandiri di bidang kuliner rakyat kecil-kecilan di sekitar jalur Cikedal - Menes."*
 
 ---
 
-### Tahap 3: Menjelaskan Konsep Usaha "Kedai 21" (Sederhana & Bersih)
-*Gunakan bahasa yang membumi, jangan pakai istilah teknis asing seperti "MVP", "CAPEX", atau "Pitching".*
+### Tahap 3: Menjelaskan Konsep Usaha "Kedai 21" (Sederhana, Bersih & Tertib)
+*Gunakan bahasa yang membumi, jangan gunakan istilah asing yang rumit seperti "MVP", "CAPEX", atau "Pitching".*
 > **Fatih**:  
-> *"Rencanana namina **Kedai 21**, konsepna angkringan lesehan santun.  
-> Nu dijual saderhana wae Pak: aneka sate-satean bakar (sosis bakar, bakso bakar, dumpling), mendoan haneut, nasi kucing, sareng wedang jahe atanapi kopi seduh lokal.  
-> Konsepna lesehan beralas karpet empuk sareng meja leutik.  
-> Jam bukana sore ngawitan tabuh 16.30 dugi ka wengi tabuh 23.30 atawa 24.00.*  
+> *"Rencananya nama usahanya **Kedai 21**, konsepnya angkringan lesehan santun dan merakyat.*  
+> *Menu yang kami jual sederhana saja Pak: aneka sate bakar (sosis bakar, bakso bakar, dumpling), mendoan hangat, nasi kucing, wedang jahe rempah, dan kopi seduh lokal khas Banten.*  
+> *Konsep tempatnya lesehan memakai karpet busa tebal yang nyaman ditambah meja lipat portabel.*  
+> *Jam operasionalnya sore mulai pukul 16.30 sampai malam sekitar pukul 23.30 atau jam 12 malam.*  
 >
-> *Anu janten perhatosan utama Fatih mah **kabersihan sareng katartiban lingkungan**, Pak Dede. Janten sanes tempat nongkrong anu liar atanapi kumuh. Insyaallah dijamin aman, caang ku lampu, tertib, sareng janten tempat jajan anu raos kanggo warga, santri, atanapi nu ngalangkung."*
+> *Hal yang paling kami jaga adalah **kebersihan dan ketertiban lingkungan**, Pak Dede. Jadi bukan tempat nongkrong liar yang berisik atau kumuh. Insyaallah kami pastikan aman, terang oleh lampu hias, tertib, dan menjadi tempat jajan yang nyaman bagi warga sekitar, santri, maupun pengendara yang lewat."*
 
 ---
 
 ### Tahap 4: Mengutarakan Ketertarikan pada Lahan Pak Dede
-*Jelaskan bahwa Fatih melihat lahan Pak Dede sangat cocok dan membawa manfaat jika diaktifkan:*
+*Jelaskan bahwa Fatih melihat lahan Pak Dede sangat cocok dan membawa manfaat bersama jika diaktifkan:*
 > **Fatih**:  
-> *"Tadi siang Fatih ningal lahan kagungan Pak Dede anu di pinggir jalan raya (anu parantos di-cor semen aya teras na sakedik).  
-> Ningal lahanna sae pisan sareng strategis, Fatih emut naha henteu silaturahmi sareng naroskeun langsung ka Pak Dede.  
-> Upami sawadina dipercantenkeun sareng kersa diwidian ku Pak Dede, naha lahan eta tiasa disewa atanapi dikerjasamakeun kanggo tempat Fatih usaha Kedai 21 ieu?"*
+> *"Tadi siang Fatih sempat melihat lahan milik Pak Dede yang di pinggir jalan raya (lahan yang sudah ada lantai cor semen dan undakan terasnya).*  
+> *Melihat lahannya sangat bagus, bersih, dan strategis, Fatih teringat untuk sowan dan menanyakan langsung ke Pak Dede.*  
+> *Kira-kira jika diperkenankan dan diizinkan oleh Pak Dede, apakah lahan tersebut bisa kami sewa atau kami kerjasamakan untuk lokasi usaha Kedai 21 ini?"*
 
 ---
 
 ### Tahap 5: Pertanyaan Kunci & Negosiasi Teknis (Saling Menguntungkan)
 
 1. **Tentang Izin & Bentuk Bangunan**:
-   > *"Supados Pak Dede henteu salempang, Fatih henteu ngadamel bangunan permanen anu ngaruksak lahan. Fatih ngan ukur masang tenda terpal bongkar-pasang (knock-down) sareng meja lipat. Janten lahanna tetep kajagi utuh sareng beresih."*
+   > *"Supaya Pak Dede tidak khawatir, kami tidak akan membuat bangunan permanen yang merusak lahan. Kami hanya memakai tenda terpal bongkar-pasang (knock-down) dan meja lipat. Jadi lahannya tetap utuh, rapi, dan bersih."*
 
 2. **Tentang Bangunan Kecil / Toilet di Belakang**:
-   > *"Oge Pak Dede, Fatih ningal di pengker aya wangunan alit (kamar/pos). Upami kersa, eta fungsina kanggo naon nya Pak? Naha tiasa sakantenan dibeberes kanggo fasilitas jamban/toilet atanapi gudang nyimpen barang dagangan?"*
+   > *"Satu lagi Pak Dede, kami melihat di bagian belakang ada bangunan kecil bersemen. Kalau boleh tahu, fungsinya saat ini untuk apa ya Pak? Apakah bisa sekalian kami bersihkan dan manfaatkan untuk fasilitas toilet atau gudang tempat simpan perlengkapan usaha?"*
 
-3. **Tentang Air & Listrik**:
-   > *"Kanggo kebutuhan cai beresih sareng listrik (lampu hias sareng kulkas leutik), saena kumaha nya Pak Dede? Naha tiasa masang sub-meteran/numpang ti sumber caket dinya, engkin biayana Fatih nu nanggung rutin bulanan?"*
+3. **Tentang Kebutuhan Air & Listrik**:
+   > *"Untuk kebutuhan air bersih dan sambungan listrik (penerangan lampu dan kulkas kecil), kira-kira sarannya bagaimana ya Pak Dede? Apakah memungkinkan kami pasang sub-meteran atau menyambung dari sumber terdekat, yang nantinya biaya tagihannya Fatih tanggung rutin setiap bulan?"*
 
 4. **Tentang Skema & Harga Sewa**:
-   > *"Kinten-kinten upami kersa disewakeun, kumaha pituduh sareng argo ti Pak Dede?  
-   > Sareng naha tiasa sistemna per sasih, per 3 sasih, atanapi per taun?"*
-   >
-   > *(💡 **Patokan Anggaran Fatih**: Target sewa kita di proposal adalah sekitar **Rp 5.000.000 – Rp 6.000.000 per tahun**, atau sekitar **Rp 400.000 – Rp 500.000 per bulan**).*
+   > *"Kira-kira jika memang bisa disewakan, bagaimana arahan dan perkiraan biaya dari Pak Dede? Dan apakah sistem pembayarannya memungkinkan per bulan, per 3 bulan, atau per tahun?"*  
+   > *(💡 **Patokan Anggaran Kita**: Target sewa kita di proposal adalah sekitar **Rp 5.000.000 – Rp 6.000.000 per tahun**, atau sekitar **Rp 400.000 – Rp 500.000 per bulan**).*
 
 ---
 
-### Tahap 6: Penutup yang Sopan & Tanpa Tekanan (*No Pressure*)
+### Tahap 6: Penutup yang Sopan & Tanpa Tekanan (*Pressure-Free*)
 > **Fatih**:  
-> *"Hatur nuhun pisan Pak Dede parantos ngadangukeun sharing ti Fatih.  
-> Fatih henteu maksakeun kedah putus wengi ieu pisan, mangga nyanggakeun ka Pak Dede kanggo dipertimbangkeun heula sareng kulawarga.  
-> Niat Fatih salian ti usaha oge hoyong ngaraketkeun silaturahmi sareng ngamanfaatkeun lahan supados langkung hirup, caang, sareng mawa berkah kanggo sadayana.  
-> Pidu’ana ti Pak Dede supados ikhtiar Fatih dipaparin kalancaran."*
+> *"Terima kasih banyak Pak Dede sudah mendengarkan cerita dan rencana dari Fatih.*  
+> *Fatih tentu tidak mengharuskan langsung diputuskan malam ini. Silakan Pak Dede pertimbangkan terlebih dahulu bersama keluarga.*  
+> *Niat Fatih selain ingin belajar usaha, juga ingin mempererat tali silaturahmi dan memanfaatkan lahan agar lebih hidup, terang, dan membawa berkah bersama.*  
+> *Mohon doa restunya dari Pak Dede agar ikhtiar Fatih ini diberikan kemudahan dan kelancaran."*
 
 ---
 
-## 🛡️ 4. Panduan Menjawab Pertanyaan Spontan dari Pak Dede
+## 🛡️ 4. Panduan Menjawab Pertanyaan Spontan dari Pak Dede (Bahasa Indonesia)
 
 | Pertanyaan Pak Dede | Jawaban Terbaik & Menenangkan |
 |---|---|
-| *"Ieu modal ti mana Tih? Naha nyalira atanapi sareng batur?"* | *"Modalkeun simpenan tabungan Fatih pribadi dipadu sareng kemitraan kulawarga/mitra deukeut, Pak. Modelna modal alit (Lean), teu aya beban hutang bank atanapi rentenir. Sadayana halal sareng mandiri."* |
-| *"Bakal berisik teu engkin wengi-wengi?"* | *"Henteu Pak Dede. Musikna mung musik akustik santai tina speaker alit mung kanggo suasana wungkul. Fatih oge tegas supados henteu aya nu maen gitar liar dugi ka subuh atanapi ngaganggu tatangga. Tabuh 23.30 atanapi 24.00 parantos tutup sareng beberesih."* |
-| *"Sampahna kumaha? Bisi pinuh ku laleur atawa becek?"* | *"Piringna nganggo piring anyaman rotan dialasan kertas nasi coklat, janten higienis sareng zero washing (henteu seueur cai kotor/cucian). Di lokasi disayogikeun tempat sampah katutup khusus organik sareng anorganik. Unggal wengi sateuacan mulih, lantai cor disapukeun sareng dipel beresih pisan, sampah langsung dibuang ka TPS resmi."* |
-| *"Boga budget sabaraha keur nyewa setahun?"* | *"Sateuacanna Fatih ngiring kana pituduh Pak Dede heula. Nanging upami tina itung-itungan anggaran awal rintisan Fatih, aya ancar-ancar sakitar 4 dugi ka 6 juta sataunna Pak. Nanging mangga kumaha saena ti Pak Dede, tiasa dibahas sacara kakeluargaan."* |
-| *"Mun can boga duit langsung sataun kumaha?"* | *"Upami Pak Dede ngawidian, tiasa termin misal per 3 sasih atanapi per 6 sasih di payun, supados muter heula usahana. Insyaallah Fatih komitmen tepat waktu."* |
+| *"Ini modal usahanya dari mana Tih? Sendiri atau ada pemodal lain?"* | *"Modalisasinya dari tabungan Fatih pribadi dipadu dengan kemitraan keluarga dekat, Pak. Konsepnya modal usaha kecil dan mandiri, tidak ada pinjaman bank atau rentenir. Semuanya murni modal halal dan terukur."* |
+| *"Nanti bakal berisik tidak sampai larut malam?"* | *"Tidak Pak Dede. Musiknya hanya musik akustik santai dari speaker kecil untuk pengiring suasana. Fatih juga tegas tidak mengizinkan ada yang nongkrong gitaran liar sampai subuh atau mengganggu tetangga. Jam 23.30 atau jam 24.00 kami sudah tutup dan bersih-bersih."* |
+| *"Sampahnya bagaimana? Takutnya bau atau kotor?"* | *"Piring saji kami memakai anyaman rotan dialasi kertas nasi coklat, jadi sangat higienis dan zero-washing (tidak buang air cucian kotor sembarangan). Di lokasi kami siapkan tempat sampah tertutup. Setiap malam sebelum pulang, lantai cor selalu disapu dan dipel bersih, sampah langsung dibuang ke tempat pembuangan resmi."* |
+| *"Ada budget berapa buat sewa setahun?"* | *"Sebelumnya kami tentu mengikuti arahan dari Pak Dede dulu. Tapi kalau dari perkiraan modal rintisan awal kami, ancar-ancar kami sekitar 4 sampai 6 juta rupiah per tahunnya Pak. Namun tentu mangga bagaimana baiknya menurut Pak Dede secara kekeluargaan."* |
+| *"Kalau belum bisa bayar setahun penuh bagaimana?"* | *"Jika Pak Dede berkenan, apakah bisa sistem termin bertahap, misalnya per 3 bulan atau per 6 bulan di awal, agar perputaran usaha kami bisa berjalan dulu? Insyaallah Fatih komitmen tepat waktu."* |
 
 ---
 
-## 📋 5. Checklist Sederhana yang Harus Dibawa Malam Ini
-- [ ] Pakaian rapi, sopan (kemeja/koko santun, celana panjang bersih, wangi).
-- [ ] Sikap tubuh santun (senyum, cium tangan/jabat tangan erat, kontak mata hormat).
-- [ ] Buah tangan / oleh-oleh ringan (misal: roti/kue kaleng sederhana atau martabak/camilan hangat saat bertamu malam hari — sangat dianjurkan dalam tradisi bertamu).
-- [ ] Buku catatan kecil & pulpen di saku (atau catat di HP setelah selesai bertamu).
-- [ ] Jangan perlihatkan dokumen proposal tebal di meja kecuali jika Pak Dede sendiri yang meminta melihat contoh gambar/menunya. Biarkan obrolan berjalan santai dan personal.
+## 📋 5. Checklist Sebelum Berangkat
+- [ ] Pakaian rapi dan santun (kemeja/koko bersih, celana panjang, wangi).
+- [ ] Sikap tubuh santun (senyum ramah, jabat tangan erat/cium tangan dengan takzim, tatap mata dengan hormat).
+- [ ] Buah tangan / oleh-oleh ringan (misal martabak manis/telur hangat, roti, atau camilan ringan saat bertamu malam hari).
+- [ ] Buku catatan kecil di saku (atau catat di HP setelah pertemuan selesai).
+- [ ] Rileks dan tenang, jangan terburu-buru membuka berkas proposal. Utamakan kehangatan silaturahmi.
