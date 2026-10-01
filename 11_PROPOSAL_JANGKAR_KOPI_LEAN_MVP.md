@@ -44,11 +44,11 @@ Aset identitas visual resmi tersimpan di folder [`Brand Logo and Identity/`](fil
 2. **Lengkung Cangkir & Senyuman (*Welcoming Cup & Smile*)**: Lengkung bawah jangkar memadukan mangkuk cangkir kopi dan kurva senyuman ramah (*welcoming smile*), melambangkan keramahtamahan (*hospitality*), kehangatan interaksi, dan suasana egaliter tanpa sekat sosial.
 3. **Uap Aroma Kopi & Nyala Pelita (*Steam Aroma & Beacon Flame*)**: Tiga liukan uap di puncak cangkir melambangkan aroma semerbak seduhan kopi Robusta lokal lereng Gunung Karang dan kehangatan bara arang, sekaligus menyimbolkan nyala lentera mercusuar pemandu bagi pelintas malam di koridor Cikedal - Menes.
 
-### 1.5 Urgensi Identitas Merek: Dampak Psikologis bagi Pengunjung vs. Usaha Tanpa Merek
-Banyak warkop dan angkringan kaki lima di pedesaan beroperasi secara anonim tanpa identitas yang jelas. Bagi psikologi pengunjung dan warga lokal, perbedaan bisnis dengan vs. tanpa identitas merek sangatlah fundamental:
-1. **Rasa Aman & Kepastian Mutu (*Psychological Safety & Trust*)**: Warung anonim sering dipersepsikan seadanya dengan kualitas "untung-untungan" tanpa kepastian standar higienitas. Keberadaan identitas merek Jangkar Kopi dengan warna Terracotta `#A56341` dan logo resmi memberikan sinyal keseriusan manajemen, kepastian standar higienitas, dan rasa aman bagi pengunjung bahwa ada pihak profesional yang bertanggung jawab atas mutu sajian.
-2. **Rasa Memiliki & Kebanggaan Sosial (*Sense of Belonging & Pride*)**: Tanpa identitas merek, pengunjung hanya merasa sekadar "numpang jajan di pinggir jalan". Sebaliknya, identitas merek yang memiliki cerita dan filosofi membumi (*"Labuhkan Lelah, Seduh Cerita"*) mengubah persepsi tempat menjadi ruang temu komunitas yang berjiwa (*third place*). Pengunjung merasa bangga mengajak kawan, rekan santri, atau keluarga untuk singgah.
-3. **Pembeda dari Anonimitas Pasar (*Top-of-Mind Brand Recall*)**: Di koridor jalan raya yang dipadati lapak kaki lima, identitas visual yang khas bertindak sebagai mercusuar (*visual beacon*) yang mudah diingat, memancing pengendara untuk menepi, dan mengunci loyalitas kunjungan berulang (*repeat order*).
+### 1.5 Urgensi Identitas Merek: Dampak Psikologis bagi Pengunjung
+Banyak warkop dan angkringan kaki lima di pedesaan beroperasi secara anonim tanpa identitas yang jelas. Bagi psikologi pengunjung dan warga lokal, perbedaan bisnis beridentitas merek sangatlah fundamental:
+1. **Rasa Aman & Kepastian Mutu (*Psychological Safety & Trust*)**: Warung anonim sering dipersepsikan seadanya tanpa kepastian mutu. Keberadaan identitas merek memberi sinyal keseriusan profesional, standar higienitas, dan kepastian rasa aman bagi pengunjung bahwa ada pihak yang bertanggung jawab penuh atas mutu hidangan.
+2. **Rasa Memiliki & Kebanggaan Sosial (*Sense of Belonging & Pride*)**: Pengunjung tidak merasa sekadar 'numpang jajan di pinggir jalan', melainkan bangga menjadi bagian dari ruang temu komunitas yang berjiwa dan bernarasi hangat (*'Labuhkan Lelah, Seduh Cerita'*).
+3. **Pembeda dari Anonimitas Pasar (*Top-of-Mind Brand Recall*)**: Warna khas Terracotta `#A56341` dan logo jangkar bertindak sebagai mercusuar visual pemandu di jalur Cikedal - Menes yang membedakannya dari lapak jalanan biasa dan mengunci loyalitas kunjungan berulang (*repeat order*).
 
 ---
 
