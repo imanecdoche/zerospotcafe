@@ -19,14 +19,14 @@ Berdasarkan arahan dan evaluasi objektif bersama calon mitra investor strategis 
 
 Daya beli riil masyarakat pedesaan Cikedal - Menes terbukti kuat (rata-rata belanja Rp 10.000 – Rp 20.000 per orang saat jajan malam). Namun, kunci utamanya adalah **suasana yang membumi, merakyat, dan tidak mengintimidasi (*tidak kagok*)**.
 
-### 1.2 Filosofi Mendalam Nama "Jangkar Kopi" — Doa dan Harapan
+### 1.2 Sederhana, Cepat Buka & Minim Risiko
+Dengan menunda pembelian set kursi camping dan mesin espresso impor, serta memfokuskan fasilitas duduk pada alas tebal yang nyaman (karpet busa empuk waterproof) dan meja lipat kecil portabel, Jangkar Kopi menekan belanja modal awal secara drastis sehingga dapat dieksekusi dalam tempo 10–14 hari kerja. Risiko kerugian ditekan seminimal mungkin, sementara perputaran uang harian langsung aktif sejak hari pertama.
+
+### 1.3 Filosofi Mendalam Nama "Jangkar Kopi" — Doa dan Harapan
 1. **Tempat Berlabuh & Melepas Lelah (*The Safe Harbor*)**: Seperti kapal yang menurunkan jangkar di dermaga yang tenang setelah seharian menerjang ombak, Jangkar Kopi adalah tempat warga dan pelintas jalan berlabuh, melepas lelah, dan menikmati secangkir kopi hangat di malam hari.
 2. **Kaitan Geografis Jalur Maritim Banten Barat**: Cikedal dan Menes merupakan koridor penghubung utama menuju pesisir Labuan, Carita, dan Tanjung Lesung. Jangkar sangat akrab dengan karakter masyarakat Banten yang tangguh dan pekerja keras.
 3. **Keteguhan yang Menancap Membumi (*Grounded*)**: Jangkar selalu menancap kokoh di dasar bumi, melambangkan usaha yang membumi, tidak congkak, dan kokoh tahan banting menghadapi pasang-surut usaha.
 4. **Pengikat Silaturahmi**: Menahan kapal agar tidak hanyut; mengikat tali persaudaraan antarwarga, pemuda desa, dan santri agar tetap guyub rukun.
-
-### 1.3 Sederhana, Cepat Buka & Minim Risiko
-Dengan menunda pembelian set kursi camping dan mesin espresso impor, serta memfokuskan fasilitas duduk pada alas tebal yang nyaman (karpet busa empuk waterproof) dan meja lipat kecil portabel, Jangkar Kopi menekan belanja modal awal secara drastis sehingga dapat dieksekusi dalam tempo 10–14 hari kerja. Risiko kerugian ditekan seminimal mungkin, sementara perputaran uang harian langsung aktif sejak hari pertama.
 
 ### 1.4 Identitas Visual Merek, Palet Warna (#A56341) & Filosofi Logo
 Aset identitas visual resmi tersimpan di folder [`Brand Logo and Identity/`](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/ZeroSpot%20Cafe/Brand%20Logo%20and%20Identity):

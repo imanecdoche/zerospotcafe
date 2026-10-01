@@ -161,22 +161,22 @@ def create_jangkar_kopi_proposal():
         if is_header:
             trPr.append(parse_xml(r'<w:tblHeader %s/>' % nsdecls('w')))
 
-    def add_callout(title, items, border_color="A56341", bg_color="FDF6F0", tab_stop=None, hanging=False, space_item_after=2.0):
+    def add_callout(title, items, border_color="A56341", bg_color="FDF6F0", tab_stop=None, hanging=False, space_item_after=2.0, font_size=Pt(9), pad_v=65, pad_h=105, space_after_tbl=Pt(1.5)):
         tbl = doc.add_table(rows=1, cols=1)
         tbl.alignment = WD_TABLE_ALIGNMENT.CENTER
         cell = tbl.cell(0, 0)
         cell.width = Cm(17.1)
         set_cell_shading(cell, bg_color)
-        set_cell_padding(cell, top=65, bottom=65, left=105, right=105)
+        set_cell_padding(cell, top=pad_v, bottom=pad_v, left=pad_h, right=pad_h)
         set_cell_borders(cell, left={"val": "single", "sz": "24", "color": border_color})
         
         p = cell.paragraphs[0]
         p.alignment = WD_ALIGN_PARAGRAPH.LEFT
         p.paragraph_format.space_before = Pt(0)
-        p.paragraph_format.space_after = Pt(3.5)
+        p.paragraph_format.space_after = Pt(3.0)
         r_title = p.add_run(title)
         r_title.font.name = 'Arial'
-        r_title.font.size = Pt(10)
+        r_title.font.size = Pt(9.5) if font_size < Pt(9) else Pt(10)
         r_title.font.bold = True
         r_title.font.color.rgb = COLOR_PRIMARY
         
@@ -201,23 +201,23 @@ def create_jangkar_kopi_proposal():
                 bold_txt, reg_txt = item
                 r_b = p_item.add_run(bold_txt)
                 r_b.font.name = 'Arial'
-                r_b.font.size = Pt(9)
+                r_b.font.size = font_size
                 r_b.font.bold = True
                 r_b.font.color.rgb = COLOR_SECONDARY
                 
                 r_r = p_item.add_run(reg_txt)
                 r_r.font.name = 'Arial'
-                r_r.font.size = Pt(9)
+                r_r.font.size = font_size
                 r_r.font.color.rgb = COLOR_TEXT
             else:
                 r_r = p_item.add_run(str(item))
                 r_r.font.name = 'Arial'
-                r_r.font.size = Pt(9)
+                r_r.font.size = font_size
                 r_r.font.color.rgb = COLOR_TEXT
                 
         p_space = doc.add_paragraph()
         p_space.paragraph_format.space_before = Pt(0)
-        p_space.paragraph_format.space_after = Pt(1.5)
+        p_space.paragraph_format.space_after = space_after_tbl
 
     logo_path = "/media/fatihfarhat/New Volume1/FATIH DATA/ZeroSpot Cafe/Brand Logo and Identity/JANGKAR KOPI - LOGO 2.png"
     logomark_path = "/media/fatihfarhat/New Volume1/FATIH DATA/ZeroSpot Cafe/Brand Logo and Identity/JANGKAR KOPI - LOGOMARK.png"
@@ -323,17 +323,31 @@ def create_jangkar_kopi_proposal():
     doc.add_page_break()
 
     # ==================== PAGE 2: BAB 1 LATAR BELAKANG & FILOSOFI ====================
-    add_h1("1. LATAR BELAKANG, PRINSIP LEAN STARTUP & FILOSOFI MEREK")
+    add_h1("1. LATAR BELAKANG, PRINSIP LEAN STARTUP & FILOSOFI MEREK", space_before=0, space_after=3)
     
-    add_h2("1.1 Mengapa Model Lean MVP Diterapkan?")
+    add_h2("1.1 Mengapa Model Lean MVP Diterapkan?", space_before=4, space_after=1.5)
     add_p(
-        "Berdasarkan evaluasi objektif bersama dewan penasihat dan calon mitra investor strategis, langkah paling bijak dalam memulai usaha F&B pedesaan adalah menerapkan prinsip Lean Startup: memangkas belanja modal yang belum mendesak, menghilangkan risiko kelebihan kapasitas (over-capitalization), dan menguji penerimaan pasar secara langsung dengan modal ringan yang cepat menghasilkan arus kas (cashflow engine)."
+        "Berdasarkan evaluasi objektif bersama dewan penasihat dan calon mitra investor strategis, langkah paling bijak dalam memulai usaha F&B pedesaan adalah menerapkan prinsip Lean Startup: memangkas belanja modal yang belum mendesak, menghilangkan risiko kelebihan kapasitas (over-capitalization), dan menguji penerimaan pasar secara langsung dengan modal ringan yang cepat menghasilkan arus kas (cashflow engine).",
+        size=Pt(8.5),
+        space_after=2.0,
+        line_spacing=1.12
     )
     add_p(
-        "Daya beli riil masyarakat di koridor Cikedal dan Menes terbukti sangat kuat pada rentang harga merakyat. Konsumen lokal terbiasa membelanjakan Rp 10.000 hingga Rp 20.000 per sesi nongkrong saat jajan aneka sate arang (Rp 2.500–Rp 3.500), nasi kucing, dan kopi hangat (Rp 3.000). Faktor penentu keberhasilan utama bukanlah kemewahan alat, melainkan suasana tempat yang merakyat, ramah, dan harga bersahabat yang tidak menimbulkan rasa segan (kagok/takut mahal). Oleh karena itu, Jangkar Kopi dirancang bersahaja, bersih, dan berakar pada kenyamanan warga lokal."
+        "Daya beli riil masyarakat di koridor Cikedal dan Menes terbukti sangat kuat pada rentang harga merakyat. Konsumen lokal terbiasa membelanjakan Rp 10.000 hingga Rp 20.000 per sesi nongkrong saat jajan aneka sate arang (Rp 2.500–Rp 3.500), nasi kucing, dan kopi hangat (Rp 3.000). Faktor penentu keberhasilan utama bukanlah kemewahan alat, melainkan suasana tempat yang merakyat, ramah, dan harga bersahabat yang tidak menimbulkan rasa segan (kagok/takut mahal). Oleh karena itu, Jangkar Kopi dirancang bersahaja, bersih, dan berakar pada kenyamanan warga lokal.",
+        size=Pt(8.5),
+        space_after=2.0,
+        line_spacing=1.12
+    )
+
+    add_h2("1.2 Sederhana, Cepat Buka & Minim Risiko", space_before=4, space_after=1.5)
+    add_p(
+        "Dengan menunda pembelian kursi camping dan mesin espresso impor, serta memfokuskan fasilitas duduk pada alas tebal nyaman dan meja lipat portabel, Jangkar Kopi menekan CAPEX awal secara drastis sehingga dapat dieksekusi dalam tempo 10–14 hari kerja. Risiko kerugian ditekan seminimal mungkin, sementara perputaran uang harian langsung aktif sejak hari pertama.",
+        size=Pt(8.5),
+        space_after=2.0,
+        line_spacing=1.12
     )
     
-    add_h2("1.2 Filosofi Nama Merek \"Jangkar Kopi\" — Doa dan Harapan")
+    add_h2("1.3 Filosofi Nama Merek \"Jangkar Kopi\" — Doa dan Harapan", space_before=4, space_after=1.5)
     add_callout(
         "EMPAT PILAR FILOSOFI DAN DOA DI BALIK NAMA JANGKAR KOPI",
         [
@@ -343,31 +357,36 @@ def create_jangkar_kopi_proposal():
             ("4. Pengikat Tali Silaturahmi: ", "Jangkar menahan perahu agar tidak hanyut; usaha ini diniatkan menjadi pengikat tali persaudaraan antarwarga, pemuda, santri, dan tetangga agar tetap guyub rukun.")
         ],
         border_color="A56341",
-        bg_color="FDF6F0"
+        bg_color="FDF6F0",
+        space_item_after=0.8,
+        font_size=Pt(8.5),
+        pad_v=40,
+        pad_h=70,
+        space_after_tbl=Pt(1.0)
     )
 
-    add_h2("1.3 Identitas Visual Merek, Palet Warna (#A56341) & Filosofi Logo")
+    add_h2("1.4 Identitas Visual Merek, Palet Warna (#A56341) & Filosofi Logo", space_before=4, space_after=1.5)
     
     tbl_brand = doc.add_table(rows=1, cols=2)
     tbl_brand.alignment = WD_TABLE_ALIGNMENT.CENTER
     b_left = tbl_brand.cell(0, 0)
     b_right = tbl_brand.cell(0, 1)
-    b_left.width = Cm(4.2)
-    b_right.width = Cm(12.9)
-    set_cell_padding(b_left, top=24, bottom=24, left=35, right=45)
-    set_cell_padding(b_right, top=24, bottom=24, left=45, right=35)
+    b_left.width = Cm(5.2)
+    b_right.width = Cm(11.9)
+    set_cell_padding(b_left, top=16, bottom=16, left=25, right=30)
+    set_cell_padding(b_right, top=16, bottom=16, left=30, right=25)
     set_cell_shading(b_left, "FDF6F0")
     set_cell_shading(b_right, "FDF6F0")
     set_cell_borders(b_left, left={"val": "single", "sz": "20", "color": "A56341"}, top={"val": "single", "sz": "4", "color": "E2D8CE"}, bottom={"val": "single", "sz": "4", "color": "E2D8CE"})
     set_cell_borders(b_right, right={"val": "single", "sz": "4", "color": "E2D8CE"}, top={"val": "single", "sz": "4", "color": "E2D8CE"}, bottom={"val": "single", "sz": "4", "color": "E2D8CE"})
 
-    # Left cell: Image and primary color info
+    # Left cell: Image and primary color info (larger logo)
     p_bimg = b_left.paragraphs[0]
     p_bimg.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    p_bimg.paragraph_format.space_before = Pt(2)
-    p_bimg.paragraph_format.space_after = Pt(2)
+    p_bimg.paragraph_format.space_before = Pt(1)
+    p_bimg.paragraph_format.space_after = Pt(1)
     r_bimg = p_bimg.add_run()
-    r_bimg.add_picture(logo_path, width=Cm(3.4))
+    r_bimg.add_picture(logo_path, width=Cm(4.6))
     
     p_bclr = b_left.add_paragraph()
     p_bclr.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -389,8 +408,8 @@ def create_jangkar_kopi_proposal():
     p_ph1 = b_right.paragraphs[0]
     p_ph1.alignment = WD_ALIGN_PARAGRAPH.LEFT
     p_ph1.paragraph_format.space_before = Pt(0)
-    p_ph1.paragraph_format.space_after = Pt(2.0)
-    p_ph1.paragraph_format.line_spacing = 1.15
+    p_ph1.paragraph_format.space_after = Pt(1.5)
+    p_ph1.paragraph_format.line_spacing = 1.12
     r_ph1_b = p_ph1.add_run("1. Siluet Jangkar & Inisial 'J' (Stabilitas & Safe Harbor): ")
     r_ph1_b.font.size = Pt(8)
     r_ph1_b.font.bold = True
@@ -402,8 +421,8 @@ def create_jangkar_kopi_proposal():
     p_ph2 = b_right.add_paragraph()
     p_ph2.alignment = WD_ALIGN_PARAGRAPH.LEFT
     p_ph2.paragraph_format.space_before = Pt(0.5)
-    p_ph2.paragraph_format.space_after = Pt(2.0)
-    p_ph2.paragraph_format.line_spacing = 1.15
+    p_ph2.paragraph_format.space_after = Pt(1.5)
+    p_ph2.paragraph_format.line_spacing = 1.12
     r_ph2_b = p_ph2.add_run("2. Lengkung Cangkir & Senyuman (Welcoming Cup & Smile): ")
     r_ph2_b.font.size = Pt(8)
     r_ph2_b.font.bold = True
@@ -416,7 +435,7 @@ def create_jangkar_kopi_proposal():
     p_ph3.alignment = WD_ALIGN_PARAGRAPH.LEFT
     p_ph3.paragraph_format.space_before = Pt(0.5)
     p_ph3.paragraph_format.space_after = Pt(0)
-    p_ph3.paragraph_format.line_spacing = 1.15
+    p_ph3.paragraph_format.line_spacing = 1.12
     r_ph3_b = p_ph3.add_run("3. Uap Aroma Kopi & Nyala Pelita (Steam Aroma & Beacon Flame): ")
     r_ph3_b.font.size = Pt(8)
     r_ph3_b.font.bold = True
@@ -425,12 +444,12 @@ def create_jangkar_kopi_proposal():
     r_ph3_t.font.size = Pt(8)
     r_ph3_t.font.color.rgb = COLOR_TEXT
 
-    add_h2("1.4 Urgensi Identitas Merek: Dampak Psikologis bagi Pengunjung", space_before=6, space_after=2)
+    add_h2("1.5 Urgensi Identitas Merek: Dampak Psikologis bagi Pengunjung", space_before=4, space_after=1.5)
     add_p(
         "Banyak warkop dan angkringan kaki lima beroperasi secara anonim tanpa identitas yang jelas. Bagi psikologi pengunjung dan warga lokal, perbedaan bisnis dengan vs. tanpa identitas merek sangatlah fundamental: (1) Rasa Aman & Kepastian Mutu (Psychological Safety & Trust) — Warung anonim sering dipersepsikan seadanya tanpa kepastian mutu, sedangkan identitas merek memberi sinyal keseriusan profesional, standar higienitas, dan tanggung jawab mutu produk; (2) Rasa Memiliki & Kebanggaan Sosial (Sense of Belonging & Pride) — Pengunjung tidak merasa sekadar 'numpang jajan di pinggir jalan', melainkan bangga menjadi bagian dari ruang temu yang berjiwa dan bernarasi hangat ('Labuhkan Lelah, Seduh Cerita'); (3) Pembeda dari Anonimitas Pasar (Top-of-Mind Recall) — Warna khas Terracotta #A56341 dan logo jangkar menjadi mercusuar visual pemandu di jalur Cikedal - Menes yang membedakannya dari lapak jalanan biasa dan mengunci loyalitas kunjungan berulang (repeat order).",
         size=Pt(8.5),
-        space_after=2,
-        line_spacing=1.12
+        space_after=1.5,
+        line_spacing=1.10
     )
 
     doc.add_page_break()
