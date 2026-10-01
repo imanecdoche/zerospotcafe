@@ -3,7 +3,7 @@
 
 **Merek Resmi**: Kedai 21 / Kedai 21 & Artisan Angkringan Rakyat  
 **Tagline**: *"Ruang Temu Bersahaja, Seduh Cerita"*  
-**Warna Primer Identitas**: `#A56341` (Terracotta Coffee Roast)  
+**Warna Utama Identitas**: Tropical Teal (`#00AA91`), Deep Navy (`#12213A`) & Sunny Gold (`#FEBB09`)  
 **Inisiator & Pengelola**: Fatih Farhat Asshidiq (Founder & Managing Director)  
 **Alokasi Sewa Lahan Sementara**: Rp 6.000.000 / tahun (Lahan Terbuka ~5x5 Meter Koridor Cikedal - Menes)  
 **Total Permodalan Awal (Lean MVP)**: Rp 15.000.000 (Lima Belas Juta Rupiah)  
@@ -28,27 +28,27 @@ Dengan menunda pembelian set kursi camping dan mesin espresso impor, serta memfo
 3. **Sinergi Kemitraan Syirkah 2-in-1**: Angka '2' menyimbolkan kolaborasi harmonis dua pilar (Mitra Pemodal & Pengelola Operasional), dan angka '1' menyimbolkan satu visi bersama menjemput rezeki halal dan berkah.
 4. **Simpul Silaturahmi Komunitas**: Menjadi wadah pemersatu komunitas lokal, pemuda, dan pelintas jalan di koridor Cikedal - Menes untuk saling bertukar pikiran, berkolaborasi, dan mempererat persaudaraan.
 
-### 1.4 Identitas Visual Merek, Palet Warna (#A56341) & Filosofi Logo
+### 1.4 Identitas Visual Merek, Palet Warna & Filosofi Logo
 Aset identitas visual resmi tersimpan di folder [`Brand Logo and Identity/`](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/ZeroSpot%20Cafe/Brand%20Logo%20and%20Identity):
-- `KEDAI 21 - LOGO 2.png`: Logo lengkap warna primer di atas latar transparan.
-- `KEDAI 21 - LOGO.png`: Badge logo solid latar Terracotta dengan ornamen cream untuk ikon/profil WhatsApp.
-- `KEDAI 21 - LOGOMARK.png`: Logomark simbolis cangkir kopi artisanal dengan pahatan angka '21' dan uap aroma kopi.
-- `KEDAI 21 - LOGOTYPE.png`: Logotype teks "KEDAI 21" bertracking elegan.
+- `KEDAI 21 - LOGO UTAMA.png` (LOGO 5): Logo bentuk utama kombinasi tipografi "KEDAI 21", lengkung senyuman ramah (*smile arc*), dan kilau sinar emas di atas latar transparan.
+- `KEDAI 21 - LOGOTYPE.png` (LOGO 6): Logotype tipografi nama penuh "KEDAI 21" bersih tanpa ornamen lengkung.
+- `KEDAI 21 - LOGOMARK.png` (LOGO 7): Logomark monogram grafis singkat "K21" dipadu lengkung senyuman dan kilau sinar.
+- `KEDAI 21 - MONOGRAM.png` (LOGO 8): Monogram inisial ringkas "K21" flat minimalis.
 
 **Palet Warna Identitas Merek**:
-- **Warna Primer**: **Terracotta Coffee Roast (`#A56341` / RGB: 165, 99, 65)** — Melambangkan kehangatan seduhan kopi lokal, tanah tempat berpijak yang membumi (*grounded*), bata panggangan arang tradisional, serta atmosfer angkringan rakyat yang bersahaja dan ramah.
-- **Warna Pendamping**: Warm Cream (`#F1EAD8` / RGB: 241, 234, 216) dan Deep Ocean Navy (`#102A43` / RGB: 16, 42, 67).
+- **Warna Utama**: **Tropical Teal / Persian Green (`#00AA91` / RGB: 0, 170, 145)** — Melambangkan kesegaran, keramahan tulus (*welcoming hospitality*), kesederhanaan yang merangkul, dan energi pertumbuhan usaha F&B.
+- **Warna Pendamping**: **Deep Navy / Midnight Blue (`#12213A` / RGB: 18, 33, 58)** melambangkan ketegasan, profesionalitas, stabilitas, dan keterpercayaan; serta **Sunny Gold (`#FEBB09` / RGB: 254, 187, 9)** melambangkan kilau aroma sajian dan optimisme berkah.
 
-**Tiga Elemen Filosofi Desain Logo**:
-1. **Cangkir Kopi & Pahat Angka '21' (*Artisanal & Maturity*)**: Cangkir kopi artisanal berpadu siluet angka '21' melambangkan kedewasaan langkah usaha, racikan kopi berkualitas, dan kesiapan operasional yang matang dalam melayani pasar.
-2. **Lekukan Cangkir Bersahaja (*Welcoming Simplicity*)**: Kurva cangkir yang membumi mencerminkan ruang temu egaliter rakyat tanpa sekat sosial, menghadirkan kenyamanan dan kehangatan silaturahmi bagi seluruh lapisan pengunjung.
-3. **Tiga Liukan Uap Harum (*Aroma, Semangat & Berkah*)**: Tiga liukan uap membubung merepresentasikan aroma seduhan Robusta lokal Gunung Karang, nyala semangat pantang menyerah, serta harapan rezeki berkah yang terus mengalir.
+**Tiga Elemen Filosofi Desain Logo (Bentuk Utama LOGO 5)**:
+1. **Tipografi 'KEDAI 21' Kokoh & Bersahaja (*Bold Typography*)**: Perpaduan warna Deep Navy pada kata 'KEDAI' dan Teal pada angka '21' memancarkan karakter usaha yang matang, bersahaja, terpercaya, dan sangat mudah diingat oleh semua kalangan (*high brand recall*).
+2. **Lengkungan Senyuman Ramah (*The Welcoming Smile Arc*)**: Garis kurva hijau toska di bawah angka 21 merepresentasikan senyuman hangat keramahan (*hospitality*), keterbukaan ruang temu egaliter tanpa sekat sosial, dan cangkir kebersamaan warga.
+3. **Percikan Kilau Emas Harapan (*Radiant Sparkles & Optimism*)**: Aksen kilau sinar kuning keemasan di ujung lengkungan melambangkan semerbak aroma sajian lezat, kehangatan suasana malam warga, serta pancaran energi optimisme menjemput rezeki berkah.
 
 ### 1.5 Urgensi Identitas Merek: Dampak Psikologis bagi Pengunjung
 Banyak warkop dan angkringan kaki lima di pedesaan beroperasi secara anonim tanpa identitas yang jelas. Bagi psikologi pengunjung dan warga lokal, perbedaan bisnis beridentitas merek sangatlah fundamental:
 1. **Rasa Aman & Kepastian Mutu (*Psychological Safety & Trust*)**: Warung anonim sering dipersepsikan seadanya tanpa kepastian mutu. Keberadaan identitas merek memberi sinyal keseriusan profesional, standar higienitas, dan kepastian rasa aman bagi pengunjung bahwa ada pihak yang bertanggung jawab penuh atas mutu hidangan.
 2. **Rasa Memiliki & Kebanggaan Sosial (*Sense of Belonging & Pride*)**: Pengunjung tidak merasa sekadar 'numpang jajan di pinggir jalan', melainkan bangga menjadi bagian dari ruang temu komunitas yang berjiwa dan bernarasi hangat (*'Ruang Temu Bersahaja, Seduh Cerita'*).
-3. **Pembeda dari Anonimitas Pasar (*Top-of-Mind Brand Recall*)**: Warna khas Terracotta `#A56341` dan logo Kedai 21 bertindak sebagai mercusuar visual pemandu di jalur Cikedal - Menes yang membedakannya dari lapak jalanan biasa dan mengunci loyalitas kunjungan berulang (*repeat order*).
+3. **Pembeda dari Anonimitas Pasar (*Top-of-Mind Brand Recall*)**: Warna khas Tropical Teal & Deep Navy serta logo Kedai 21 bertindak sebagai mercusuar visual pemandu di jalur Cikedal - Menes yang membedakannya dari lapak jalanan biasa dan mengunci loyalitas kunjungan berulang (*repeat order*).
 
 ---
 

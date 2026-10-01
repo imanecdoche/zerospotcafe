@@ -1,6 +1,6 @@
 # Kedai 21 & Artisan Angkringan Rakyat
 **Tagline**: *"Ruang Temu Bersahaja, Seduh Cerita"*  
-**Warna Primer Identitas Merek**: `#A56341` (Terracotta Coffee Roast)  
+**Warna Utama Identitas Merek**: Tropical Teal (`#00AA91`), Deep Navy (`#12213A`) & Sunny Gold (`#FEBB09`)  
 **Inisiator & Pengelola Operasional**: Fatih Farhat Asshidiq (Founder & Managing Director)  
 **Lokasi Basis Operasional**: Koridor Jalan Raya Cikedal - Menes, Kabupaten Pandeglang, Banten  
 
@@ -37,11 +37,11 @@ Seluruh berkas kerja yang tampil di ruang kerja utama difokuskan secara eksklusi
 4. [**`generate_proposal_kedai_21.py`**](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/ZeroSpot%20Cafe/generate_proposal_kedai_21.py)
    - Skrip automasi Python untuk mengompilasi naskah proposal Word (DOCX) dan mengekspor dokumen PDF master via LibreOffice headless.
 5. [**`Brand Logo and Identity/`**](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/ZeroSpot%20Cafe/Brand%20Logo%20and%20Identity)
-   - Direktori aset visual resmi:
-     - `KEDAI 21 - LOGO 2.png` (Logo lengkap warna primer latar transparan)
-     - `KEDAI 21 - LOGO.png` (Badge logo solid warna Terracotta)
-     - `KEDAI 21 - LOGOMARK.png` (Logomark simbolis cangkir artisanal berangka 21 & uap aroma)
-     - `KEDAI 21 - LOGOTYPE.png` (Logotype teks "KEDAI 21")
+   - Direktori aset visual resmi karya inisiator:
+     - `KEDAI 21 - LOGO UTAMA.png` (LOGO 5: Bentuk utama kombinasi tipografi KEDAI 21, lengkung senyum & kilau emas)
+     - `KEDAI 21 - LOGOTYPE.png` (LOGO 6: Logotype tipografi nama penuh KEDAI 21 tanpa ornamen)
+     - `KEDAI 21 - LOGOMARK.png` (LOGO 7: Logomark monogram grafis singkat K21 dengan lengkung senyum & kilau)
+     - `KEDAI 21 - MONOGRAM.png` (LOGO 8: Monogram inisial ringkas K21 flat minimalis)
 
 ---
 

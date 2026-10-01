@@ -25,13 +25,13 @@ def create_kedai_21_proposal():
     section.first_page_header.paragraphs[0].text = ''
     section.first_page_footer.paragraphs[0].text = '' 
     
-    # 2. Executive Warm & Terracotta Color Palette (#A56341 Brand Primary)
-    COLOR_PRIMARY = RGBColor(16, 42, 67)     # Deep Ocean Navy #102A43 (Executive Text & Table Headers)
-    COLOR_TERRACOTTA = RGBColor(165, 99, 65) # Brand Primary Terracotta #A56341 (Coffee Roast)
-    COLOR_SECONDARY = COLOR_TERRACOTTA       # Set secondary to #A56341
+    # 2. Executive Modern Palette from Official Logo 5 (Deep Navy #12213A, Tropical Teal #00AA91, Sunny Gold #FEBB09)
+    COLOR_PRIMARY = RGBColor(18, 33, 58)     # Deep Navy #12213A (Executive Typography & Table Headers)
+    COLOR_TEAL = RGBColor(0, 170, 145)       # Tropical Teal / Persian Green #00AA91 (Brand Accent & Number 21)
+    COLOR_SECONDARY = COLOR_TEAL             # Set secondary to #00AA91
     COLOR_TEXT = RGBColor(36, 59, 83)        # Dark Charcoal Slate #243B53
     COLOR_MUTED = RGBColor(98, 125, 152)     # Muted Blue-Gray #627D98
-    COLOR_GOLD = RGBColor(197, 137, 23)      # Rich Amber Gold #C58917
+    COLOR_GOLD = RGBColor(254, 187, 9)       # Sunny Gold #FEBB09 (Rays & Tagline Accent)
     COLOR_WHITE = RGBColor(255, 255, 255)
     COLOR_SUCCESS = RGBColor(22, 101, 52)    # Forest Green for profit margins
     
@@ -161,7 +161,7 @@ def create_kedai_21_proposal():
         if is_header:
             trPr.append(parse_xml(r'<w:tblHeader %s/>' % nsdecls('w')))
 
-    def add_callout(title, items, border_color="A56341", bg_color="FDF6F0", tab_stop=None, hanging=False, space_item_after=2.0, font_size=Pt(9), pad_v=65, pad_h=105, space_after_tbl=Pt(1.5)):
+    def add_callout(title, items, border_color="00AA91", bg_color="F4F9F8", tab_stop=None, hanging=False, space_item_after=2.0, font_size=Pt(9), pad_v=65, pad_h=105, space_after_tbl=Pt(1.5)):
         tbl = doc.add_table(rows=1, cols=1)
         tbl.alignment = WD_TABLE_ALIGNMENT.CENTER
         cell = tbl.cell(0, 0)
@@ -219,8 +219,9 @@ def create_kedai_21_proposal():
         p_space.paragraph_format.space_before = Pt(0)
         p_space.paragraph_format.space_after = space_after_tbl
 
-    logo_path = "/media/fatihfarhat/New Volume1/FATIH DATA/ZeroSpot Cafe/Brand Logo and Identity/KEDAI 21 - LOGO 2.png"
-    logomark_path = "/media/fatihfarhat/New Volume1/FATIH DATA/ZeroSpot Cafe/Brand Logo and Identity/KEDAI 21 - LOGOMARK.png"
+    # Official Logo Suite Paths (Primary shape is LOGO 5)
+    logo_path = "/media/fatihfarhat/New Volume1/FATIH DATA/ZeroSpot Cafe/Brand Logo and Identity/KEDAI 21 - LOGO UTAMA.png"
+    logomark_path = "/media/fatihfarhat/New Volume1/FATIH DATA/ZeroSpot Cafe/Brand Logo and Identity/KEDAI 21 - LOGO UTAMA.png"
 
     # ==================== PAGE 1: COVER PAGE ====================
     tbl_hdr = doc.add_table(rows=1, cols=2)
@@ -270,7 +271,7 @@ def create_kedai_21_proposal():
     p_img.paragraph_format.space_before = Pt(0)
     p_img.paragraph_format.space_after = Pt(0)
     r_img = p_img.add_run()
-    r_img.add_picture(logomark_path, width=Cm(3.2))
+    r_img.add_picture(logomark_path, width=Cm(3.4))
 
     p_tag = doc.add_paragraph()
     p_tag.paragraph_format.space_before = Pt(4)
@@ -302,8 +303,8 @@ def create_kedai_21_proposal():
             ("• Lokasi Basis Operasional\t: ", "Lahan Terbuka Strategis Koridor Cikedal - Menes, Kabupaten Pandeglang, Banten."),
             ("• Inisiator & Penanggung Jawab\t: ", "Fatih Farhat Asshidiq (Founder & Managing Director).")
         ],
-        border_color="A56341",
-        bg_color="FDF6F0",
+        border_color="00AA91",
+        bg_color="F4F9F8",
         tab_stop=Cm(5.4),
         hanging=True
     )
@@ -356,8 +357,8 @@ def create_kedai_21_proposal():
             ("3. Sinergi Kemitraan Syirkah 2-in-1: ", "Angka '2' menyimbolkan kolaborasi harmonis dua pilar (Mitra Pemodal & Pengelola Operasional), dan angka '1' menyimbolkan satu visi bersama menjemput rezeki halal dan berkah."),
             ("4. Simpul Silaturahmi Komunitas: ", "Menjadi wadah pemersatu komunitas lokal, pemuda, dan pelintas jalan di koridor Cikedal - Menes untuk saling bertukar pikiran, berkolaborasi, dan mempererat persaudaraan.")
         ],
-        border_color="A56341",
-        bg_color="FDF6F0",
+        border_color="00AA91",
+        bg_color="F4F9F8",
         space_item_after=0.8,
         font_size=Pt(9),
         pad_v=40,
@@ -365,7 +366,7 @@ def create_kedai_21_proposal():
         space_after_tbl=Pt(1.0)
     )
 
-    add_h2("1.4 Identitas Visual Merek, Palet Warna (#A56341) & Filosofi Logo", space_before=4, space_after=1.5)
+    add_h2("1.4 Identitas Visual Merek, Palet Warna & Filosofi Logo", space_before=4, space_after=1.5)
     
     tbl_brand = doc.add_table(rows=1, cols=2)
     tbl_brand.alignment = WD_TABLE_ALIGNMENT.CENTER
@@ -375,32 +376,32 @@ def create_kedai_21_proposal():
     b_right.width = Cm(11.9)
     set_cell_padding(b_left, top=14, bottom=14, left=25, right=30)
     set_cell_padding(b_right, top=14, bottom=14, left=30, right=25)
-    set_cell_shading(b_left, "FDF6F0")
-    set_cell_shading(b_right, "FDF6F0")
-    set_cell_borders(b_left, left={"val": "single", "sz": "20", "color": "A56341"}, top={"val": "single", "sz": "4", "color": "E2D8CE"}, bottom={"val": "single", "sz": "4", "color": "E2D8CE"})
-    set_cell_borders(b_right, right={"val": "single", "sz": "4", "color": "E2D8CE"}, top={"val": "single", "sz": "4", "color": "E2D8CE"}, bottom={"val": "single", "sz": "4", "color": "E2D8CE"})
+    set_cell_shading(b_left, "F4F9F8")
+    set_cell_shading(b_right, "F4F9F8")
+    set_cell_borders(b_left, left={"val": "single", "sz": "20", "color": "00AA91"}, top={"val": "single", "sz": "4", "color": "D4E5E1"}, bottom={"val": "single", "sz": "4", "color": "D4E5E1"})
+    set_cell_borders(b_right, right={"val": "single", "sz": "4", "color": "D4E5E1"}, top={"val": "single", "sz": "4", "color": "D4E5E1"}, bottom={"val": "single", "sz": "4", "color": "D4E5E1"})
 
-    # Left cell: Image and primary color info (larger logo)
+    # Left cell: Image and primary color info (Official Logo 5)
     p_bimg = b_left.paragraphs[0]
     p_bimg.alignment = WD_ALIGN_PARAGRAPH.CENTER
     p_bimg.paragraph_format.space_before = Pt(1)
     p_bimg.paragraph_format.space_after = Pt(1)
     r_bimg = p_bimg.add_run()
-    r_bimg.add_picture(logo_path, width=Cm(4.6))
+    r_bimg.add_picture(logo_path, width=Cm(4.5))
     
     p_bclr = b_left.add_paragraph()
     p_bclr.alignment = WD_ALIGN_PARAGRAPH.CENTER
     p_bclr.paragraph_format.space_before = Pt(0)
     p_bclr.paragraph_format.space_after = Pt(0)
-    r_bclr1 = p_bclr.add_run("Warna Primer Merek:\n")
+    r_bclr1 = p_bclr.add_run("Warna Utama Merek:\n")
     r_bclr1.font.size = Pt(7.5)
     r_bclr1.font.bold = True
     r_bclr1.font.color.rgb = COLOR_PRIMARY
-    r_bclr2 = p_bclr.add_run("Terracotta Coffee Roast\n")
+    r_bclr2 = p_bclr.add_run("Tropical Teal & Deep Navy\n")
     r_bclr2.font.size = Pt(8)
     r_bclr2.font.bold = True
-    r_bclr2.font.color.rgb = COLOR_TERRACOTTA
-    r_bclr3 = p_bclr.add_run("#A56341 | RGB (165,99,65)")
+    r_bclr2.font.color.rgb = COLOR_SECONDARY
+    r_bclr3 = p_bclr.add_run("#00AA91, #12213A, #FEBB09")
     r_bclr3.font.size = Pt(7)
     r_bclr3.font.color.rgb = COLOR_MUTED
 
@@ -410,11 +411,11 @@ def create_kedai_21_proposal():
     p_ph1.paragraph_format.space_before = Pt(0)
     p_ph1.paragraph_format.space_after = Pt(1.5)
     p_ph1.paragraph_format.line_spacing = 1.12
-    r_ph1_b = p_ph1.add_run("1. Cangkir Kopi & Pahat Angka '21' (Artisanal & Maturity): ")
+    r_ph1_b = p_ph1.add_run("1. Tipografi 'KEDAI 21' Kokoh & Bersahaja (Bold Typography): ")
     r_ph1_b.font.size = Pt(8.5)
     r_ph1_b.font.bold = True
-    r_ph1_b.font.color.rgb = COLOR_TERRACOTTA
-    r_ph1_t = p_ph1.add_run("Cangkir kopi artisanal berpadu siluet angka '21' melambangkan kedewasaan langkah usaha, racikan kopi berkualitas, dan kesiapan operasional yang matang dalam melayani pasar.")
+    r_ph1_b.font.color.rgb = COLOR_SECONDARY
+    r_ph1_t = p_ph1.add_run("Perpaduan warna Deep Navy pada kata 'KEDAI' dan Teal pada angka '21' memancarkan karakter usaha yang matang, bersahaja, terpercaya, dan sangat mudah diingat semua kalangan.")
     r_ph1_t.font.size = Pt(8.5)
     r_ph1_t.font.color.rgb = COLOR_TEXT
 
@@ -423,11 +424,11 @@ def create_kedai_21_proposal():
     p_ph2.paragraph_format.space_before = Pt(0.5)
     p_ph2.paragraph_format.space_after = Pt(1.5)
     p_ph2.paragraph_format.line_spacing = 1.12
-    r_ph2_b = p_ph2.add_run("2. Lekukan Cangkir Bersahaja (Welcoming Simplicity): ")
+    r_ph2_b = p_ph2.add_run("2. Lengkungan Senyuman Ramah (The Welcoming Smile Arc): ")
     r_ph2_b.font.size = Pt(8.5)
     r_ph2_b.font.bold = True
-    r_ph2_b.font.color.rgb = COLOR_TERRACOTTA
-    r_ph2_t = p_ph2.add_run("Kurva cangkir yang membumi mencerminkan ruang temu egaliter rakyat tanpa sekat sosial, menghadirkan kenyamanan dan kehangatan silaturahmi bagi seluruh lapisan pengunjung.")
+    r_ph2_b.font.color.rgb = COLOR_SECONDARY
+    r_ph2_t = p_ph2.add_run("Kurva hijau toska di bawah angka 21 merepresentasikan keramahan tulus (hospitality), keterbukaan ruang temu egaliter tanpa sekat sosial, dan kehangatan cangkir kebersamaan.")
     r_ph2_t.font.size = Pt(8.5)
     r_ph2_t.font.color.rgb = COLOR_TEXT
 
@@ -436,11 +437,11 @@ def create_kedai_21_proposal():
     p_ph3.paragraph_format.space_before = Pt(0.5)
     p_ph3.paragraph_format.space_after = Pt(0)
     p_ph3.paragraph_format.line_spacing = 1.12
-    r_ph3_b = p_ph3.add_run("3. Tiga Liukan Uap Harum (Aroma, Semangat & Berkah): ")
+    r_ph3_b = p_ph3.add_run("3. Percikan Kilau Emas Harapan (Radiant Sparkles & Optimism): ")
     r_ph3_b.font.size = Pt(8.5)
     r_ph3_b.font.bold = True
-    r_ph3_b.font.color.rgb = COLOR_TERRACOTTA
-    r_ph3_t = p_ph3.add_run("Tiga liukan uap membubung merepresentasikan aroma seduhan Robusta lokal Gunung Karang, nyala semangat pantang menyerah, serta harapan rezeki berkah yang terus mengalir.")
+    r_ph3_b.font.color.rgb = COLOR_SECONDARY
+    r_ph3_t = p_ph3.add_run("Kilau sinar kuning keemasan di ujung lengkungan melambangkan semerbak aroma sajian lezat, kehangatan suasana malam warga, dan optimisme keberkahan usaha yang terus memancar.")
     r_ph3_t.font.size = Pt(8.5)
     r_ph3_t.font.color.rgb = COLOR_TEXT
 
@@ -455,7 +456,7 @@ def create_kedai_21_proposal():
     psycho_points = [
         ("1. Rasa Aman & Kepastian Mutu (Psychological Safety & Trust): ", "Warung anonim sering dipersepsikan seadanya tanpa kepastian mutu. Keberadaan identitas merek memberi sinyal keseriusan profesional, standar higienitas, dan kepastian rasa aman bagi pengunjung bahwa ada pihak yang bertanggung jawab penuh atas mutu hidangan."),
         ("2. Rasa Memiliki & Kebanggaan Sosial (Sense of Belonging & Pride): ", "Pengunjung tidak merasa sekadar 'numpang jajan di pinggir jalan', melainkan bangga menjadi bagian dari ruang temu komunitas yang berjiwa dan bernarasi hangat ('Ruang Temu Bersahaja, Seduh Cerita')."),
-        ("3. Pembeda dari Anonimitas Pasar (Top-of-Mind Brand Recall): ", "Warna khas Terracotta #A56341 dan logo Kedai 21 bertindak sebagai mercusuar visual pemandu di jalur Cikedal - Menes yang membedakannya dari lapak jalanan biasa dan mengunci loyalitas kunjungan berulang (repeat order).")
+        ("3. Pembeda dari Anonimitas Pasar (Top-of-Mind Brand Recall): ", "Warna khas Tropical Teal & Deep Navy serta logo Kedai 21 bertindak sebagai mercusuar visual pemandu di jalur Cikedal - Menes yang membedakannya dari lapak jalanan biasa dan mengunci loyalitas kunjungan berulang (repeat order).")
     ]
     for b_txt, r_txt in psycho_points:
         p_pt = doc.add_paragraph()
@@ -501,8 +502,8 @@ def create_kedai_21_proposal():
             ("• Perlindungan Cuaca (Tenda 2×6m Milik Sendiri + Atap Terpal Baru): ", "Memanfaatkan aset rangka tenda 2×6 meter milik pribadi inisiator yang dilengkapi atap kain terpal tebal waterproof (A12 heavy duty) baru untuk memproteksi area lesehan dan dapur dari embun malam serta gerimis hujan tanpa perlu biaya beli rangka baru."),
             ("• Zonasi Parkir & Akses Bersih: ", "Area depan pinggir jalan dimanfaatkan untuk parkir 8–10 sepeda motor, serta dilengkapi tempat cuci tangan (wastafel portabel injak) dan tempat sampah tertutup.")
         ],
-        border_color="A56341",
-        bg_color="FDF6F0"
+        border_color="00AA91",
+        bg_color="F4F9F8"
     )
 
     add_h2("2.3 Menu Makanan Awal: Aneka Sate Frozen Food Bakar Arang & Kudapan")
@@ -551,8 +552,8 @@ def create_kedai_21_proposal():
             ("3. Pekerja Malam, Guru, Pedagang & Petugas Ronda (20%): ", "Masyarakat yang mencari santapan malam mengenyangkan berharga murah (nasi bakar daun pisang, gorengan mendoan hangat, wedang jahe susu penambah stamina)."),
             ("4. Pelintas Jalur Wisata & Logistik Pantai Barat (15%): ", "Pengendara mobil dan motor rute Pandeglang-Labuan-Carita yang memerlukan tempat istirahat (rest point) sejenak yang aman dan bersih di pinggir jalan raya.")
         ],
-        border_color="A56341",
-        bg_color="FDF6F0"
+        border_color="00AA91",
+        bg_color="F4F9F8"
     )
 
     add_h2("3.2 Keunggulan Kompetitif Dibanding Warkop Konvensional")
@@ -605,7 +606,7 @@ def create_kedai_21_proposal():
     for j, h in enumerate(headers):
         c = tbl_capex.cell(0, j)
         c.width = c_widths[j]
-        set_cell_shading(c, "102A43")
+        set_cell_shading(c, "12213A")
         set_cell_padding(c, top=60, bottom=60, left=80, right=80)
         p = c.paragraphs[0]
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER if j >= 2 else WD_ALIGN_PARAGRAPH.LEFT
@@ -617,14 +618,14 @@ def create_kedai_21_proposal():
     set_row_props(tbl_capex.rows[0], is_header=True)
 
     for i, row in enumerate(capex_data):
-        bg = "FDF6F0" if i % 2 == 0 else "FFFFFF"
+        bg = "F4F9F8" if i % 2 == 0 else "FFFFFF"
         set_row_props(tbl_capex.rows[i + 1])
         for j, val in enumerate(row):
             c = tbl_capex.cell(i + 1, j)
             c.width = c_widths[j]
             set_cell_shading(c, bg)
             set_cell_padding(c, top=32, bottom=32, left=60, right=60)
-            set_cell_borders(c, bottom={"val": "single", "sz": "4", "color": "E2D8CE"})
+            set_cell_borders(c, bottom={"val": "single", "sz": "4", "color": "D4E5E1"})
             p = c.paragraphs[0]
             p.alignment = WD_ALIGN_PARAGRAPH.CENTER if j == 2 else (WD_ALIGN_PARAGRAPH.RIGHT if j == 3 else WD_ALIGN_PARAGRAPH.LEFT)
             r = p.add_run(val)
@@ -645,7 +646,7 @@ def create_kedai_21_proposal():
         c.width = w
         set_cell_shading(c, "FEF3C7")
         set_cell_padding(c, top=60, bottom=60, left=80, right=80)
-        set_cell_borders(c, top={"val": "single", "sz": "12", "color": "A56341"}, bottom={"val": "single", "sz": "12", "color": "A56341"})
+        set_cell_borders(c, top={"val": "single", "sz": "12", "color": "00AA91"}, bottom={"val": "single", "sz": "12", "color": "00AA91"})
 
     p_tot1 = c_tot_label.paragraphs[0]
     p_tot1.alignment = WD_ALIGN_PARAGRAPH.LEFT
@@ -696,7 +697,7 @@ def create_kedai_21_proposal():
     for j, h in enumerate(headers_hpp):
         c = tbl_hpp.cell(0, j)
         c.width = h_widths[j]
-        set_cell_shading(c, "102A43")
+        set_cell_shading(c, "12213A")
         set_cell_padding(c, top=45, bottom=45, left=60, right=60)
         p = c.paragraphs[0]
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER if j >= 2 else WD_ALIGN_PARAGRAPH.LEFT
@@ -708,14 +709,14 @@ def create_kedai_21_proposal():
     set_row_props(tbl_hpp.rows[0], is_header=True)
 
     for i, row in enumerate(hpp_data):
-        bg = "FDF6F0" if i % 2 == 0 else "FFFFFF"
+        bg = "F4F9F8" if i % 2 == 0 else "FFFFFF"
         set_row_props(tbl_hpp.rows[i + 1])
         for j, val in enumerate(row):
             c = tbl_hpp.cell(i + 1, j)
             c.width = h_widths[j]
             set_cell_shading(c, bg)
             set_cell_padding(c, top=16, bottom=16, left=45, right=45)
-            set_cell_borders(c, bottom={"val": "single", "sz": "4", "color": "E2D8CE"})
+            set_cell_borders(c, bottom={"val": "single", "sz": "4", "color": "D4E5E1"})
             p = c.paragraphs[0]
             p.alignment = WD_ALIGN_PARAGRAPH.CENTER if j in (2, 3) else (WD_ALIGN_PARAGRAPH.RIGHT if j == 4 else WD_ALIGN_PARAGRAPH.LEFT)
             r = p.add_run(val)
@@ -753,7 +754,7 @@ def create_kedai_21_proposal():
         is_hdr = (i == 0)
         is_bep = (i == len(fin_scenarios) - 1)
         is_div = (i == len(fin_scenarios) - 3)
-        bg = "102A43" if is_hdr else ("FEF3C7" if (is_bep or is_div) else ("FDF6F0" if i % 2 == 1 else "FFFFFF"))
+        bg = "12213A" if is_hdr else ("FEF3C7" if (is_bep or is_div) else ("F4F9F8" if i % 2 == 1 else "FFFFFF"))
         set_row_props(tbl_fin.rows[i], is_header=is_hdr)
         for j, val in enumerate(row):
             c = tbl_fin.cell(i, j)
@@ -761,7 +762,7 @@ def create_kedai_21_proposal():
             set_cell_shading(c, bg)
             set_cell_padding(c, top=18 if not is_hdr else 32, bottom=18 if not is_hdr else 32, left=50, right=50)
             if not is_hdr:
-                set_cell_borders(c, bottom={"val": "single", "sz": "4", "color": "E2D8CE"})
+                set_cell_borders(c, bottom={"val": "single", "sz": "4", "color": "D4E5E1"})
             p = c.paragraphs[0]
             p.alignment = WD_ALIGN_PARAGRAPH.LEFT if j == 0 else WD_ALIGN_PARAGRAPH.RIGHT
             r = p.add_run(val)
@@ -788,8 +789,8 @@ def create_kedai_21_proposal():
             ("• Transparansi Kasir Digital: ", "Setiap transaksi dicatat real-time melalui aplikasi POS Cloud di ponsel. Laporan keuangan bulanan dan rekonsiliasi kas dibagikan resmi pada tanggal 1 setiap bulannya."),
             ("• Roadmap Ekspansi Bertahap: ", "Fasilitas kursi lipat camping dan mesin espresso komersial sengaja ditunda di awal. Pengadaan fasilitas lanjutan tersebut akan didanai mandiri dari laba ditahan operasional setelah 3 bulan berjalan stabil, tanpa membebani modal awal investor.")
         ],
-        border_color="A56341",
-        bg_color="FDF6F0"
+        border_color="00AA91",
+        bg_color="F4F9F8"
     )
 
     add_h2("6.2 Kesimpulan Eksekutif")
@@ -812,7 +813,7 @@ def create_kedai_21_proposal():
             ("\t\t", "[   ] 1 Slot Kemitraan Usaha (Rp 7.500.000)"),
             ("\t\t", "[   ] 1 Mitra Tunggal Penuh (Rp 15.000.000)")
         ],
-        border_color="A56341",
+        border_color="00AA91",
         bg_color="FEF3C7",
         tab_stop=[Cm(4.8), Cm(5.2)],
         hanging=False,
