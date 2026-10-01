@@ -27,16 +27,16 @@ Kedai 21 & Artisan Angkringan Rakyat adalah model bisnis kuliner malam berbasis 
 
 Seluruh berkas kerja yang tampil di ruang kerja utama difokuskan secara eksklusif untuk bisnis **Kedai 21**:
 
-1. [**`PROPOSAL_INVESTASI_KEDAI_21.pdf`**](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/ZeroSpot%20Cafe/PROPOSAL_INVESTASI_KEDAI_21.pdf)
+1. [**`PROPOSAL_INVESTASI_KEDAI_21.pdf`**](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/KEDAI%2021/PROPOSAL_INVESTASI_KEDAI_21.pdf)
    - Naskah dokumen proposal investasi dan kemitraan resmi master.
    - Format standar cetak F4 / Folio (21,5 × 33,0 cm), layout presisi terkunci **tepat 7 halaman penuh**.
-2. [**`PROPOSAL_INVESTASI_KEDAI_21.docx`**](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/ZeroSpot%20Cafe/PROPOSAL_INVESTASI_KEDAI_21.docx)
+2. [**`PROPOSAL_INVESTASI_KEDAI_21.docx`**](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/KEDAI%2021/PROPOSAL_INVESTASI_KEDAI_21.docx)
    - Berkas naskah Microsoft Word dengan format OpenXML, tabel berarsitektur Dual Tab Stop, dan tipografi Arial resmi.
-3. [**`11_PROPOSAL_KEDAI_21_LEAN_MVP.md`**](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/ZeroSpot%20Cafe/11_PROPOSAL_KEDAI_21_LEAN_MVP.md)
+3. [**`11_PROPOSAL_KEDAI_21_LEAN_MVP.md`**](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/KEDAI%2021/11_PROPOSAL_KEDAI_21_LEAN_MVP.md)
    - Cetak biru (*blueprint*) komprehensif rencana bisnis, riset pasar lokal, analisis HPP riil bahan baku, simulasi finansial, dan tata letak operasional lahan terbuka ~5×5 meter.
-4. [**`generate_proposal_kedai_21.py`**](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/ZeroSpot%20Cafe/generate_proposal_kedai_21.py)
+4. [**`generate_proposal_kedai_21.py`**](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/KEDAI%2021/generate_proposal_kedai_21.py)
    - Skrip automasi Python untuk mengompilasi naskah proposal Word (DOCX) dan mengekspor dokumen PDF master via LibreOffice headless.
-5. [**`Brand Logo and Identity/`**](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/ZeroSpot%20Cafe/Brand%20Logo%20and%20Identity)
+5. [**`Brand Logo and Identity/`**](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/KEDAI%2021/Brand%20Logo%20and%20Identity)
    - Direktori aset visual resmi karya inisiator:
      - `KEDAI 21 - LOGO UTAMA.png` (LOGO 5: Bentuk utama kombinasi tipografi KEDAI 21, lengkung senyum & kilau emas)
      - `KEDAI 21 - LOGOTYPE.png` (LOGO 6: Logotype tipografi nama penuh KEDAI 21 tanpa ornamen)
@@ -46,7 +46,7 @@ Seluruh berkas kerja yang tampil di ruang kerja utama difokuskan secara eksklusi
 ---
 
 ## 🗄️ Pengarsipan Berkas Lama
-Dokumen riset awal konsep terdahulu (*ZeroSpot Cafe* dan draf awal *Jangkar Kopi*) disimpan secara aman pada folder tersembunyi [`.archive_zerospot_cafe/`](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/ZeroSpot%20Cafe/.archive_zerospot_cafe) agar ruang kerja tetap rapi, bersih, dan berfokus penuh pada eksekusi Kedai 21.
+Dokumen riset awal konsep terdahulu (*ZeroSpot Cafe* dan draf awal *Jangkar Kopi*) disimpan secara aman pada folder tersembunyi [`.archive_zerospot_cafe/`](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/KEDAI%2021/.archive_zerospot_cafe) agar ruang kerja tetap rapi, bersih, dan berfokus penuh pada eksekusi Kedai 21.
 
 ---
 

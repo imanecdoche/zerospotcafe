@@ -29,7 +29,7 @@ Dengan menunda pembelian set kursi camping dan mesin espresso impor, serta memfo
 4. **Simpul Silaturahmi Komunitas**: Menjadi wadah pemersatu komunitas lokal, pemuda, dan pelintas jalan di koridor Cikedal - Menes untuk saling bertukar pikiran, berkolaborasi, dan mempererat persaudaraan.
 
 ### 1.4 Identitas Visual Merek, Palet Warna & Filosofi Logo
-Aset identitas visual resmi tersimpan di folder [`Brand Logo and Identity/`](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/ZeroSpot%20Cafe/Brand%20Logo%20and%20Identity):
+Aset identitas visual resmi tersimpan di folder [`Brand Logo and Identity/`](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/KEDAI%2021/Brand%20Logo%20and%20Identity):
 - `KEDAI 21 - LOGO UTAMA.png` (LOGO 5): Logo bentuk utama kombinasi tipografi "KEDAI 21", lengkung senyuman ramah (*smile arc*), dan kilau sinar emas di atas latar transparan.
 - `KEDAI 21 - LOGOTYPE.png` (LOGO 6): Logotype tipografi nama penuh "KEDAI 21" bersih tanpa ornamen lengkung.
 - `KEDAI 21 - LOGOMARK.png` (LOGO 7): Logomark monogram grafis singkat "K21" dipadu lengkung senyuman dan kilau sinar.
@@ -188,6 +188,6 @@ Berdasarkan survei pasar e-commerce perlengkapan kuliner warung:
 ---
 
 ## 7. File Berkas Resmi Proyek Kedai 21
-- **Proposal Master Word**: [`PROPOSAL_INVESTASI_KEDAI_21.docx`](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/ZeroSpot%20Cafe/PROPOSAL_INVESTASI_KEDAI_21.docx)
-- **Proposal Master PDF**: [`PROPOSAL_INVESTASI_KEDAI_21.pdf`](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/ZeroSpot%20Cafe/PROPOSAL_INVESTASI_KEDAI_21.pdf) (Terkunci tepat 7 Halaman F4 Folio)
-- **Skrip Generator Otomatis**: [`generate_proposal_kedai_21.py`](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/ZeroSpot%20Cafe/generate_proposal_kedai_21.py)
+- **Proposal Master Word**: [`PROPOSAL_INVESTASI_KEDAI_21.docx`](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/KEDAI%2021/PROPOSAL_INVESTASI_KEDAI_21.docx)
+- **Proposal Master PDF**: [`PROPOSAL_INVESTASI_KEDAI_21.pdf`](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/KEDAI%2021/PROPOSAL_INVESTASI_KEDAI_21.pdf) (Terkunci tepat 7 Halaman F4 Folio)
+- **Skrip Generator Otomatis**: [`generate_proposal_kedai_21.py`](file:///media/fatihfarhat/New%20Volume1/FATIH%20DATA/KEDAI%2021/generate_proposal_kedai_21.py)

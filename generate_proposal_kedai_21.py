@@ -220,16 +220,17 @@ def create_kedai_21_proposal():
         p_space.paragraph_format.space_after = space_after_tbl
 
     # Official Logo Suite Paths (Primary shape is LOGO 5)
-    logo_path = "/media/fatihfarhat/New Volume1/FATIH DATA/ZeroSpot Cafe/Brand Logo and Identity/KEDAI 21 - LOGO UTAMA.png"
-    logomark_path = "/media/fatihfarhat/New Volume1/FATIH DATA/ZeroSpot Cafe/Brand Logo and Identity/KEDAI 21 - LOGO UTAMA.png"
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    logo_path = os.path.join(base_dir, "Brand Logo and Identity", "KEDAI 21 - LOGO UTAMA.png")
+    logomark_path = os.path.join(base_dir, "Brand Logo and Identity", "KEDAI 21 - LOGO UTAMA.png")
 
     # ==================== PAGE 1: COVER PAGE ====================
     tbl_hdr = doc.add_table(rows=1, cols=2)
     tbl_hdr.alignment = WD_TABLE_ALIGNMENT.CENTER
     c_left = tbl_hdr.cell(0, 0)
     c_right = tbl_hdr.cell(0, 1)
-    c_left.width = Cm(13.4)
-    c_right.width = Cm(3.7)
+    c_left.width = Cm(12.2)
+    c_right.width = Cm(4.9)
     set_cell_padding(c_left, top=0, bottom=0, left=0, right=10)
     set_cell_padding(c_right, top=0, bottom=0, left=10, right=0)
     
@@ -245,7 +246,7 @@ def create_kedai_21_proposal():
     p_l = c_left.add_paragraph()
     p_l.paragraph_format.space_before = Pt(0)
     p_l.paragraph_format.space_after = Pt(8)
-    r_l = p_l.add_run("—" * 40)
+    r_l = p_l.add_run("—" * 38)
     r_l.font.color.rgb = COLOR_PRIMARY
     
     p_title = c_left.add_paragraph()
@@ -271,11 +272,11 @@ def create_kedai_21_proposal():
     p_img.paragraph_format.space_before = Pt(0)
     p_img.paragraph_format.space_after = Pt(0)
     r_img = p_img.add_run()
-    r_img.add_picture(logomark_path, width=Cm(3.4))
+    r_img.add_picture(logomark_path, width=Cm(4.6))
 
     p_tag = doc.add_paragraph()
     p_tag.paragraph_format.space_before = Pt(4)
-    p_tag.paragraph_format.space_after = Pt(14)
+    p_tag.paragraph_format.space_after = Pt(12)
     r_tag = p_tag.add_run("Tagline: \"Ruang Temu Bersahaja, Seduh Cerita\"")
     r_tag.font.name = 'Arial'
     r_tag.font.size = Pt(11)
@@ -286,7 +287,7 @@ def create_kedai_21_proposal():
     add_p(
         "Proposal Rencana Bisnis Sederhana (Lean MVP) — Menghadirkan Ruang Temu Lesehan Rakyat yang Hangat, Bersahaja, dan Egaliter di Koridor Strategis Cikedal - Menes, Pandeglang, Banten. Memadukan Kelezatan Aneka Sate Frozen Food Bakar Arang (Dumpling Keju, Otak-Otak Ikan, Sate Cumi Olahan, Sosis Bakar, Bakso Sapi Bakar), Nasi Kucing & Mendoan Hangat, Kopi Tubruk Robusta Khas Daerah Banten, dan Wedangan Susu Murni Segar Tanpa Beban Biaya Mesin Mewah.",
         align=WD_ALIGN_PARAGRAPH.JUSTIFY,
-        space_after=14,
+        space_after=12,
         line_spacing=1.2
     )
 
@@ -372,10 +373,10 @@ def create_kedai_21_proposal():
     tbl_brand.alignment = WD_TABLE_ALIGNMENT.CENTER
     b_left = tbl_brand.cell(0, 0)
     b_right = tbl_brand.cell(0, 1)
-    b_left.width = Cm(5.2)
-    b_right.width = Cm(11.9)
-    set_cell_padding(b_left, top=14, bottom=14, left=25, right=30)
-    set_cell_padding(b_right, top=14, bottom=14, left=30, right=25)
+    b_left.width = Cm(5.4)
+    b_right.width = Cm(11.7)
+    set_cell_padding(b_left, top=14, bottom=14, left=20, right=25)
+    set_cell_padding(b_right, top=14, bottom=14, left=25, right=20)
     set_cell_shading(b_left, "F4F9F8")
     set_cell_shading(b_right, "F4F9F8")
     set_cell_borders(b_left, left={"val": "single", "sz": "20", "color": "00AA91"}, top={"val": "single", "sz": "4", "color": "D4E5E1"}, bottom={"val": "single", "sz": "4", "color": "D4E5E1"})
@@ -387,7 +388,7 @@ def create_kedai_21_proposal():
     p_bimg.paragraph_format.space_before = Pt(1)
     p_bimg.paragraph_format.space_after = Pt(1)
     r_bimg = p_bimg.add_run()
-    r_bimg.add_picture(logo_path, width=Cm(4.5))
+    r_bimg.add_picture(logo_path, width=Cm(4.8))
     
     p_bclr = b_left.add_paragraph()
     p_bclr.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -845,7 +846,7 @@ def create_kedai_21_proposal():
     p_sr.add_run("Calon Mitra Investor / Shahibul Maal\nTanggal: .......................................................").font.size = Pt(8)
 
     # Save DOCX
-    out_dir = "/media/fatihfarhat/New Volume1/FATIH DATA/ZeroSpot Cafe"
+    out_dir = base_dir
     docx_path = os.path.join(out_dir, "PROPOSAL_INVESTASI_KEDAI_21.docx")
     pdf_path = os.path.join(out_dir, "PROPOSAL_INVESTASI_KEDAI_21.pdf")
     
